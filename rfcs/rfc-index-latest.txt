@@ -1,0 +1,89 @@
+
+===========================================================================
+  This is a list of the latest RFCs only.
+  To get the full list of RFCs, please look up rfc-index.txt
+===========================================================================
+
+9799 Automated Certificate Management Environment (ACME) Extensions for
+     ".onion" Special-Use Domain Names. Q Misell, Ed.. June 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9799) 
+
+9800 Compressed SRv6 Segment List Encoding. W. Cheng, Ed., C. Filsfils,
+     Z. Li, B. Decraene, F. Clad, Ed.. June 2025. (Format: HTML, TXT,
+     PDF, XML) (Updates RFC8754) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9800) 
+
+9801 Private Line Emulation over Packet Switched Networks. S. Gringeri,
+     J. Whittaker, N. Leymann, C. Schmutzer, Ed., C. Brown. July 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9801) 
+
+9802 Use of the HSS and XMSS Hash-Based Signature Algorithms in Internet
+     X.509 Public Key Infrastructure. D. Van Geest, K. Bashiri, S.
+     Fluhrer, S. Gazdag, S. Kousidis. June 2025. (Format: HTML, TXT, PDF,
+     XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9802) 
+
+9803 Extensible Provisioning Protocol (EPP) Mapping for DNS Time-to-Live
+     (TTL) Values. G. Brown. June 2025. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9803) 
+
+9804 Simple Public Key Infrastructure (SPKI) S-Expressions. R. Rivest, D.
+     Eastlake 3rd. June 2025. (Format: HTML, TXT, PDF, XML) (Status:
+     INFORMATIONAL) (DOI: 10.17487/RFC9804) 
+
+9805 Deprecation of the IPv6 Router Alert Option for New Protocols. R.
+     Bonica. June 2025. (Format: HTML, TXT, PDF, XML) (Updates RFC2711)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9805) 
+
+9806 Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata
+     Media Type. D. Mongrain. June 2025. (Format: HTML, TXT, PDF, XML)
+     (Updates RFC7866) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9806) 
+
+9807 The OPAQUE Augmented Password-Authenticated Key Exchange (aPAKE)
+     Protocol. D. Bourdrez, H. Krawczyk, K. Lewi, C. A. Wood. July 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI:
+     10.17487/RFC9807) 
+
+9809 X.509 Certificate Extended Key Usage (EKU) for Configuration,
+     Updates, and Safety-Critical Communication. H. Brockhaus, D.
+     Goltzsche. July 2025. (Format: HTML, TXT, PDF, XML) (Status:
+     PROPOSED STANDARD) (DOI: 10.17487/RFC9809) 
+
+9813 Operational Considerations for Using TLS Pre-Shared Keys (TLS-PSKs)
+     with RADIUS. A. DeKok. July 2025. (Format: HTML, TXT, PDF, XML)
+     (Also BCP0243) (Status: BEST CURRENT PRACTICE) (DOI:
+     10.17487/RFC9813) 
+
+9814 Use of the SLH-DSA Signature Algorithm in the Cryptographic Message
+     Syntax (CMS). R. Housley, S. Fluhrer, P. Kampanakis, B. Westerbaan.
+     July 2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD)
+     (DOI: 10.17487/RFC9814) 
+
+9815 BGP Link State (BGP-LS) Shortest Path First (SPF) Routing. K. Patel,
+     A. Lindem, S. Zandi, W. Henderickx. July 2025. (Format: HTML, TXT,
+     PDF, XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9815) 
+
+9816 Usage and Applicability of BGP Link State (BGP-LS) Shortest Path
+     First (SPF) Routing in Data Centers. K. Patel, A. Lindem, S. Zandi,
+     G. Dawra, J. Dong. July 2025. (Format: HTML, TXT, PDF, XML) (Status:
+     INFORMATIONAL) (DOI: 10.17487/RFC9816) 
+
+9818 DHCPv6 Prefix Delegation on IPv6 Customer Edge (CE) Routers in LANs.
+     T. Winters. July 2025. (Format: HTML, TXT, PDF, XML) (Updates
+     RFC7084) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9818) 
+
+9819 Argument Signaling for BGP Services in Segment Routing over IPv6
+     (SRv6). K. Talaulikar, K. Raza, J. Rabadan, W. Lin. July 2025.
+     (Format: HTML, TXT, PDF, XML) (Updates RFC9252) (Status: PROPOSED
+     STANDARD) (DOI: 10.17487/RFC9819) 
+
+9829 Handling of Resource Public Key Infrastructure (RPKI) Certificate
+     Revocation List (CRL) Number Extensions. J. Snijders, B. Maddison,
+     T. Buehler. July 2025. (Format: HTML, TXT, PDF, XML) (Updates
+     RFC6487) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9829) 
+
+===========================================================================
+ - This file last updated Tue 29 Jul 2025 02:30:01 AM PDT
+
