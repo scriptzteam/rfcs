@@ -335381,6 +335381,59 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9816</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9817</doc-id>
+        <title>Use Cases for In-Network Computing</title>
+        <author>
+            <name>I. Kunze</name>
+        </author>
+        <author>
+            <name>K. Wehrle</name>
+        </author>
+        <author>
+            <name>D. Trossen</name>
+        </author>
+        <author>
+            <name>M-J. Montpetit</name>
+        </author>
+        <author>
+            <name>X. de Foy</name>
+        </author>
+        <author>
+            <name>D. Griffin</name>
+        </author>
+        <author>
+            <name>M. Rio</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>39</page-count>
+        <keywords>
+            <kw>COIN</kw>
+            <kw>in-network computing</kw>
+            <kw>VR</kw>
+            <kw>XR</kw>
+            <kw>Industry 4.0</kw>
+            <kw>Industrial IIoT</kw>
+            <kw>Performing Arts</kw>
+            <kw>CDN</kw>
+            <kw>P4</kw>
+        </keywords>
+        <abstract><p>Computing in the Network (COIN) comes with the prospect of deploying processing functionality on networking devices such as switches and network interface cards. While such functionality can be beneficial, it has to be carefully placed into the context of the general Internet communication, and it needs to be clearly identified where and how those benefits apply.</p><p> This document presents some use cases to demonstrate how a number of salient COIN-related applications can benefit from COIN. Furthermore, to guide research on COIN, it identifies essential research questions and outlines desirable capabilities that COIN systems addressing these use cases may need to support. Finally, the document provides a preliminary categorization of the described research questions to source future work in this domain. This document is a product of the Computing in the Network Research Group (COINRG). It is not an IETF product and it is not a standard.</p></abstract>
+        <draft>draft-irtf-coinrg-use-cases-07</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IRTF</stream>
+        <doi>10.17487/RFC9817</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9818</doc-id>
         <title>DHCPv6 Prefix Delegation on IPv6 Customer Edge (CE) Routers in LANs</title>
         <author>
