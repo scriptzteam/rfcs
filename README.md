@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-08-21 01:09:48 UTC
+Last updated: 2025-08-22 01:10:48 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9803](rfcs/rfc9803.txt) | Extensible Provisioning Protocol (EPP) Mapping for DNS Time-to-Live (TTL) Values | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9803) |
 | [RFC 9804](rfcs/rfc9804.txt) | Simple Public Key Infrastructure (SPKI) S-Expressions | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9804) |
 | [RFC 9805](rfcs/rfc9805.txt) | Deprecation of the IPv6 Router Alert Option for New Protocols | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9805) |
 | [RFC 9806](rfcs/rfc9806.txt) | Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata Media Type | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9806) |
@@ -21,6 +20,7 @@ Last updated: 2025-08-21 01:09:48 UTC
 | [RFC 9814](rfcs/rfc9814.txt) | Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9814) |
 | [RFC 9815](rfcs/rfc9815.txt) | BGP Link State (BGP-LS) Shortest Path First (SPF) Routing | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9815) |
 | [RFC 9816](rfcs/rfc9816.txt) | Usage and Applicability of BGP Link State (BGP-LS) Shortest Path First (SPF) Routing in Data Centers | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9816) |
+| [RFC 9817](rfcs/rfc9817.txt) | Use Cases for In-Network Computing | August 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9817) |
 | [RFC 9818](rfcs/rfc9818.txt) | DHCPv6 Prefix Delegation on IPv6 Customer Edge (CE) Routers in LANs | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9818) |
 | [RFC 9819](rfcs/rfc9819.txt) | Argument Signaling for BGP Services in Segment Routing over IPv6 (SRv6) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9819) |
 | [RFC 9825](rfcs/rfc9825.txt) | Extensions to OSPF for Advertising Prefix Administrative Tags | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9825) |
