@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 08/20/2025.
+CREATED ON: 08/22/2025.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -280,7 +280,7 @@ page http://www.rfc-editor.org
 0066 Uniform Resource Identifier (URI): Generic Syntax. T.
      Berners-Lee, R. Fielding, L. Masinter. January 2005. (Format: TXT
      =141811 HTML= bytes) (Obsoletes RFC2732, RFC2396, RFC1808) (Updates
-     RFC1738) (Updated by RFC6874, RFC7320, RFC8820) (Also RFC3986)
+     RFC1738) (Updated by RFC7320, RFC8820) (Also RFC3986)
 
 0067 XDR: External Data Representation Standard. M. Eisler, Ed.. May
      2006. (Format: TXT=55477 HTML= bytes) (Obsoletes RFC1832) (Also

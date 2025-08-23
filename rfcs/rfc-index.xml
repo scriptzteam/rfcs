@@ -20708,6 +20708,7 @@
         <current-status>INTERNET STANDARD</current-status>
         <publication-status>INTERNET STANDARD</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc867</errata-url>
         <doi>10.17487/RFC0867</doi>
     </rfc-entry>
     <rfc-entry>
@@ -57849,8 +57850,8 @@
             <kw>format</kw>
             <kw>bitmap</kw>
         </keywords>
-        <abstract><p>This document describes PNG (Portable Network Graphics), an extensible file format for the lossless, portable, well-compressed storage of raster images.  This memo provides information for the Internet community.  This memo does not specify an Internet standard of any kind.</p></abstract>
-        <current-status>INFORMATIONAL</current-status>
+        <abstract><p>This document describes PNG (Portable Network Graphics), an extensible file format for the lossless, portable, well-compressed storage of raster images. PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits.</p><p> PNG is designed to work well in online viewing applications, such as the World Wide Web, so it is fully streamable with a progressive display option. PNG is robust, providing both full file integrity checking and simple detection of common transmission errors. Also, PNG can store gamma and chromaticity data for improved color matching on heterogeneous platforms.</p><p> This specification defines the Internet Media Type image/png.</p></abstract>
+        <current-status>HISTORIC</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Legacy</stream>
         <errata-url>https://www.rfc-editor.org/errata/rfc2083</errata-url>
@@ -126168,7 +126169,6 @@
             <doc-id>RFC1738</doc-id>
         </updates>
         <updated-by>
-            <doc-id>RFC6874</doc-id>
             <doc-id>RFC7320</doc-id>
             <doc-id>RFC8820</doc-id>
         </updated-by>
@@ -126884,6 +126884,7 @@
         <draft>draft-ietf-ipv6-scoping-arch-02</draft>
         <updated-by>
             <doc-id>RFC7346</doc-id>
+            <doc-id>RFC9844</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -226344,9 +226345,9 @@
         <page-count>10</page-count>
         <abstract><p>This document describes how the zone identifier of an IPv6 scoped address, defined as &lt;zone_id&gt; in the IPv6 Scoped Address Architecture (RFC 4007), can be represented in a literal IPv6 address and in a Uniform Resource Identifier that includes such a literal address.  It updates the URI Generic Syntax specification (RFC 3986) accordingly.</p></abstract>
         <draft>draft-ietf-6man-uri-zoneid-06</draft>
-        <updates>
-            <doc-id>RFC3986</doc-id>
-        </updates>
+        <obsoleted-by>
+            <doc-id>RFC9844</doc-id>
+        </obsoleted-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -252787,6 +252788,9 @@
         <obsoletes>
             <doc-id>RFC6122</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9844</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -269885,6 +269889,9 @@
         <updates>
             <doc-id>RFC1738</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9844</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -335583,6 +335590,121 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>ops</area>
         <wg_acronym>sidrops</wg_acronym>
         <doi>10.17487/RFC9829</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9837</doc-id>
+        <title>The IPv6 VPN Service Destination Option</title>
+        <author>
+            <name>R. Bonica</name>
+        </author>
+        <author>
+            <name>X. Li</name>
+        </author>
+        <author>
+            <name>A. Farrel</name>
+        </author>
+        <author>
+            <name>Y. Kamite</name>
+        </author>
+        <author>
+            <name>L. Jalil</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>10</page-count>
+        <keywords>
+            <kw>IPv6</kw>
+            <kw>Destination Option</kw>
+            <kw>VPN</kw>
+        </keywords>
+        <abstract><p>This document describes an experiment in which VPN service information is encoded in an experimental IPv6 Destination Option. The experimental IPv6 Destination Option is called the VPN Service Option.</p><p> One purpose of this experiment is to demonstrate that the VPN Service Option can be deployed in a production network. Another purpose is to demonstrate that the security measures described in this document are sufficient to protect a VPN. Finally, this document encourages replication of the experiment.</p></abstract>
+        <draft>draft-ietf-6man-vpn-dest-opt-11</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>6man</wg_acronym>
+        <doi>10.17487/RFC9837</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9839</doc-id>
+        <title>Unicode Character Repertoire Subsets</title>
+        <author>
+            <name>T. Bray</name>
+        </author>
+        <author>
+            <name>P. Hoffman</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>10</page-count>
+        <keywords>
+            <kw>Unicode</kw>
+            <kw>UTF-8</kw>
+            <kw>Surrogates</kw>
+            <kw>Noncharacters</kw>
+            <kw>Control characters</kw>
+        </keywords>
+        <abstract><p>This document discusses subsets of the Unicode character repertoire for use in protocols and data formats and specifies three subsets recommended for use in IETF specifications.</p></abstract>
+        <draft>draft-bray-unichars-15</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <wg_acronym>NON WORKING GROUP</wg_acronym>
+        <doi>10.17487/RFC9839</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9844</doc-id>
+        <title>Entering IPv6 Zone Identifiers in User Interfaces</title>
+        <author>
+            <name>B. Carpenter</name>
+        </author>
+        <author>
+            <name>B. Hinden</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>8</page-count>
+        <abstract><p>This document describes how the zone identifier of an IPv6 scoped address, defined in the IPv6 Scoped Address Architecture specification (RFC 4007), should be entered into a user interface.  This document obsoletes RFC 6874 and updates RFCs 4007, 7622, and 8089.</p></abstract>
+        <draft>draft-ietf-6man-zone-ui-10</draft>
+        <obsoletes>
+            <doc-id>RFC6874</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC4007</doc-id>
+            <doc-id>RFC7622</doc-id>
+            <doc-id>RFC8089</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>6man</wg_acronym>
+        <doi>10.17487/RFC9844</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
