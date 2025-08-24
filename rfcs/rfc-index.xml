@@ -286693,6 +286693,9 @@
         <obsoletes>
             <doc-id>RFC5751</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9788</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -334336,6 +334339,107 @@ decency, and respect.</p><p> This document is a product of the Internet Research
         <area>rtg</area>
         <wg_acronym>bess</wg_acronym>
         <doi>10.17487/RFC9786</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9787</doc-id>
+        <title>Guidance on End-to-End Email Security</title>
+        <author>
+            <name>D. K. Gillmor</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>A. Melnikov</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>B. Hoeneisen</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>53</page-count>
+        <keywords>
+            <kw>cryptography</kw>
+            <kw>encryption</kw>
+            <kw>signature</kw>
+            <kw>signing</kw>
+            <kw>usability</kw>
+            <kw>MIME</kw>
+            <kw>confidentiality</kw>
+            <kw>integrity</kw>
+            <kw>authenticity</kw>
+        </keywords>
+        <abstract><p>End-to-end cryptographic protections for email messages can provide useful security.  However, the standards for providing cryptographic protection are extremely flexible.  That flexibility can trap users and cause surprising failures.  This document offers guidance for Mail User Agent (MUA) implementers to help mitigate those risks and to make end-to-end email simple and secure for the end user.  It provides a useful set of vocabulary as well as recommendations to avoid common failures.  It also identifies a number of currently unsolved usability and interoperability problems.</p></abstract>
+        <draft>draft-ietf-lamps-e2e-mail-guidance-17</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9787</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9788</doc-id>
+        <title>Header Protection for Cryptographically Protected Email</title>
+        <author>
+            <name>D. K. Gillmor</name>
+        </author>
+        <author>
+            <name>B. Hoeneisen</name>
+        </author>
+        <author>
+            <name>A. Melnikov</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>218</page-count>
+        <keywords>
+            <kw>Header Protection</kw>
+            <kw>Header Confidentiality Policy</kw>
+            <kw>HCP</kw>
+            <kw>cryptographic email</kw>
+            <kw>email encryption</kw>
+            <kw>encryption</kw>
+            <kw>encrypt</kw>
+            <kw>signature</kw>
+            <kw>sign</kw>
+            <kw>S/MIME</kw>
+            <kw>PGP/MIME</kw>
+            <kw>Legacy Display</kw>
+            <kw>Legacy Display Element</kw>
+            <kw>MIME</kw>
+            <kw>Privacy</kw>
+            <kw>HP-Outer</kw>
+            <kw>hp-legacy-display</kw>
+            <kw>hp</kw>
+        </keywords>
+        <abstract><p>S/MIME version 3.1 introduced a mechanism to provide end-to-end cryptographic protection of email message headers. However, few implementations generate messages using this mechanism, and several legacy implementations have revealed rendering or security issues when handling such a message.</p><p> This document updates the S/MIME specification (RFC 8551) to offer a different mechanism that provides the same cryptographic protections but with fewer downsides when handled by legacy clients. Furthermore, it offers more explicit usability, privacy, and security guidance for clients when generating or handling email messages with cryptographic protection of message headers.</p><p> The Header Protection scheme defined here is also applicable to messages with PGP/MIME (Pretty Good Privacy with MIME) cryptographic protections.</p></abstract>
+        <draft>draft-ietf-lamps-header-protection-25</draft>
+        <updates>
+            <doc-id>RFC8551</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9788</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9789</doc-id>
