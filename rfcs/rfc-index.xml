@@ -126891,6 +126891,7 @@
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>ipv6</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc4007</errata-url>
         <doi>10.17487/RFC4007</doi>
     </rfc-entry>
     <rfc-entry>
