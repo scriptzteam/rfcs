@@ -325469,6 +325469,7 @@ with its defined SLOs.</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>calext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9555</errata-url>
         <doi>10.17487/RFC9555</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335781,7 +335782,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
             <name>B. Carpenter</name>
         </author>
         <author>
-            <name>B. Hinden</name>
+            <name>R. Hinden</name>
         </author>
         <date>
             <month>August</month>
