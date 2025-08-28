@@ -293281,7 +293281,7 @@
             <title>Editor</title>
         </author>
         <author>
-            <name>B. Hinden</name>
+            <name>R. Hinden</name>
             <title>Editor</title>
         </author>
         <date>
@@ -306055,6 +306055,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>EXPERIMENTAL</current-status>
         <publication-status>EXPERIMENTAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9057</errata-url>
         <doi>10.17487/RFC9057</doi>
     </rfc-entry>
     <rfc-entry>
