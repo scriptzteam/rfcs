@@ -246805,6 +246805,7 @@
         <stream>IETF</stream>
         <area>rai</area>
         <wg_acronym>geopriv</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7459</errata-url>
         <doi>10.17487/RFC7459</doi>
     </rfc-entry>
     <rfc-entry>
