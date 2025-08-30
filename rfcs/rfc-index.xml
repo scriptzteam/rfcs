@@ -246805,7 +246805,6 @@
         <stream>IETF</stream>
         <area>rai</area>
         <wg_acronym>geopriv</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc7459</errata-url>
         <doi>10.17487/RFC7459</doi>
     </rfc-entry>
     <rfc-entry>
@@ -315120,6 +315119,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>httpbis</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9292</errata-url>
         <doi>10.17487/RFC9292</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335656,6 +335656,44 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
         <doi>10.17487/RFC9825</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9828</doc-id>
+        <title>RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency</title>
+        <author>
+            <name>P.-A. Lemieux</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>D. Taubman</name>
+        </author>
+        <date>
+            <month>August</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>28</page-count>
+        <keywords>
+            <kw>JPEG 2000</kw>
+            <kw>J2K</kw>
+            <kw>HTJ2K</kw>
+            <kw>low latency</kw>
+            <kw>scalable</kw>
+            <kw>streaming</kw>
+        </keywords>
+        <abstract><p>This document defines the RTP payload format for the streaming of a video signal encoded as a sequence of JPEG 2000 codestreams.  The format allows sub-codestream latency, such that the first RTP packet for a given image can be emitted before the entire image is available to or encoded by the sender.</p></abstract>
+        <draft>draft-ietf-avtcore-rtp-j2k-scl-08</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>avtcore</wg_acronym>
+        <doi>10.17487/RFC9828</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9829</doc-id>
