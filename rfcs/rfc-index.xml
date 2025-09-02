@@ -294613,6 +294613,7 @@
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>dnssd</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8765</errata-url>
         <doi>10.17487/RFC8765</doi>
     </rfc-entry>
     <rfc-entry>

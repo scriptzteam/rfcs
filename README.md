@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-09-01 01:20:09 UTC
+Last updated: 2025-09-02 01:10:08 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9807](rfcs/rfc9807.txt) | The OPAQUE Augmented Password-Authenticated Key Exchange (aPAKE) Protocol | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9807) |
 | [RFC 9808](rfcs/rfc9808.txt) | Content Delivery Network Interconnection (CDNI) Capacity Capability Advertisement Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9808) |
 | [RFC 9809](rfcs/rfc9809.txt) | X.509 Certificate Extended Key Usage (EKU) for Configuration, Updates, and Safety-Critical Communication | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9809) |
 | [RFC 9810](rfcs/rfc9810.txt) | Internet X.509 Public Key Infrastructure -- Certificate Management Protocol (CMP) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9810) |
@@ -21,6 +20,7 @@ Last updated: 2025-09-01 01:20:09 UTC
 | [RFC 9818](rfcs/rfc9818.txt) | DHCPv6 Prefix Delegation on IPv6 Customer Edge (CE) Routers in LANs | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9818) |
 | [RFC 9819](rfcs/rfc9819.txt) | Argument Signaling for BGP Services in Segment Routing over IPv6 (SRv6) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9819) |
 | [RFC 9825](rfcs/rfc9825.txt) | Extensions to OSPF for Advertising Prefix Administrative Tags | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9825) |
+| [RFC 9828](rfcs/rfc9828.txt) | RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency | JPEG 2000 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9828) |
 | [RFC 9829](rfcs/rfc9829.txt) | Handling of Resource Public Key Infrastructure (RPKI) Certificate Revocation List (CRL) Number Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9829) |
 | [RFC 9837](rfcs/rfc9837.txt) | The IPv6 VPN Service Destination Option | August 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9837) |
 | [RFC 9839](rfcs/rfc9839.txt) | Unicode Character Repertoire Subsets | August 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9839) |
