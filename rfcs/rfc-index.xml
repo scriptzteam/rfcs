@@ -74319,7 +74319,9 @@
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
-        <stream>Legacy</stream>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>bmwg</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc2544</errata-url>
         <doi>10.17487/RFC2544</doi>
     </rfc-entry>
@@ -253013,6 +253015,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>kitten</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7628</errata-url>
         <doi>10.17487/RFC7628</doi>
     </rfc-entry>
     <rfc-entry>
