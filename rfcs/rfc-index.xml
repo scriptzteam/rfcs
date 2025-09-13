@@ -50397,6 +50397,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>html</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1866</errata-url>
         <doi>10.17487/RFC1866</doi>
     </rfc-entry>
     <rfc-entry>
@@ -127092,6 +127093,7 @@
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
         <wg_acronym>NON WORKING GROUP</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc4012</errata-url>
         <doi>10.17487/RFC4012</doi>
     </rfc-entry>
     <rfc-entry>
@@ -304297,6 +304299,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <updates>
             <doc-id>RFC5640</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9830</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -317487,6 +317492,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <page-count>42</page-count>
         <abstract><p>IGP protocols historically compute the best paths over the network based on the IGP metric assigned to the links.  Many network deployments use RSVP-TE or Segment Routing - Traffic Engineering (SR-TE) to steer traffic over a path that is computed using different metrics or constraints than the shortest IGP path.  This document specifies a solution that allows IGPs themselves to compute constraint-based paths over the network.  This document also specifies a way of using Segment Routing (SR) Prefix-SIDs and SRv6 locators to steer packets along the constraint-based paths.</p></abstract>
         <draft>draft-ietf-lsr-flex-algo-26</draft>
+        <updated-by>
+            <doc-id>RFC9843</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -335628,6 +335636,44 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9819</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9820</doc-id>
+        <title>Authentication Service Based on the Extensible Authentication Protocol (EAP) for Use with the Constrained Application Protocol (CoAP)</title>
+        <author>
+            <name>R. Marin-Lopez</name>
+        </author>
+        <author>
+            <name>D. Garcia-Carrillo</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>35</page-count>
+        <keywords>
+            <kw>CoAP</kw>
+            <kw>EAP</kw>
+            <kw>EAP lower layer</kw>
+            <kw>Internet of Things</kw>
+            <kw>IoT</kw>
+            <kw>Constrained Node</kw>
+            <kw>Smart Object</kw>
+        </keywords>
+        <abstract><p>This document specifies an authentication service that uses the Constrained Application Protocol (CoAP) as a transport method to carry the Extensible Authentication Protocol (EAP).  As such, it defines an EAP lower layer based on CoAP called "CoAP-EAP".  One of the main goals is to authenticate a CoAP-enabled Internet of Things (IoT) device (EAP peer) that intends to join a security domain managed by a Controller (EAP authenticator).  Secondly, it allows deriving key material to protect CoAP messages exchanged between them based on Object Security for Constrained RESTful Environments (OSCORE), enabling the establishment of a security association between them.</p></abstract>
+        <draft>draft-ietf-ace-wg-coap-eap-15</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>ace</wg_acronym>
+        <doi>10.17487/RFC9820</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9825</doc-id>
         <title>Extensions to OSPF for Advertising Prefix Administrative Tags</title>
         <author>
@@ -335659,6 +335705,47 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
         <doi>10.17487/RFC9825</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9826</doc-id>
+        <title>A YANG Data Model for the Path Computation Element Communication Protocol (PCEP)</title>
+        <author>
+            <name>D. Dhody</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>V. Beeram</name>
+        </author>
+        <author>
+            <name>J. Hardwick</name>
+        </author>
+        <author>
+            <name>J. Tantsura</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>108</page-count>
+        <keywords>
+            <kw>PCE YANG</kw>
+            <kw>PCEP YANG</kw>
+            <kw>PCC YANG</kw>
+        </keywords>
+        <abstract><p>This document defines a YANG data model for the management of the Path Computation Element Communication Protocol (PCEP) for communications between a Path Computation Client (PCC) and a Path Computation Element (PCE), or between two PCEs.</p></abstract>
+        <draft>draft-ietf-pce-pcep-yang-30</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pce</wg_acronym>
+        <doi>10.17487/RFC9826</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9828</doc-id>
@@ -335741,6 +335828,130 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9829</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9830</doc-id>
+        <title>Advertising Segment Routing Policies in BGP</title>
+        <author>
+            <name>S. Previdi</name>
+        </author>
+        <author>
+            <name>C. Filsfils</name>
+        </author>
+        <author>
+            <name>K. Talaulikar</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>P. Mattes</name>
+        </author>
+        <author>
+            <name>D. Jain</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>36</page-count>
+        <abstract><p>A Segment Routing (SR) Policy is an ordered list of segments (also referred to as "instructions") that define a source-routed policy. An SR Policy consists of one or more Candidate Paths (CPs), each comprising one or more segment lists. A headend can be provisioned with these CPs using various mechanisms such as Command-Line Interface (CLI), Network Configuration Protocol (NETCONF), Path Computation Element Communication Protocol (PCEP), or BGP.</p><p> This document specifies how BGP can be used to distribute SR Policy CPs. It introduces a BGP SAFI for advertising a CP of an SR Policy and defines sub-TLVs for the Tunnel Encapsulation Attribute to signal information related to these CPs.</p><p> Furthermore, this document updates RFC 9012 by extending the Color Extended Community to support additional steering modes over SR Policy.</p></abstract>
+        <draft>draft-ietf-idr-sr-policy-safi-13</draft>
+        <updates>
+            <doc-id>RFC9012</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>idr</wg_acronym>
+        <doi>10.17487/RFC9830</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9831</doc-id>
+        <title>Segment Type Extensions for BGP Segment Routing (SR) Policy</title>
+        <author>
+            <name>K. Talaulikar</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Filsfils</name>
+        </author>
+        <author>
+            <name>S. Previdi</name>
+        </author>
+        <author>
+            <name>P. Mattes</name>
+        </author>
+        <author>
+            <name>D. Jain</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>16</page-count>
+        <keywords>
+            <kw>Segment Routing</kw>
+            <kw>BGP-SRTE</kw>
+            <kw>SR-TE</kw>
+            <kw>BGP SR Policy SAFI</kw>
+        </keywords>
+        <abstract><p>This document specifies the signaling of additional Segment Routing (SR) Segment Types for SR Policies in BGP using the SR Policy Subsequent Address Family Identifier (SAFI).</p></abstract>
+        <draft>draft-ietf-idr-bgp-sr-segtypes-ext-08</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>idr</wg_acronym>
+        <doi>10.17487/RFC9831</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9832</doc-id>
+        <title>BGP Classful Transport Planes</title>
+        <author>
+            <name>K. Vairavakkalai</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>N. Venkataraman</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>67</page-count>
+        <keywords>
+            <kw>BGP-CT</kw>
+            <kw>CT</kw>
+            <kw>Intent-Based Routing</kw>
+            <kw>BGP Service Mapping</kw>
+        </keywords>
+        <abstract><p>This document specifies a mechanism referred to as "Intent-Driven Service Mapping". The mechanism uses BGP to express Intent-based association of overlay routes with underlay routes having specific Traffic Engineering (TE) characteristics satisfying a certain Service Level Agreement (SLA). This is achieved by defining new constructs to group underlay routes with sufficiently similar TE characteristics into identifiable classes (called "Transport Classes" or "TCs"), that overlay routes use as an ordered set to resolve reachability (Resolution Schemes) towards service endpoints. These constructs can be used, for example, to realize the "IETF Network Slice" defined in the TEAS Network Slices framework (RFC 9543).</p><p> Additionally, this document specifies protocol procedures for BGP that enable dissemination of service mapping information in a network that may span multiple cooperating administrative domains. These domains may be administered either by the same provider or by closely coordinating providers. A new BGP address family that leverages the procedures described in RFC 4364 ("BGP/MPLS IP Virtual Private Networks (VPNs)") and follows the NLRI encoding described in RFC 8277 ("Using BGP to Bind MPLS Labels to Address Prefixes") is defined to enable each advertised underlay route to be identified by its class. This new address family is called "BGP Classful Transport" (or "BGP CT").</p></abstract>
+        <draft>draft-ietf-idr-bgp-ct-39</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>idr</wg_acronym>
+        <doi>10.17487/RFC9832</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9837</doc-id>
         <title>The IPv6 VPN Service Destination Option</title>
         <author>
@@ -335817,6 +336028,54 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <stream>IETF</stream>
         <wg_acronym>NON WORKING GROUP</wg_acronym>
         <doi>10.17487/RFC9839</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9843</doc-id>
+        <title>IGP Flexible Algorithms: Bandwidth, Delay, Metrics, and Constraints</title>
+        <author>
+            <name>S. Hegde</name>
+        </author>
+        <author>
+            <name>W. Britto</name>
+        </author>
+        <author>
+            <name>R. Shetty</name>
+        </author>
+        <author>
+            <name>B. Decraene</name>
+        </author>
+        <author>
+            <name>P. Psenak</name>
+        </author>
+        <author>
+            <name>T. Li</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>33</page-count>
+        <keywords>
+            <kw>AS</kw>
+            <kw>IGP</kw>
+        </keywords>
+        <abstract><p>Many networks configure the IGP link metric relative to the link capacity, and high bandwidth traffic gets routed per the link capacity. Flexible Algorithms provide mechanisms to create constraint-based paths in an IGP. This specification documents a generic metric-type and a set of bandwidth-related constraints to be used in Flexible Algorithms.</p><p> This document updates RFC 9350.</p></abstract>
+        <draft>draft-ietf-lsr-flex-algo-bw-con-22</draft>
+        <updates>
+            <doc-id>RFC9350</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9843</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9844</doc-id>
