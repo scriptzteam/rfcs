@@ -127880,6 +127880,7 @@
             <doc-id>RFC6840</doc-id>
             <doc-id>RFC6944</doc-id>
             <doc-id>RFC9077</doc-id>
+            <doc-id>RFC9824</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -127953,6 +127954,7 @@
             <doc-id>RFC8198</doc-id>
             <doc-id>RFC9077</doc-id>
             <doc-id>RFC9520</doc-id>
+            <doc-id>RFC9824</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -240870,6 +240872,7 @@
         <draft>draft-moriarty-pkcs12v1-1-05</draft>
         <updated-by>
             <doc-id>RFC9579</doc-id>
+            <doc-id>RFC9879</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -267377,6 +267380,7 @@
         </obsoletes>
         <updated-by>
             <doc-id>RFC9579</doc-id>
+            <doc-id>RFC9879</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -326402,6 +326406,9 @@ been incorporated into this document. This document obsoletes RFC
         </keywords>
         <abstract><p>This document specifies additions and amendments to RFCs 7292 and 8018.  It defines a way to use the Password-Based Message Authentication Code 1 (PBMAC1), defined in RFC 8018, inside the PKCS #12 syntax.  The purpose of this specification is to permit the use of more modern Password-Based Key Derivation Functions (PBKDFs) and allow for regulatory compliance.</p></abstract>
         <draft>draft-ietf-lamps-pkcs12-pbmac1-08</draft>
+        <obsoleted-by>
+            <doc-id>RFC9879</doc-id>
+        </obsoleted-by>
         <updates>
             <doc-id>RFC7292</doc-id>
             <doc-id>RFC8018</doc-id>
@@ -335674,6 +335681,53 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9820</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9824</doc-id>
+        <title>Compact Denial of Existence in DNSSEC</title>
+        <author>
+            <name>S. Huque</name>
+        </author>
+        <author>
+            <name>C. Elmerot</name>
+        </author>
+        <author>
+            <name>O. Gudmundsson</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <keywords>
+            <kw>DNS</kw>
+            <kw>DNSSEC</kw>
+            <kw>Denial of Existence</kw>
+            <kw>Compact Denial of Existence</kw>
+            <kw>Compact Answers</kw>
+            <kw>Black Lies</kw>
+            <kw>NXDOMAIN</kw>
+            <kw>NODATA</kw>
+            <kw>Empty Non-Terminal</kw>
+        </keywords>
+        <abstract><p>This document describes a technique to generate a signed DNS response on demand for a nonexistent name by claiming that the name exists but doesn't have any data for the queried record type. Such responses require only one minimally covering NSEC or NSEC3 record, allow online signing servers to minimize signing operations and response sizes, and prevent zone content disclosure.</p><p> This document updates RFCs 4034 and 4035.</p></abstract>
+        <draft>draft-ietf-dnsop-compact-denial-of-existence-07</draft>
+        <updates>
+            <doc-id>RFC4034</doc-id>
+            <doc-id>RFC4035</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>dnsop</wg_acronym>
+        <doi>10.17487/RFC9824</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9825</doc-id>
         <title>Extensions to OSPF for Advertising Prefix Administrative Tags</title>
         <author>
@@ -336030,6 +336084,43 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9839</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9840</doc-id>
+        <title>rLEDBAT: Receiver-Driven Low Extra Delay Background Transport for TCP</title>
+        <author>
+            <name>M. Bagnulo</name>
+        </author>
+        <author>
+            <name>A. García-Martínez</name>
+        </author>
+        <author>
+            <name>G. Montenegro</name>
+        </author>
+        <author>
+            <name>P. Balasubramanian</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>18</page-count>
+        <keywords>
+            <kw>Congestion control</kw>
+            <kw>scavenger/less-than-best-effort traffic</kw>
+        </keywords>
+        <abstract><p>This document specifies receiver-driven Low Extra Delay Background Transport (rLEDBAT) -- a set of mechanisms that enable the execution of a less-than-best-effort congestion control algorithm for TCP at the receiver end.  This document is a product of the Internet Congestion Control Research Group (ICCRG) of the Internet Research Task Force (IRTF).</p></abstract>
+        <draft>draft-irtf-iccrg-rledbat-10</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IRTF</stream>
+        <doi>10.17487/RFC9840</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9843</doc-id>
         <title>IGP Flexible Algorithms: Bandwidth, Delay, Metrics, and Constraints</title>
         <author>
@@ -336113,6 +336204,44 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>int</area>
         <wg_acronym>6man</wg_acronym>
         <doi>10.17487/RFC9844</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9879</doc-id>
+        <title>Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax</title>
+        <author>
+            <name>A. Kario</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>16</page-count>
+        <keywords>
+            <kw>pbmac1</kw>
+            <kw>pkcs12</kw>
+            <kw>pbkdf2</kw>
+        </keywords>
+        <abstract><p>This document specifies additions and amendments to RFCs 7292 and 8018.  It also obsoletes the RFC 9579.  It defines a way to use the Password-Based Message Authentication Code 1 (PBMAC1), defined in RFC 8018, inside the PKCS #12 syntax.  The purpose of this specification is to permit the use of more modern Password-Based Key Derivation Functions (PBKDFs) and allow for regulatory compliance.</p></abstract>
+        <draft>draft-ietf-lamps-rfc9579bis-06</draft>
+        <obsoletes>
+            <doc-id>RFC9579</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC7292</doc-id>
+            <doc-id>RFC8018</doc-id>
+        </updates>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9879</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
