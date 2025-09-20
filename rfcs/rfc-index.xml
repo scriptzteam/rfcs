@@ -201452,6 +201452,7 @@
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
         <wg_acronym>NON WORKING GROUP</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc6151</errata-url>
         <doi>10.17487/RFC6151</doi>
     </rfc-entry>
     <rfc-entry>
