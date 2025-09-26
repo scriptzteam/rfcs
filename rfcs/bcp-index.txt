@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 09/23/2025.
+CREATED ON: 09/25/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs

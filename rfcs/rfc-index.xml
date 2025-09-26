@@ -336003,6 +336003,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>idr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9832</errata-url>
         <doi>10.17487/RFC9832</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336204,6 +336205,53 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>int</area>
         <wg_acronym>6man</wg_acronym>
         <doi>10.17487/RFC9844</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9856</doc-id>
+        <title>Multicast Source Redundancy in EVPNs</title>
+        <author>
+            <name>J. Rabadan</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>J. Kotalwar</name>
+        </author>
+        <author>
+            <name>S. Sathappan</name>
+        </author>
+        <author>
+            <name>Z. Zhang</name>
+        </author>
+        <author>
+            <name>W. Lin</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>31</page-count>
+        <keywords>
+            <kw>Warm standby</kw>
+            <kw>hot standby</kw>
+            <kw>OISM</kw>
+            <kw>redundant G-source</kw>
+            <kw>SFG</kw>
+            <kw>Single Flow Group</kw>
+        </keywords>
+        <abstract><p>In Ethernet Virtual Private Networks (EVPNs), IP multicast traffic replication and delivery play a crucial role in enabling efficient and scalable Layer 2 and Layer 3 services.  A common deployment scenario involves redundant multicast sources that ensure high availability and resiliency.  However, the presence of redundant sources can lead to duplicate IP multicast traffic in the network, causing inefficiencies and increased overhead.  This document specifies extensions to the EVPN multicast procedures that allow for the suppression of duplicate IP multicast traffic from redundant sources.  The proposed mechanisms enhance the EVPN's capability to deliver multicast traffic efficiently while maintaining high availability.  These extensions are applicable to various EVPN deployment scenarios and provide guidelines to ensure consistent and predictable behavior across diverse network topologies.</p></abstract>
+        <draft>draft-ietf-bess-evpn-redundant-mcast-source-15</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>bess</wg_acronym>
+        <doi>10.17487/RFC9856</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9879</doc-id>
