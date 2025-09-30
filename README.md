@@ -2,14 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-09-29 01:09:33 UTC
+Last updated: 2025-09-30 01:08:54 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9819](rfcs/rfc9819.txt) | Argument Signaling for BGP Services in Segment Routing over IPv6 (SRv6) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9819) |
-| [RFC 9820](rfcs/rfc9820.txt) | Authentication Service Based on the Extensible Authentication Protocol (EAP) for Use with the Constrained Application Protocol (CoAP) | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9820) |
 | [RFC 9824](rfcs/rfc9824.txt) | Compact Denial of Existence in DNSSEC | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9824) |
 | [RFC 9825](rfcs/rfc9825.txt) | Extensions to OSPF for Advertising Prefix Administrative Tags | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9825) |
 | [RFC 9826](rfcs/rfc9826.txt) | A YANG Data Model for the Path Computation Element Communication Protocol (PCEP) | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9826) |
@@ -24,4 +22,6 @@ Last updated: 2025-09-29 01:09:33 UTC
 | [RFC 9843](rfcs/rfc9843.txt) | IGP Flexible Algorithms: Bandwidth, Delay, Metrics, and Constraints | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9843) |
 | [RFC 9844](rfcs/rfc9844.txt) | Entering IPv6 Zone Identifiers in User Interfaces | August 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9844) |
 | [RFC 9856](rfcs/rfc9856.txt) | Multicast Source Redundancy in EVPNs | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9856) |
+| [RFC 9859](rfcs/rfc9859.txt) | Generalized DNS Notifications | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9859) |
+| [RFC 9874](rfcs/rfc9874.txt) | Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP) | September 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9874) |
 | [RFC 9879](rfcs/rfc9879.txt) | Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax | September 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9879) |

@@ -1465,6 +1465,12 @@
             <doc-id>RFC9813</doc-id>
         </is-also>
     </bcp-entry>
+    <bcp-entry>
+        <doc-id>BCP0244</doc-id>
+        <is-also>
+            <doc-id>RFC9874</doc-id>
+        </is-also>
+    </bcp-entry>
     <fyi-entry>
         <doc-id>FYI0002</doc-id>
         <is-also>
@@ -26373,9 +26379,6 @@
     <rfc-entry>
         <doc-id>RFC1083</doc-id>
         <title>IAB official protocol standards</title>
-        <author>
-            <name>Defense Advanced Research Projects Agency</name>
-        </author>
         <author>
             <name>Internet Activities Board</name>
         </author>
@@ -319388,6 +319391,7 @@ to 2-Way state when operating in OSPF BFD strict-mode.</p></abstract>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9401</errata-url>
         <doi>10.17487/RFC9401</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336252,6 +336256,82 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>rtg</area>
         <wg_acronym>bess</wg_acronym>
         <doi>10.17487/RFC9856</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9859</doc-id>
+        <title>Generalized DNS Notifications</title>
+        <author>
+            <name>J. Stenstam</name>
+        </author>
+        <author>
+            <name>P. Thomassen</name>
+        </author>
+        <author>
+            <name>J. Levine</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>16</page-count>
+        <keywords>
+            <kw>Delegation</kw>
+            <kw>Automation</kw>
+            <kw>DS</kw>
+            <kw>DNSSEC</kw>
+        </keywords>
+        <abstract><p>This document generalizes and extends the use of DNS NOTIFY (RFC 1996) beyond conventional zone transfer hints to allow other types of actions that were previously lacking a trigger mechanism to be triggered via the DNS. Notifications merely nudge the receiver to initiate a predefined action promptly (instead of on a schedule); they do not alter the action itself (including any security checks it might employ).</p><p> To enable this functionality, a method for discovering the receiver endpoint for such notification messages is introduced, via the new DSYNC record type. Notification types are recorded in a new registry, with initial support for parental NS and DS record updates including DNSSEC bootstrapping.</p></abstract>
+        <draft>draft-ietf-dnsop-generalized-notify-09</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>dnsop</wg_acronym>
+        <doi>10.17487/RFC9859</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9874</doc-id>
+        <title>Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)</title>
+        <author>
+            <name>S. Hollenbeck</name>
+        </author>
+        <author>
+            <name>W. Carroll</name>
+        </author>
+        <author>
+            <name>G. Akiwate</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>18</page-count>
+        <keywords>
+            <kw>EPP</kw>
+        </keywords>
+        <abstract><p>The Extensible Provisioning Protocol (EPP) includes commands for clients to delete domain and host objects, both of which are used to publish information in the Domain Name System (DNS).  EPP also includes guidance for deletions that is intended to avoid DNS resolution disruptions and maintain data consistency.  However, operational relationships between objects can make that guidance difficult to implement.  Some EPP clients have developed operational practices to delete those objects that have unintended impacts on DNS resolution and security.  This document describes best current practices and proposes new potential practices to delete domain and host objects that reduce the risk of DNS resolution failure and maintain client-server data consistency.</p></abstract>
+        <draft>draft-ietf-regext-epp-delete-bcp-10</draft>
+        <is-also>
+            <doc-id>BCP0244</doc-id>
+        </is-also>
+        <current-status>BEST CURRENT PRACTICE</current-status>
+        <publication-status>BEST CURRENT PRACTICE</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>regext</wg_acronym>
+        <doi>10.17487/RFC9874</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9879</doc-id>

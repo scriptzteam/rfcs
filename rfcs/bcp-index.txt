@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 09/27/2025.
+CREATED ON: 09/28/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -964,3 +964,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0243 Operational Considerations for Using TLS Pre-Shared Keys
      (TLS-PSKs) with RADIUS. A. DeKok. July 2025. (Also RFC9813)
+
+0244 Best Practices for Deletion of Domain and Host Objects in the
+     Extensible Provisioning Protocol (EPP). S. Hollenbeck, W. Carroll, G.
+     Akiwate. September 2025. (Also RFC9874)
