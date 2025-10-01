@@ -264165,6 +264165,9 @@
         <page-count>128</page-count>
         <abstract><p>This specification defines a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods.</p></abstract>
         <draft>draft-alakuijala-brotli-11</draft>
+        <updated-by>
+            <doc-id>RFC9841</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
@@ -336011,6 +336014,248 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <doi>10.17487/RFC9832</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9833</doc-id>
+        <title>A Common YANG Data Model for Attachment Circuits</title>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R. Roberts</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>O. Gonzalez de Dios</name>
+        </author>
+        <author>
+            <name>S. Barguil</name>
+        </author>
+        <author>
+            <name>B. Wu</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>56</page-count>
+        <keywords>
+            <kw>Slice Service</kw>
+            <kw>L3VPN</kw>
+            <kw>L2VPN</kw>
+            <kw>Automation</kw>
+            <kw>Network Automation</kw>
+            <kw>Orchestration</kw>
+            <kw>service delivery</kw>
+            <kw>Service provisioning</kw>
+            <kw>service segmentation</kw>
+            <kw>service flexibility</kw>
+            <kw>service simplification</kw>
+            <kw>Network Service</kw>
+            <kw>3GPP</kw>
+            <kw>Network Slicing</kw>
+        </keywords>
+        <abstract><p>The document specifies a common attachment circuits (ACs) YANG data
+model, which is designed to be reusable by other models.  This design
+is meant to ensure consistent AC structures among models that
+manipulate ACs.  For example, this common model can be reused by
+service models to expose ACs as a service, service models that
+require binding a service to a set of ACs, network and device models
+to provision ACs, etc.</p></abstract>
+        <draft>draft-ietf-opsawg-teas-common-ac-15</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9833</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9834</doc-id>
+        <title>YANG Data Models for Bearers and Attachment Circuits as a Service (ACaaS)</title>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R. Roberts</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>O. Gonzalez de Dios</name>
+        </author>
+        <author>
+            <name>S. Barguil</name>
+        </author>
+        <author>
+            <name>B. Wu</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>150</page-count>
+        <keywords>
+            <kw>Slice Service</kw>
+            <kw>L3VPN</kw>
+            <kw>L2VPN</kw>
+            <kw>Automation</kw>
+            <kw>Network Automation</kw>
+            <kw>Orchestration</kw>
+            <kw>service delivery</kw>
+            <kw>Service provisioning</kw>
+            <kw>service segmentation</kw>
+            <kw>service flexibility</kw>
+            <kw>service simplification</kw>
+            <kw>Network Service</kw>
+            <kw>3GPP</kw>
+            <kw>Network Slicing</kw>
+        </keywords>
+        <abstract><p>Delivery of network services assumes that appropriate setup is
+provisioned over the links that connect customer termination points
+and a provider network. The required setup to allow successful data
+exchange over these links is referred to as an attachment circuit
+(AC), while the underlying link is referred to as a "bearer".</p><p> This document specifies a YANG service data model for ACs. This model
+can be used for the provisioning of ACs before or during service
+provisioning (e.g., RFC 9543 Network Slice Service).</p><p> The document also specifies a YANG service data model for managing
+bearers over which ACs are established.</p></abstract>
+        <draft>draft-ietf-opsawg-teas-attachment-circuit-20</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9834</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9835</doc-id>
+        <title>A Network YANG Data Model for Attachment Circuits</title>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R. Roberts</name>
+        </author>
+        <author>
+            <name>O. Gonzalez de Dios</name>
+        </author>
+        <author>
+            <name>S. Barguil</name>
+        </author>
+        <author>
+            <name>B. Wu</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>121</page-count>
+        <keywords>
+            <kw>Slice Service</kw>
+            <kw>L3VPN</kw>
+            <kw>L2VPN</kw>
+            <kw>Automation</kw>
+            <kw>Network Automation</kw>
+            <kw>Orchestration</kw>
+            <kw>service delivery</kw>
+            <kw>Service provisioning</kw>
+            <kw>service segmentation</kw>
+            <kw>service flexibility</kw>
+            <kw>service simplification</kw>
+            <kw>Network Service</kw>
+            <kw>3GPP</kw>
+            <kw>Network Slicing</kw>
+        </keywords>
+        <abstract><p>This document specifies a network model for attachment circuits. The model can be used for the provisioning of attachment circuits prior or during service provisioning (e.g., VPN, Network Slice Service). A companion service model is specified in the YANG Data Models for Bearers and 'Attachment Circuits'-as-a-Service (ACaaS) (I-D.ietf- opsawg-teas-attachment-circuit).</p><p> The module augments the base network ('ietf-network') and the Service Attachment Point (SAP) models with the detailed information for the provisioning of attachment circuits in Provider Edges (PEs).</p></abstract>
+        <draft>draft-ietf-opsawg-ntw-attachment-circuit-16</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9835</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9836</doc-id>
+        <title>A YANG Data Model for Augmenting VPN Service and Network Models with Attachment Circuits</title>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R. Roberts</name>
+        </author>
+        <author>
+            <name>S. Barguil</name>
+        </author>
+        <author>
+            <name>O. Gonzalez de Dios</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>30</page-count>
+        <keywords>
+            <kw>Slice Service</kw>
+            <kw>L3VPN</kw>
+            <kw>L2VPN</kw>
+            <kw>Automation</kw>
+            <kw>Network Automation</kw>
+            <kw>Orchestration</kw>
+            <kw>service delivery</kw>
+            <kw>Service provisioning</kw>
+            <kw>service segmentation</kw>
+            <kw>service flexibility</kw>
+            <kw>service simplification</kw>
+            <kw>Network Service</kw>
+            <kw>3GPP</kw>
+            <kw>Network Slicing</kw>
+        </keywords>
+        <abstract><p>This document defines a YANG data model, referred to as the "AC Glue"
+model, to augment the LxVPN Service Model (LxSM) and LxVPN Network
+Model (LxNM) with references to attachment circuits (ACs).  The AC
+Glue model enables a provider to associate Layer 2/3 VPN (LxVPN)
+services with the underlying AC infrastructure, thereby facilitating
+consistent provisioning and management of new or existing ACs in
+conjunction with LxVPN services.  Specifically, by introducing an
+integrated approach to AC and LxVPN management, this model supports
+Attachment Circuit as a Service (ACaaS) and provides a standardized
+mechanism for aligning AC/VPN requests with the network
+configurations required to deliver them.</p></abstract>
+        <draft>draft-ietf-opsawg-ac-lxsm-lxnm-glue-14</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9836</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9837</doc-id>
         <title>The IPv6 VPN Service Destination Option</title>
         <author>
@@ -336124,6 +336369,87 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <publication-status>EXPERIMENTAL</publication-status>
         <stream>IRTF</stream>
         <doi>10.17487/RFC9840</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9841</doc-id>
+        <title>Shared Brotli Compressed Data Format</title>
+        <author>
+            <name>J. Alakuijala</name>
+        </author>
+        <author>
+            <name>T. Duong</name>
+        </author>
+        <author>
+            <name>E. Kliuchnikov</name>
+        </author>
+        <author>
+            <name>Z. Szabadka</name>
+        </author>
+        <author>
+            <name>L. Vandevenne</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>23</page-count>
+        <keywords>
+            <kw>dictionary compression lz77</kw>
+        </keywords>
+        <abstract><p>This specification defines a data format for shared brotli compression, which adds support for shared dictionaries, large window, and a container format to brotli (RFC 7932).  Shared dictionaries and large window support allow significant compression gains compared to regular brotli.  This document specifies an extension to the method defined in RFC 7932.</p></abstract>
+        <draft>draft-vandevenne-shared-brotli-format-15</draft>
+        <updates>
+            <doc-id>RFC7932</doc-id>
+        </updates>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <wg_acronym>NON WORKING GROUP</wg_acronym>
+        <doi>10.17487/RFC9841</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9842</doc-id>
+        <title>Compression Dictionary Transport</title>
+        <author>
+            <name>P. Meenan</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>Y. Weiss</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>17</page-count>
+        <keywords>
+            <kw>compression dictionary</kw>
+            <kw>shared brotli</kw>
+            <kw>zstandard dictionary</kw>
+            <kw>delta compression</kw>
+        </keywords>
+        <abstract><p>This document specifies a mechanism for dictionary-based compression in the Hypertext Transfer Protocol (HTTP).  By utilizing this technique, clients and servers can reduce the size of transmitted data, leading to improved performance and reduced bandwidth consumption.  This document extends existing HTTP compression methods and provides guidelines for the delivery and use of compression dictionaries within the HTTP protocol.</p></abstract>
+        <draft>draft-ietf-httpbis-compression-dictionary-19</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>httpbis</wg_acronym>
+        <doi>10.17487/RFC9842</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9843</doc-id>

@@ -2,20 +2,20 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-09-30 01:08:54 UTC
+Last updated: 2025-10-01 01:15:44 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9824](rfcs/rfc9824.txt) | Compact Denial of Existence in DNSSEC | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9824) |
-| [RFC 9825](rfcs/rfc9825.txt) | Extensions to OSPF for Advertising Prefix Administrative Tags | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9825) |
-| [RFC 9826](rfcs/rfc9826.txt) | A YANG Data Model for the Path Computation Element Communication Protocol (PCEP) | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9826) |
-| [RFC 9828](rfcs/rfc9828.txt) | RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency | JPEG 2000 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9828) |
 | [RFC 9829](rfcs/rfc9829.txt) | Handling of Resource Public Key Infrastructure (RPKI) Certificate Revocation List (CRL) Number Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9829) |
 | [RFC 9830](rfcs/rfc9830.txt) | Advertising Segment Routing Policies in BGP | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9830) |
 | [RFC 9831](rfcs/rfc9831.txt) | Segment Type Extensions for BGP Segment Routing (SR) Policy | September 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9831) |
 | [RFC 9832](rfcs/rfc9832.txt) | BGP Classful Transport Planes | September 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9832) |
+| [RFC 9833](rfcs/rfc9833.txt) | A Common YANG Data Model for Attachment Circuits | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9833) |
+| [RFC 9834](rfcs/rfc9834.txt) | YANG Data Models for Bearers and Attachment Circuits as a Service (ACaaS) | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9834) |
+| [RFC 9835](rfcs/rfc9835.txt) | A Network YANG Data Model for Attachment Circuits | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9835) |
+| [RFC 9836](rfcs/rfc9836.txt) | A YANG Data Model for Augmenting VPN Service and Network Models with Attachment Circuits | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9836) |
 | [RFC 9837](rfcs/rfc9837.txt) | The IPv6 VPN Service Destination Option | August 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9837) |
 | [RFC 9839](rfcs/rfc9839.txt) | Unicode Character Repertoire Subsets | August 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9839) |
 | [RFC 9840](rfcs/rfc9840.txt) | rLEDBAT: Receiver-Driven Low Extra Delay Background Transport for TCP | September 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9840) |
