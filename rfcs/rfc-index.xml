@@ -336622,6 +336622,45 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9859</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9872</doc-id>
+        <title>Recommendations for Discovering IPv6 Prefix Used for IPv6 Address Synthesis</title>
+        <author>
+            <name>N. Buraglio</name>
+        </author>
+        <author>
+            <name>T. Jensen</name>
+        </author>
+        <author>
+            <name>J. Linkova</name>
+        </author>
+        <date>
+            <month>September</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>10</page-count>
+        <keywords>
+            <kw>IPv6</kw>
+            <kw>DNS64</kw>
+            <kw>PREF64</kw>
+            <kw>NAT64</kw>
+            <kw>CLAT</kw>
+        </keywords>
+        <abstract><p>On networks providing IPv4-IPv6 translation (RFC 7915), hosts and other endpoints need to know the IPv6 prefix(es) used for translation (the NAT64 prefix (RFC 6052)).  This document provides guidelines for NAT64 prefix discovery, specifically recommending obtaining the NAT64 prefix from the Router Advertisement option (RFC 8781) when available.</p></abstract>
+        <draft>draft-ietf-v6ops-prefer8781-07</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>v6ops</wg_acronym>
+        <doi>10.17487/RFC9872</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9874</doc-id>
         <title>Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)</title>
         <author>

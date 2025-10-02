@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/30/2025.)
+(CREATED ON: 10/01/2025.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42012,6 +42012,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
 9859 Generalized DNS Notifications. J. Stenstam, P. Thomassen, J. Levine.
      September 2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
      STANDARD) (DOI: 10.17487/RFC9859) 
+
+9872 Recommendations for Discovering IPv6 Prefix Used for IPv6 Address
+     Synthesis. N. Buraglio, T. Jensen, J. Linkova. September 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI:
+     10.17487/RFC9872) 
 
 9874 Best Practices for Deletion of Domain and Host Objects in the
      Extensible Provisioning Protocol (EPP). S. Hollenbeck, W. Carroll,
