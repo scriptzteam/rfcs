@@ -301718,6 +301718,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>cbor</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8949</errata-url>
         <doi>10.17487/RFC8949</doi>
     </rfc-entry>
     <rfc-entry>
@@ -331216,6 +331217,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>add</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9704</errata-url>
         <doi>10.17487/RFC9704</doi>
     </rfc-entry>
     <rfc-entry>
