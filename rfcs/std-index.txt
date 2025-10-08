@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 10/05/2025.
+CREATED ON: 10/07/2025.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -60,7 +60,7 @@ page http://www.rfc-editor.org
      RFC1112)
 
 0006 User Datagram Protocol. J. Postel. August 1980. (Format: TXT
-     =5896 HTML= bytes) (Also RFC0768)
+     =5896 HTML= bytes) (Updated by RFC9868) (Also RFC0768)
 
 0007 Transmission Control Protocol (TCP). W. Eddy, Ed.. August 2022.
      (Obsoletes RFC0793, RFC0879, RFC2873, RFC6093, RFC6429, RFC6528,

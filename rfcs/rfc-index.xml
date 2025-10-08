@@ -18148,6 +18148,9 @@
         <keywords>
             <kw>UDP</kw>
         </keywords>
+        <updated-by>
+            <doc-id>RFC9868</doc-id>
+        </updated-by>
         <is-also>
             <doc-id>STD0006</doc-id>
         </is-also>
@@ -293286,7 +293289,6 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8729</errata-url>
         <doi>10.17487/RFC8729</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336540,6 +336542,47 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9844</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9845</doc-id>
+        <title>Challenges and Opportunities in Management for Green Networking</title>
+        <author>
+            <name>A. Clemm</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Pignataro</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Westphal</name>
+        </author>
+        <author>
+            <name>L. Ciavaglia</name>
+        </author>
+        <author>
+            <name>J. Tantsura</name>
+        </author>
+        <author>
+            <name>M-P. Odini</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>28</page-count>
+        <abstract><p>Reducing humankind's environmental footprint and making technology more environmentally sustainable are among the biggest challenges of our age. Networks play an important part in this challenge. On one hand, they enable applications that help to reduce this footprint. On the other hand, they significantly contribute to this footprint themselves. Therefore, methods to make networking technology itself "greener" and to manage and operate networks in ways that reduce their environmental footprint without impacting their utility need to be explored. This document outlines a corresponding set of opportunities, along with associated research challenges, for networking technology in general and management technology in particular to become greener, i.e., more sustainable, with reduced greenhouse gas emissions and less negative impact on the environment.</p><p> This document is a product of the Network Management Research Group (NMRG) of the Internet Research Task Force (IRTF). This document reflects the consensus of the research group. It is not a candidate for any level of Internet Standard and is published for informational purposes.</p></abstract>
+        <draft>draft-irtf-nmrg-green-ps-06</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IRTF</stream>
+        <doi>10.17487/RFC9845</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9856</doc-id>
         <title>Multicast Source Redundancy in EVPNs</title>
         <author>
@@ -336623,6 +336666,135 @@ configurations required to deliver them.</p></abstract>
         <area>ops</area>
         <wg_acronym>dnsop</wg_acronym>
         <doi>10.17487/RFC9859</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9866</doc-id>
+        <title>Root Node Failure Detector (RNFD): Fast Detection of Border Router Crashes in the Routing Protocol for Low-Power and Lossy Networks (RPL)</title>
+        <author>
+            <name>K. Iwanicki</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>22</page-count>
+        <abstract><p>By and large, correct operation of a network running the Routing Protocol for Low-Power and Lossy Networks (RPL) requires border routers to be up.  In many applications, it is beneficial for the nodes to detect a failure of a border router as soon as possible to trigger fallback actions.  This document specifies the Root Node Failure Detector (RNFD), an extension to RPL that expedites detection of border router crashes by having nodes collaboratively monitor the status of a given border router.  The extension introduces an additional state at each node, a new type of RPL Control Message Option for synchronizing this state among different nodes, and the coordination algorithm itself.</p></abstract>
+        <draft>draft-ietf-roll-rnfd-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>roll</wg_acronym>
+        <doi>10.17487/RFC9866</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9868</doc-id>
+        <title>Transport Options for UDP</title>
+        <author>
+            <name>J. Touch</name>
+        </author>
+        <author>
+            <name>C. Heard</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>51</page-count>
+        <abstract><p>Transport protocols are extended through the use of transport header options.  This document updates RFC 768 (UDP) by indicating the location, syntax, and semantics for UDP transport layer options within the surplus area after the end of the UDP user data but before the end of the IP datagram.</p></abstract>
+        <draft>draft-ietf-tsvwg-udp-options-45</draft>
+        <updates>
+            <doc-id>RFC0768</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>tsvwg</wg_acronym>
+        <doi>10.17487/RFC9868</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9869</doc-id>
+        <title>Datagram Packetization Layer Path MTU Discovery (DPLPMTUD) for UDP Options</title>
+        <author>
+            <name>G. Fairhurst</name>
+        </author>
+        <author>
+            <name>T. Jones</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>13</page-count>
+        <keywords>
+            <kw>UDP</kw>
+            <kw>UDP-Options</kw>
+            <kw>PMTUD</kw>
+            <kw>PLPMTUD</kw>
+            <kw>DPLPMTUD</kw>
+            <kw>Datagram</kw>
+        </keywords>
+        <abstract><p>This document specifies how a UDP Options sender implements Datagram Packetization Layer Path MTU Discovery (DPLPMTUD) as a robust method for Path MTU Discovery (PMTUD).  This method uses the UDP Options packetization layer.  It allows an application to discover the largest size of datagram that can be sent across a network path.  It also provides a way to allow the application to periodically verify the current Maximum Packet Size (MPS) supported by a path and to update this when required.</p></abstract>
+        <draft>draft-ietf-tsvwg-udp-options-dplpmtud-15</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>tsvwg</wg_acronym>
+        <doi>10.17487/RFC9869</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9870</doc-id>
+        <title>Export of UDP Options Information in IP Flow Information Export (IPFIX)</title>
+        <author>
+            <name>M. Boucadair</name>
+        </author>
+        <author>
+            <name>T. Reddy.K</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>12</page-count>
+        <keywords>
+            <kw>surplus area</kw>
+            <kw>UDP options</kw>
+        </keywords>
+        <abstract><p>This document specifies new IP Flow Information Export (IPFIX) Information Elements for UDP Options.</p></abstract>
+        <draft>draft-ietf-opsawg-tsvwg-udp-ipfix-14</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9870</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9872</doc-id>
