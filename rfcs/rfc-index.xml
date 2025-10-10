@@ -253573,6 +253573,9 @@
         </keywords>
         <abstract><p>The System for Cross-domain Identity Management (SCIM) specifications are designed to make identity management in cloud-based applications and services easier. The specification suite builds upon experience with existing schemas and deployments, placing specific emphasis on simplicity of development and integration, while applying existing authentication, authorization, and privacy models. Its intent is to reduce the cost and complexity of user management operations by providing a common user schema and extension model as well as binding documents to provide patterns for exchanging this schema using HTTP.</p><p> This document provides a platform-neutral schema and extension model for representing users and groups and other resource types in JSON format. This schema is intended for exchange and use with cloud service providers.</p></abstract>
         <draft>draft-ietf-scim-core-schema-22</draft>
+        <updated-by>
+            <doc-id>RFC9865</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -253614,6 +253617,9 @@
         </keywords>
         <abstract><p>The System for Cross-domain Identity Management (SCIM) specification is an HTTP-based protocol that makes managing identities in multi-domain scenarios easier to support via a standardized service.  Examples include, but are not limited to, enterprise-to-cloud service providers and inter-cloud scenarios.  The specification suite seeks to build upon experience with existing schemas and deployments, placing specific emphasis on simplicity of development and integration, while applying existing authentication, authorization, and privacy models.  SCIM's intent is to reduce the cost and complexity of user management operations by providing a common user schema, an extension model, and a service protocol defined by this document.</p></abstract>
         <draft>draft-ietf-scim-api-19</draft>
+        <updated-by>
+            <doc-id>RFC9865</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -333172,6 +333178,7 @@ managed through the "Private Enterprise Numbers (PENs)" registry.</p></abstract>
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>nfsv4</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9754</errata-url>
         <doi>10.17487/RFC9754</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336666,6 +336673,43 @@ configurations required to deliver them.</p></abstract>
         <area>ops</area>
         <wg_acronym>dnsop</wg_acronym>
         <doi>10.17487/RFC9859</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9865</doc-id>
+        <title>Cursor-Based Pagination of System of Cross-domain Identity Management (SCIM) Resources</title>
+        <author>
+            <name>M. Peterson</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>D. Zollner</name>
+        </author>
+        <author>
+            <name>A. Sehgal</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <abstract><p>This document updates RFCs 7643 and 7644 by defining additional System for Cross-Domain Identity Management (SCIM) query parameters and result attributes to allow use of cursor-based pagination in SCIM service providers that are implemented with existing codebases, databases, or APIs where cursor-based pagination is already well established.</p></abstract>
+        <draft>draft-ietf-scim-cursor-pagination-11</draft>
+        <updates>
+            <doc-id>RFC7643</doc-id>
+            <doc-id>RFC7644</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>scim</wg_acronym>
+        <doi>10.17487/RFC9865</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9866</doc-id>
