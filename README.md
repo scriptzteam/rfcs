@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-10-10 01:07:30 UTC
+Last updated: 2025-10-11 01:05:03 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9837](rfcs/rfc9837.txt) | The IPv6 VPN Service Destination Option | August 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9837) |
 | [RFC 9839](rfcs/rfc9839.txt) | Unicode Character Repertoire Subsets | August 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9839) |
 | [RFC 9840](rfcs/rfc9840.txt) | rLEDBAT: Receiver-Driven Low Extra Delay Background Transport for TCP | September 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9840) |
 | [RFC 9841](rfcs/rfc9841.txt) | Shared Brotli Compressed Data Format | September 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9841) |
@@ -18,6 +17,7 @@ Last updated: 2025-10-10 01:07:30 UTC
 | [RFC 9845](rfcs/rfc9845.txt) | Challenges and Opportunities in Management for Green Networking | October 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9845) |
 | [RFC 9856](rfcs/rfc9856.txt) | Multicast Source Redundancy in EVPNs | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9856) |
 | [RFC 9859](rfcs/rfc9859.txt) | Generalized DNS Notifications | September 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9859) |
+| [RFC 9865](rfcs/rfc9865.txt) | Cursor-Based Pagination of System of Cross-domain Identity Management (SCIM) Resources | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9865) |
 | [RFC 9866](rfcs/rfc9866.txt) | Root Node Failure Detector (RNFD): Fast Detection of Border Router Crashes in the Routing Protocol for Low-Power and Lossy Networks (RPL) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9866) |
 | [RFC 9868](rfcs/rfc9868.txt) | Transport Options for UDP | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9868) |
 | [RFC 9869](rfcs/rfc9869.txt) | Datagram Packetization Layer Path MTU Discovery (DPLPMTUD) for UDP Options | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9869) |
