@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 10/11/2025.)
+(CREATED ON: 10/12/2025.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42015,6 +42015,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      S. Sathappan, Z. Zhang, W. Lin. September 2025. (Format: HTML, TXT,
      PDF, XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9856) 
 
+9858 Additional Parameter Sets for HSS/LMS Hash-Based Signatures. S.
+     Fluhrer, Q. Dang. October 2025. (Format: HTML, TXT, PDF, XML)
+     (Status: INFORMATIONAL) (DOI: 10.17487/RFC9858) 
+
 9859 Generalized DNS Notifications. J. Stenstam, P. Thomassen, J. Levine.
      September 2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
      STANDARD) (DOI: 10.17487/RFC9859) 
@@ -42046,6 +42050,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Synthesis. N. Buraglio, T. Jensen, J. Linkova. September 2025.
      (Format: HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI:
      10.17487/RFC9872) 
+
+9873 Additional Email Address Extension for the Extensible Provisioning
+     Protocol (EPP). D. Belyavsky, J. Gould, S. Hollenbeck. October 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9873) 
 
 9874 Best Practices for Deletion of Domain and Host Objects in the
      Extensible Provisioning Protocol (EPP). S. Hollenbeck, W. Carroll,

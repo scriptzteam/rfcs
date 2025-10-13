@@ -233161,6 +233161,7 @@
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>dime</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7075</errata-url>
         <doi>10.17487/RFC7075</doi>
     </rfc-entry>
     <rfc-entry>
@@ -241304,6 +241305,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7304</errata-url>
         <doi>10.17487/RFC7304</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336637,6 +336639,33 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9856</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9858</doc-id>
+        <title>Additional Parameter Sets for HSS/LMS Hash-Based Signatures</title>
+        <author>
+            <name>S. Fluhrer</name>
+        </author>
+        <author>
+            <name>Q. Dang</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>25</page-count>
+        <abstract><p>This document extends HSS/LMS (RFC 8554) by defining parameter sets that use alternative hash functions. These include hash functions that result in signatures with significantly smaller sizes than the signatures that use the RFC 8554 parameter sets and should have sufficient security.</p><p> This document is a product of the Internet Research Task Force (IRTF). The IRTF publishes the results of Internet-related research and development activities. These results might not be suitable for deployment. This RFC represents the consensus of the Crypto Forum Research Group of the Internet Research Task Force (IRTF). Documents approved for publication by the IRSG are not candidates for any level of Internet Standard; see Section 2 of RFC 7841.</p></abstract>
+        <draft>draft-fluhrer-lms-more-parm-sets-19</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IRTF</stream>
+        <doi>10.17487/RFC9858</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9859</doc-id>
         <title>Generalized DNS Notifications</title>
         <author>
@@ -336878,6 +336907,38 @@ configurations required to deliver them.</p></abstract>
         <area>ops</area>
         <wg_acronym>v6ops</wg_acronym>
         <doi>10.17487/RFC9872</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9873</doc-id>
+        <title>Additional Email Address Extension for the Extensible Provisioning Protocol (EPP)</title>
+        <author>
+            <name>D. Belyavsky</name>
+        </author>
+        <author>
+            <name>J. Gould</name>
+        </author>
+        <author>
+            <name>S. Hollenbeck</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>22</page-count>
+        <abstract><p>The Extensible Provisioning Protocol (EPP) does not inherently support internationalized email addresses because the specifications for these addresses did not exist when EPP was developed.  This document describes a command-response extension that adds support for associating an additional email address with an EPP contact object.  That additional email address can be either an internationalized email address or an ASCII-only address.</p></abstract>
+        <draft>draft-ietf-regext-epp-eai-27</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>regext</wg_acronym>
+        <doi>10.17487/RFC9873</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9874</doc-id>
