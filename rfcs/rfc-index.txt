@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 10/12/2025.)
+(CREATED ON: 10/13/2025.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42023,6 +42023,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      September 2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
      STANDARD) (DOI: 10.17487/RFC9859) 
 
+9861 KangarooTwelve and TurboSHAKE. B. Viguier, D. Wong, Ed., G. Van
+     Assche, Ed., Q. Dang, Ed., J. Daemen, Ed.. October 2025. (Format:
+     HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9861) 
+
 9865 Cursor-Based Pagination of System of Cross-domain Identity
      Management (SCIM) Resources. M. Peterson, Ed., D. Zollner, A.
      Sehgal. October 2025. (Format: HTML, TXT, PDF, XML) (Updates
@@ -42061,7 +42065,15 @@ See the RFC Editor Web page http://www.rfc-editor.org
      G. Akiwate. September 2025. (Format: HTML, TXT, PDF, XML) (Also
      BCP0244) (Status: BEST CURRENT PRACTICE) (DOI: 10.17487/RFC9874) 
 
+9877 Registration Data Access Protocol (RDAP) Extension for Geofeed Data.
+     J. Singh, T. Harrison. October 2025. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9877) 
+
 9879 Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS
      #12 Syntax. A. Kario. September 2025. (Format: HTML, TXT, PDF, XML)
      (Obsoletes RFC9579) (Updates RFC7292, RFC8018) (Status:
      INFORMATIONAL) (DOI: 10.17487/RFC9879) 
+
+9883 An Attribute for Statement of Possession of a Private Key. R.
+     Housley. October 2025. (Format: HTML, TXT, PDF, XML) (Status:
+     PROPOSED STANDARD) (DOI: 10.17487/RFC9883) 

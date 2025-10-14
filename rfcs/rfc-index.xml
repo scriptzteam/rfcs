@@ -336704,6 +336704,54 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9859</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9861</doc-id>
+        <title>KangarooTwelve and TurboSHAKE</title>
+        <author>
+            <name>B. Viguier</name>
+        </author>
+        <author>
+            <name>D. Wong</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>G. Van Assche</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>Q. Dang</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>J. Daemen</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>28</page-count>
+        <keywords>
+            <kw>Keccak</kw>
+            <kw>Sakura</kw>
+            <kw>KangarooTwelve</kw>
+            <kw>TurboSHAKE</kw>
+            <kw>Cryptographic Hash</kw>
+            <kw>eXtendable Output Function</kw>
+        </keywords>
+        <abstract><p>This document defines four eXtendable-Output Functions (XOFs), hash functions with output of arbitrary length, named TurboSHAKE128, TurboSHAKE256, KT128, and KT256.</p><p> All four functions provide efficient and secure hashing primitives, and the last two are able to exploit the parallelism of the implementation in a scalable way.</p><p> This document is a product of the Crypto Forum Research Group. It builds up on the definitions of the permutations and of the sponge construction in NIST FIPS 202 and is meant to serve as a stable reference and an implementation guide.</p></abstract>
+        <draft>draft-irtf-cfrg-kangarootwelve-17</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IRTF</stream>
+        <doi>10.17487/RFC9861</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9865</doc-id>
         <title>Cursor-Based Pagination of System of Cross-domain Identity Management (SCIM) Resources</title>
         <author>
@@ -336979,6 +337027,35 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9874</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9877</doc-id>
+        <title>Registration Data Access Protocol (RDAP) Extension for Geofeed Data</title>
+        <author>
+            <name>J. Singh</name>
+        </author>
+        <author>
+            <name>T. Harrison</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>11</page-count>
+        <abstract><p>This document defines a new Registration Data Access Protocol (RDAP) extension, "geofeed1", for indicating that an RDAP server hosts geofeed URLs for its IP network objects.  It also defines a new media type and a new link relation type for the associated link objects included in responses.</p></abstract>
+        <draft>draft-ietf-regext-rdap-geofeed-14</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>regext</wg_acronym>
+        <doi>10.17487/RFC9877</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9879</doc-id>
         <title>Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax</title>
         <author>
@@ -337015,6 +337092,35 @@ configurations required to deliver them.</p></abstract>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
         <doi>10.17487/RFC9879</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9883</doc-id>
+        <title>An Attribute for Statement of Possession of a Private Key</title>
+        <author>
+            <name>R. Housley</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>17</page-count>
+        <keywords>
+            <kw>PKCS#10</kw>
+        </keywords>
+        <abstract><p>This document specifies an attribute for a statement of possession of a private key by a certificate subject.  As part of X.509 certificate enrollment, a Certification Authority (CA) typically demands proof that the subject possesses the private key that corresponds to the to-be-certified public key.  In some cases, a CA might accept a signed statement from the certificate subject.  For example, when a certificate subject needs separate certificates for signature and key establishment, a statement that can be validated with the previously issued signature certificate for the same subject might be adequate for subsequent issuance of the key establishment certificate.</p></abstract>
+        <draft>draft-ietf-lamps-private-key-stmt-attr-09</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9883</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
