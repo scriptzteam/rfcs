@@ -233161,7 +233161,6 @@
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>dime</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc7075</errata-url>
         <doi>10.17487/RFC7075</doi>
     </rfc-entry>
     <rfc-entry>
@@ -241305,7 +241304,6 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc7304</errata-url>
         <doi>10.17487/RFC7304</doi>
     </rfc-entry>
     <rfc-entry>
