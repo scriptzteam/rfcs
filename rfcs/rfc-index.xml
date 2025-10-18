@@ -215179,6 +215179,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc6548</errata-url>
         <doi>10.17487/RFC6548</doi>
     </rfc-entry>
     <rfc-entry>
@@ -266334,6 +266335,7 @@
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>insipid</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7989</errata-url>
         <doi>10.17487/RFC7989</doi>
     </rfc-entry>
     <rfc-entry>
