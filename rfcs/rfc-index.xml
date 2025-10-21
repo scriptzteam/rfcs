@@ -85573,6 +85573,7 @@
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IAB</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc2850</errata-url>
         <doi>10.17487/RFC2850</doi>
     </rfc-entry>
     <rfc-entry>
@@ -215179,7 +215180,6 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc6548</errata-url>
         <doi>10.17487/RFC6548</doi>
     </rfc-entry>
     <rfc-entry>
