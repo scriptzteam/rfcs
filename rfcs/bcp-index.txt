@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 10/19/2025.
+CREATED ON: 10/21/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -961,6 +961,9 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0241 Operational Considerations for Use of DNS in Internet of Things
      (IoT) Devices. M. Richardson, W. Pan. March 2025. (Also RFC9726)
+
+0242 Clarification of IPv6 Address Allocation Policy. B. Carpenter, S.
+     Krishnan, D. Farmer. October 2025. (Updates RFC7249) (Also RFC9812)
 
 0243 Operational Considerations for Using TLS Pre-Shared Keys
      (TLS-PSKs) with RADIUS. A. DeKok. July 2025. (Also RFC9813)

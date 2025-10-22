@@ -1460,6 +1460,12 @@
         </is-also>
     </bcp-entry>
     <bcp-entry>
+        <doc-id>BCP0242</doc-id>
+        <is-also>
+            <doc-id>RFC9812</doc-id>
+        </is-also>
+    </bcp-entry>
+    <bcp-entry>
         <doc-id>BCP0243</doc-id>
         <is-also>
             <doc-id>RFC9813</doc-id>
@@ -239281,6 +239287,9 @@
         <page-count>6</page-count>
         <abstract><p>RFC 7020 provides information about the Internet Numbers Registry System and how it is used in the distribution of autonomous system (AS) numbers and globally unique unicast Internet Protocol (IP) address space.</p><p> This companion document identifies the IANA registries that are part of the Internet Numbers Registry System at this time.</p></abstract>
         <draft>draft-housley-number-registries-04</draft>
+        <updated-by>
+            <doc-id>RFC9812</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
@@ -333352,6 +333361,7 @@ managed through the "Private Enterprise Numbers (PENs)" registry.</p></abstract>
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>dtn</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9758</errata-url>
         <doi>10.17487/RFC9758</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335391,6 +335401,45 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
         <doi>10.17487/RFC9811</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9812</doc-id>
+        <title>Clarification of IPv6 Address Allocation Policy</title>
+        <author>
+            <name>B. Carpenter</name>
+        </author>
+        <author>
+            <name>S. Krishnan</name>
+        </author>
+        <author>
+            <name>D. Farmer</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <abstract><p>This document specifies the approval process for changes to the "IPv6
+Address Space" registry.  It also updates RFC 7249.</p></abstract>
+        <draft>draft-ietf-6man-addr-assign-05</draft>
+        <updates>
+            <doc-id>RFC7249</doc-id>
+        </updates>
+        <is-also>
+            <doc-id>BCP0242</doc-id>
+        </is-also>
+        <current-status>BEST CURRENT PRACTICE</current-status>
+        <publication-status>BEST CURRENT PRACTICE</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>6man</wg_acronym>
+        <doi>10.17487/RFC9812</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9813</doc-id>

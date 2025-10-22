@@ -2262,3 +2262,12 @@
               RFC 9726, DOI 10.17487/RFC9726, March 2025,
               <https://www.rfc-editor.org/info/rfc9726>.
 
+   [BCP242]   Best Current Practice 242,
+              <https://www.rfc-editor.org/info/bcp242>.
+              At the time of writing, this BCP comprises the following:
+
+             Carpenter, B., Krishnan, S., and D. Farmer, "Clarification
+	     of IPv6 Address Allocation Policy", BCP 242, RFC 9812, DOI
+	     10.17487/RFC9812, October 2025,
+	     <https://www.rfc-editor.org/info/rfc9812>.
+
