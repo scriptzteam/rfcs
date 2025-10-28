@@ -16,7 +16,7 @@ RFC0011 |   RFC0033 | Deloche, G., "Implementation of the Host - Host Software P
 RFC0012 |           | Wingfield, M., "IMP-Host interface flow diagrams", RFC 12, DOI 10.17487/RFC0012, August 1969, <https://www.rfc-editor.org/info/rfc12>.
 RFC0013 |           | Cerf, V., "Zero Text Length EOF Message", RFC 13, DOI 10.17487/RFC0013, August 1969, <https://www.rfc-editor.org/info/rfc13>.
 RFC0015 |           | Carr, C., "Network subsystem for time sharing hosts", RFC 15, DOI 10.17487/RFC0015, September 1969, <https://www.rfc-editor.org/info/rfc15>.
-RFC0016 |   RFC0024 | Crocker, S., "M.I.T", RFC 16, DOI 10.17487/RFC0016, August 1969, <https://www.rfc-editor.org/info/rfc16>.
+RFC0016 |           | Crocker, S., "M.I.T", RFC 16, DOI 10.17487/RFC0016, August 1969, <https://www.rfc-editor.org/info/rfc16>.
 RFC0017 |           | Kreznar, J., "Some questions re: Host-IMP Protocol", RFC 17, DOI 10.17487/RFC0017, August 1969, <https://www.rfc-editor.org/info/rfc17>.
 RFC0018 |           | Cerf, V., "IMP-IMP and HOST-HOST Control Links", RFC 18, DOI 10.17487/RFC0018, September 1969, <https://www.rfc-editor.org/info/rfc18>.
 RFC0019 |           | Kreznar, J., "Two protocol suggestions to reduce congestion at swap bound nodes", RFC 19, DOI 10.17487/RFC0019, October 1969, <https://www.rfc-editor.org/info/rfc19>.
@@ -190,7 +190,7 @@ RFC0189 |   RFC0599 | Braden, R., "Interim NETRJS specifications", RFC 189, DOI 
 RFC0190 |           | Deutsch, L., "DEC PDP-10-IMLAC communications system", RFC 190, DOI 10.17487/RFC0190, July 1971, <https://www.rfc-editor.org/info/rfc190>.
 RFC0191 |           | Irby, C., "Graphics implementation and conceptualization at Augmentation Research Center", RFC 191, DOI 10.17487/RFC0191, July 1971, <https://www.rfc-editor.org/info/rfc191>.
 RFC0192 |           | Watson, R., "Some factors which a Network Graphics Protocol must consider", RFC 192, DOI 10.17487/RFC0192, July 1971, <https://www.rfc-editor.org/info/rfc192>.
-RFC0193 |   RFC0198 | Harslem, E. and J. Heafner, "NETWORK CHECKOUT", RFC 193, DOI 10.17487/RFC0193, July 1971, <https://www.rfc-editor.org/info/rfc193>.
+RFC0193 |           | Harslem, E. and J. Heafner, "NETWORK CHECKOUT", RFC 193, DOI 10.17487/RFC0193, July 1971, <https://www.rfc-editor.org/info/rfc193>.
 RFC0194 |           | Cerf, V., Harslem, E., Heafner, J., Metcalfe, B., and J. White, "The Data Reconfiguration Service -- Compiler/Interpreter Implementation Notes", RFC 194, DOI 10.17487/RFC0194, July 1971, <https://www.rfc-editor.org/info/rfc194>.
 RFC0195 |           | Mealy, G., "Data computers-data descriptions and access language", RFC 195, DOI 10.17487/RFC0195, July 1971, <https://www.rfc-editor.org/info/rfc195>.
 RFC0196 |   RFC0221 | Watson, R., "Mail Box Protocol", RFC 196, DOI 10.17487/RFC0196, July 1971, <https://www.rfc-editor.org/info/rfc196>.
@@ -270,7 +270,7 @@ RFC0283 |           | Braden, R., "NETRJT: Remote Job Service Protocol for TIPS"
 RFC0285 |           | Huff, D., "Network graphics", RFC 285, DOI 10.17487/RFC0285, December 1971, <https://www.rfc-editor.org/info/rfc285>.
 RFC0286 |           | Forman, E., "Network Library Information System", RFC 286, DOI 10.17487/RFC0286, December 1971, <https://www.rfc-editor.org/info/rfc286>.
 RFC0287 |   RFC0288 | Westheimer, E., "Status of Network Hosts", RFC 287, DOI 10.17487/RFC0287, December 1971, <https://www.rfc-editor.org/info/rfc287>.
-RFC0288 |   RFC0293 | Westheimer, E., "Network host status", RFC 288, DOI 10.17487/RFC0288, January 1972, <https://www.rfc-editor.org/info/rfc288>.
+RFC0288 |           | Westheimer, E., "Network host status", RFC 288, DOI 10.17487/RFC0288, January 1972, <https://www.rfc-editor.org/info/rfc288>.
 RFC0289 |   RFC0384 | Watson, R., "What we hope is an official list of host names", RFC 289, DOI 10.17487/RFC0289, December 1971, <https://www.rfc-editor.org/info/rfc289>.
 RFC0290 |           | Mullery, A., "Computer networks and data sharing: A bibliography", RFC 290, DOI 10.17487/RFC0290, January 1972, <https://www.rfc-editor.org/info/rfc290>.
 RFC0291 |           | McKay, D., "Data Management Meeting Announcement", RFC 291, DOI 10.17487/RFC0291, January 1972, <https://www.rfc-editor.org/info/rfc291>.

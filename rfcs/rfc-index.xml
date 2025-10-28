@@ -2016,9 +2016,6 @@
         <obsoletes>
             <doc-id>RFC0010</doc-id>
         </obsoletes>
-        <obsoleted-by>
-            <doc-id>RFC0024</doc-id>
-        </obsoleted-by>
         <updated-by>
             <doc-id>RFC0024</doc-id>
             <doc-id>RFC0027</doc-id>
@@ -2189,9 +2186,6 @@
             <file-format>HTML</file-format>
         </format>
         <page-count>3</page-count>
-        <obsoletes>
-            <doc-id>RFC0016</doc-id>
-        </obsoletes>
         <updates>
             <doc-id>RFC0010</doc-id>
             <doc-id>RFC0016</doc-id>
@@ -6214,9 +6208,6 @@
             <file-format>HTML</file-format>
         </format>
         <page-count>2</page-count>
-        <obsoleted-by>
-            <doc-id>RFC0198</doc-id>
-        </obsoleted-by>
         <updated-by>
             <doc-id>RFC0198</doc-id>
         </updated-by>
@@ -6339,9 +6330,6 @@
             <file-format>HTML</file-format>
         </format>
         <page-count>1</page-count>
-        <obsoletes>
-            <doc-id>RFC0193</doc-id>
-        </obsoletes>
         <obsoleted-by>
             <doc-id>RFC0214</doc-id>
         </obsoleted-by>
@@ -8180,9 +8168,6 @@
         <obsoletes>
             <doc-id>RFC0287</doc-id>
         </obsoletes>
-        <obsoleted-by>
-            <doc-id>RFC0293</doc-id>
-        </obsoleted-by>
         <updated-by>
             <doc-id>RFC0293</doc-id>
         </updated-by>
@@ -8307,9 +8292,6 @@
             <file-format>HTML</file-format>
         </format>
         <page-count>4</page-count>
-        <obsoletes>
-            <doc-id>RFC0288</doc-id>
-        </obsoletes>
         <obsoleted-by>
             <doc-id>RFC0298</doc-id>
         </obsoleted-by>
@@ -325673,6 +325655,7 @@ with its defined SLOs.</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>cellar</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9559</errata-url>
         <doi>10.17487/RFC9559</doi>
     </rfc-entry>
     <rfc-entry>
