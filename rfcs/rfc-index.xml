@@ -196894,6 +196894,9 @@
         </keywords>
         <abstract><p>YANG is a data modeling language used to model configuration and state data manipulated by the Network Configuration Protocol (NETCONF), NETCONF remote procedure calls, and NETCONF notifications. [STANDARDS-TRACK]</p></abstract>
         <draft>draft-ietf-netmod-yang-13</draft>
+        <updated-by>
+            <doc-id>RFC9890</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -274984,6 +274987,7 @@
             <doc-id>RFC9353</doc-id>
             <doc-id>RFC9753</doc-id>
             <doc-id>RFC9756</doc-id>
+            <doc-id>RFC9862</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -336625,6 +336629,97 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9845</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9854</doc-id>
+        <title>AODV-RPL: The Routing Protocol for Low-Power and Lossy Networks (RPL) Based on Ad Hoc On-Demand Distance Vector (AODV) Routing</title>
+        <author>
+            <name>C.E. Perkins</name>
+        </author>
+        <author>
+            <name>S.V.R. Anand</name>
+        </author>
+        <author>
+            <name>S. Anamalamudi</name>
+        </author>
+        <author>
+            <name>B. Liu</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>31</page-count>
+        <keywords>
+            <kw>AODV</kw>
+            <kw>Peer-to-Peer Route Discovery</kw>
+            <kw>Asymmetric</kw>
+        </keywords>
+        <abstract><p>Route discovery for symmetric and asymmetric Peer-to-Peer (P2P) traffic flows is a desirable feature in Low-Power and Lossy Networks (LLNs).  For that purpose, this document specifies AODV-RPL -- the Routing Protocol for Low-Power and Lossy Networks (RPL) based on Ad hoc On-demand Distance Vector (AODV) routing.  AODV-RPL is a reactive P2P route discovery mechanism for both hop-by-hop routes and source routing.  Paired instances are used to construct directional paths for cases where there are asymmetric links between source and target nodes.</p></abstract>
+        <draft>draft-ietf-roll-aodv-rpl-20</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>roll</wg_acronym>
+        <doi>10.17487/RFC9854</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9855</doc-id>
+        <title>Topology Independent Fast Reroute Using Segment Routing</title>
+        <author>
+            <name>A. Bashandy</name>
+        </author>
+        <author>
+            <name>S. Litkowski</name>
+        </author>
+        <author>
+            <name>C. Filsfils</name>
+        </author>
+        <author>
+            <name>P. Francois</name>
+        </author>
+        <author>
+            <name>B. Decraene</name>
+        </author>
+        <author>
+            <name>D. Voyer</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>23</page-count>
+        <keywords>
+            <kw>TILFA</kw>
+            <kw>LFA</kw>
+            <kw>FRR</kw>
+            <kw>fast reroute</kw>
+            <kw>recovery</kw>
+            <kw> SR</kw>
+            <kw>protection</kw>
+            <kw>convergence</kw>
+        </keywords>
+        <abstract><p>This document presents Topology Independent Loop-Free Alternate (TI-LFA) Fast Reroute (FRR), which is aimed at providing protection of node and Adjacency segments within the Segment Routing (SR) framework.  This FRR behavior builds on proven IP FRR concepts being LFAs, Remote LFAs (RLFAs), and Directed Loop-Free Alternates (DLFAs).  It extends these concepts to provide guaranteed coverage in any two-connected networks using a link-state IGP.  An important aspect of TI-LFA is the FRR path selection approach establishing protection over the expected post-convergence paths from the Point of Local Repair (PLR), reducing the operational need to control the tie-breaks among various FRR options.</p></abstract>
+        <draft>draft-ietf-rtgwg-segment-routing-ti-lfa-21</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>rtgwg</wg_acronym>
+        <doi>10.17487/RFC9855</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9856</doc-id>
         <title>Multicast Source Redundancy in EVPNs</title>
         <author>
@@ -336670,6 +336765,56 @@ configurations required to deliver them.</p></abstract>
         <area>rtg</area>
         <wg_acronym>bess</wg_acronym>
         <doi>10.17487/RFC9856</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9857</doc-id>
+        <title>Advertisement of Segment Routing Policies Using BGP - Link State</title>
+        <author>
+            <name>S. Previdi</name>
+        </author>
+        <author>
+            <name>K. Talaulikar</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>J. Dong</name>
+        </author>
+        <author>
+            <name>H. Gredler</name>
+        </author>
+        <author>
+            <name>J. Tantsura</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>52</page-count>
+        <keywords>
+            <kw>BGP</kw>
+            <kw>BGP-LS</kw>
+            <kw>Segment Routing</kw>
+            <kw>SR</kw>
+            <kw>SR Policy</kw>
+            <kw>SR-MPLS</kw>
+            <kw>SRv6</kw>
+            <kw>Traffic Engineering</kw>
+            <kw>BGP SR Policy</kw>
+        </keywords>
+        <abstract><p>This document describes a mechanism used to collect Segment Routing (SR) Policy information that is locally available in a node and advertise it into BGP - Link State (BGP-LS) updates.  Such information can be used by external components for path computation, reoptimization, service placement, network visualization, etc.</p></abstract>
+        <draft>draft-ietf-idr-bgp-ls-sr-policy-17</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>idr</wg_acronym>
+        <doi>10.17487/RFC9857</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9858</doc-id>
@@ -336737,6 +336882,54 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9859</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9860</doc-id>
+        <title>Multicast-Only Fast Reroute (MoFRR) Based on Topology Independent Loop-Free Alternate (TI-LFA) Fast Reroute</title>
+        <author>
+            <name>Y. Liu</name>
+        </author>
+        <author>
+            <name>M. McBride</name>
+        </author>
+        <author>
+            <name>Z. Zhang</name>
+        </author>
+        <author>
+            <name>J. Xie</name>
+        </author>
+        <author>
+            <name>C. Lin</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <keywords>
+            <kw>PIM</kw>
+            <kw>MoFRR</kw>
+            <kw>LFA</kw>
+            <kw>TI-LFA</kw>
+            <kw>SR-MPLS</kw>
+            <kw>SRv6</kw>
+            <kw>RPF Vector</kw>
+            <kw>Join attribute</kw>
+        </keywords>
+        <abstract><p>This document specifies the use of Topology Independent Loop-Free Alternate (TI-LFA) mechanisms with Multicast-only Fast Reroute (MoFRR) for Protocol Independent Multicast (PIM).  The TI-LFA provides Fast Reroute (FRR) protection for unicast traffic in IP networks by precomputing backup paths that avoid potential failures.  By integrating TI-LFA with MoFRR, this document extends the benefits of FRR mechanisms to multicast traffic, enabling enhanced resilience and minimized packet loss in multicast networks.  The document outlines an optional approach to implement TI-LFA in conjunction with MoFRR for PIM, ensuring that multicast traffic is rapidly rerouted in the event of a failure.</p></abstract>
+        <draft>draft-ietf-pim-mofrr-tilfa-14</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pim</wg_acronym>
+        <doi>10.17487/RFC9860</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9861</doc-id>
         <title>KangarooTwelve and TurboSHAKE</title>
         <author>
@@ -336783,6 +336976,96 @@ configurations required to deliver them.</p></abstract>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IRTF</stream>
         <doi>10.17487/RFC9861</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9862</doc-id>
+        <title>Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing (SR) Policy Candidate Paths</title>
+        <author>
+            <name>M. Koldychev</name>
+        </author>
+        <author>
+            <name>S. Sivabalan</name>
+        </author>
+        <author>
+            <name>S. Sidor</name>
+        </author>
+        <author>
+            <name>C. Barth</name>
+        </author>
+        <author>
+            <name>S. Peng</name>
+        </author>
+        <author>
+            <name>H. Bidgoli</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>26</page-count>
+        <keywords>
+            <kw>PCEP</kw>
+            <kw>SR Policy</kw>
+            <kw>Candidate Path</kw>
+        </keywords>
+        <abstract><p>A Segment Routing (SR) Policy is an ordered list of instructions called "segments" that represent a source-routed policy. Packet flows are steered into an SR Policy on a node where it is instantiated. An SR Policy is made of one or more Candidate Paths.</p><p> This document specifies the Path Computation Element Communication Protocol (PCEP) extension to signal Candidate Paths of an SR Policy. Additionally, this document updates RFC 8231 to allow delegation and setup of an SR Label Switched Path (LSP) without using the path computation request and reply messages. This document is applicable to both Segment Routing over MPLS (SR-MPLS) and Segment Routing over IPv6 (SRv6).</p></abstract>
+        <draft>draft-ietf-pce-segment-routing-policy-cp-27</draft>
+        <updates>
+            <doc-id>RFC8231</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pce</wg_acronym>
+        <doi>10.17487/RFC9862</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9863</doc-id>
+        <title>Path Computation Element Protocol (PCEP) Extension for Color</title>
+        <author>
+            <name>B. Rajagopalan</name>
+        </author>
+        <author>
+            <name>V. Beeram</name>
+        </author>
+        <author>
+            <name>S. Peng</name>
+        </author>
+        <author>
+            <name>M. Koldychev</name>
+        </author>
+        <author>
+            <name>G. Mishra</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>10</page-count>
+        <keywords>
+            <kw>color</kw>
+        </keywords>
+        <abstract><p>Color is a 32-bit numerical (unsigned integer) attribute used to associate a Traffic Engineering (TE) tunnel or policy with an intent or objective.  For example, a TE Tunnel constructed to deliver low latency services and whose path is optimized for delay can be tagged with a color that represents "low latency." This document specifies extensions to the Path Computation Element Protocol (PCEP) to carry the color attribute.</p></abstract>
+        <draft>draft-ietf-pce-pcep-color-12</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pce</wg_acronym>
+        <doi>10.17487/RFC9863</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9865</doc-id>
@@ -337127,6 +337410,84 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9879</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9881</doc-id>
+        <title>Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA)</title>
+        <author>
+            <name>J. Massimo</name>
+        </author>
+        <author>
+            <name>P. Kampanakis</name>
+        </author>
+        <author>
+            <name>S. Turner</name>
+        </author>
+        <author>
+            <name>B. E. Westerbaan</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>91</page-count>
+        <keywords>
+            <kw>ML-DSA</kw>
+            <kw>Certificate</kw>
+            <kw>X.509</kw>
+            <kw>PKIX</kw>
+        </keywords>
+        <abstract><p>Digital signatures are used within X.509 certificates and Certificate Revocation Lists (CRLs), and to sign messages.  This document specifies the conventions for using FIPS 204, the Module-Lattice-Based Digital Signature Algorithm (ML-DSA) in Internet X.509 certificates and CRLs.  The conventions for the associated signatures, subject public keys, and private key are also described.</p></abstract>
+        <draft>draft-ietf-lamps-dilithium-certificates-13</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9881</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9882</doc-id>
+        <title>Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)</title>
+        <author>
+            <name>B. Salter</name>
+        </author>
+        <author>
+            <name>A. Raine</name>
+        </author>
+        <author>
+            <name>D. Van Geest</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>25</page-count>
+        <keywords>
+            <kw>cms</kw>
+            <kw>ml-dsa</kw>
+            <kw>dilithium</kw>
+        </keywords>
+        <abstract><p>The Module-Lattice-Based Digital Signature Algorithm (ML-DSA), as defined by NIST in FIPS 204, is a post-quantum digital signature scheme that aims to be secure against an adversary in possession of a Cryptographically Relevant Quantum Computer (CRQC).  This document specifies the conventions for using the ML-DSA signature algorithm with the Cryptographic Message Syntax (CMS).  In addition, the algorithm identifier syntax is provided.</p></abstract>
+        <draft>draft-ietf-lamps-cms-ml-dsa-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9882</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9883</doc-id>
         <title>An Attribute for Statement of Possession of a Private Key</title>
         <author>
@@ -337154,6 +337515,89 @@ configurations required to deliver them.</p></abstract>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
         <doi>10.17487/RFC9883</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9884</doc-id>
+        <title>Label Switched Path Ping for Segment Routing Path Segment Identifier with MPLS Data Plane</title>
+        <author>
+            <name>X. Min</name>
+        </author>
+        <author>
+            <name>S. Peng</name>
+        </author>
+        <author>
+            <name>L. Gong</name>
+        </author>
+        <author>
+            <name>R. Gandhi</name>
+        </author>
+        <author>
+            <name>C. Pignataro</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>19</page-count>
+        <keywords>
+            <kw>Target FEC Stack</kw>
+            <kw>PSID</kw>
+        </keywords>
+        <abstract><p>Segment Routing (SR) leverages source routing to steer packets through an ordered list of instructions called "segments".  SR can be instantiated over the MPLS data plane.  Path Segment Identifiers (PSIDs) are used to identify and correlate bidirectional or end-to-end paths in SR networks.  This document defines procedures (i.e., six new Target Forwarding Equivalence Class (FEC) Stack sub-TLVs) for the use of LSP Ping to support connectivity verification and fault isolation for SR paths that include PSIDs.  The mechanisms described enable the validation and tracing of SR paths with Path SIDs in MPLS networks, complementing existing SR-MPLS Operations, Administration, and Maintenance (OAM) capabilities.</p></abstract>
+        <draft>draft-ietf-mpls-spring-lsp-ping-path-sid-13</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>mpls</wg_acronym>
+        <doi>10.17487/RFC9884</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9890</doc-id>
+        <title>An Update to YANG Module Names Registration</title>
+        <author>
+            <name>A. Bierman</name>
+        </author>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>Q. Wu</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>NETCONF</kw>
+            <kw>RESTCONF</kw>
+            <kw>Automation</kw>
+        </keywords>
+        <abstract><p>This document amends the IANA guidance on the uniqueness of YANG module and submodule names.</p><p> The document updates RFC 6020 to clarify how modules and their revisions are handled by IANA.</p></abstract>
+        <draft>draft-ietf-netmod-rfc6020-iana-update-02</draft>
+        <updates>
+            <doc-id>RFC6020</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>netmod</wg_acronym>
+        <doi>10.17487/RFC9890</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
