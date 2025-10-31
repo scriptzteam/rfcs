@@ -248860,6 +248860,9 @@
         <page-count>69</page-count>
         <abstract><p>This specification registers cryptographic algorithms and identifiers to be used with the JSON Web Signature (JWS), JSON Web Encryption (JWE), and JSON Web Key (JWK) specifications.  It defines several IANA registries for these identifiers.</p></abstract>
         <draft>draft-ietf-jose-json-web-algorithms-40</draft>
+        <updated-by>
+            <doc-id>RFC9864</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -268078,6 +268081,9 @@
         </keywords>
         <abstract><p>This document defines how to use the Diffie-Hellman algorithms "X25519" and "X448" as well as the signature algorithms "Ed25519" and "Ed448" from the IRTF CFRG elliptic curves work in JSON Object Signing and Encryption (JOSE).</p></abstract>
         <draft>draft-ietf-jose-cfrg-curves-06</draft>
+        <updated-by>
+            <doc-id>RFC9864</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -305922,6 +305928,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <obsoletes>
             <doc-id>RFC8152</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9864</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
@@ -328082,6 +328091,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>taps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9622</errata-url>
         <doi>10.17487/RFC9622</doi>
     </rfc-entry>
     <rfc-entry>
@@ -337068,6 +337078,47 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9863</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9864</doc-id>
+        <title>Fully-Specified Algorithms for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)</title>
+        <author>
+            <name>M.B. Jones</name>
+        </author>
+        <author>
+            <name>O. Steele</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>16</page-count>
+        <keywords>
+            <kw>Cryptographic Algorithm Identifiers</kw>
+            <kw>JSON Object Signing and Encryption (JOSE)</kw>
+            <kw>CBOR Object Signing and Encryption (COSE)</kw>
+            <kw>Polymorphic Algorithms</kw>
+            <kw>Algorithm Cipher Suites</kw>
+        </keywords>
+        <abstract><p>This specification refers to cryptographic algorithm identifiers that fully specify the cryptographic operations to be performed, including any curve, key derivation function (KDF), and hash functions, as being "fully specified". It refers to cryptographic algorithm identifiers that require additional information beyond the algorithm identifier to determine the cryptographic operations to be performed as being "polymorphic". This specification creates fully-specified algorithm identifiers for registered JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE) polymorphic algorithm identifiers, enabling applications to use only fully-specified algorithm identifiers. It deprecates those polymorphic algorithm identifiers.</p><p> This specification updates RFCs 7518, 8037, and 9053. It deprecates polymorphic algorithms defined by RFCs 8037 and 9053 and provides fully-specified replacements for them. It adds to the instructions to designated experts in RFCs 7518 and 9053.</p></abstract>
+        <draft>draft-ietf-jose-fully-specified-algorithms-13</draft>
+        <updates>
+            <doc-id>RFC7518</doc-id>
+            <doc-id>RFC8037</doc-id>
+            <doc-id>RFC9053</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>jose</wg_acronym>
+        <doi>10.17487/RFC9864</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9865</doc-id>
         <title>Cursor-Based Pagination of System of Cross-domain Identity Management (SCIM) Resources</title>
         <author>
@@ -337343,6 +337394,37 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9874</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9875</doc-id>
+        <title>HTTP Cache Groups</title>
+        <author>
+            <name>M. Nottingham</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>6</page-count>
+        <keywords>
+            <kw>HTTP</kw>
+            <kw>Caching</kw>
+            <kw>Invalidation</kw>
+        </keywords>
+        <abstract><p>This specification introduces a means of describing the relationships between stored responses in HTTP caches, grouping them by associating a stored response with one or more strings.</p></abstract>
+        <draft>draft-ietf-httpbis-cache-groups-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>httpbis</wg_acronym>
+        <doi>10.17487/RFC9875</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9877</doc-id>
         <title>Registration Data Access Protocol (RDAP) Extension for Geofeed Data</title>
         <author>
@@ -337557,6 +337639,44 @@ configurations required to deliver them.</p></abstract>
         <area>rtg</area>
         <wg_acronym>mpls</wg_acronym>
         <doi>10.17487/RFC9884</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9885</doc-id>
+        <title>Multi-Part TLVs in IS-IS</title>
+        <author>
+            <name>P. Kaneriya</name>
+        </author>
+        <author>
+            <name>T. Li</name>
+        </author>
+        <author>
+            <name>A. Przygienda</name>
+        </author>
+        <author>
+            <name>S. Hegde</name>
+        </author>
+        <author>
+            <name>L. Ginsberg</name>
+        </author>
+        <date>
+            <month>October</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>26</page-count>
+        <abstract><p>New technologies are adding new information into IS-IS while deployment scales are simultaneously increasing.  This causes the contents of many critical TLVs to exceed the currently supported limit of 255 octets.  This document codifies the common mechanism of extending the TLV content space through multiple TLVs.</p></abstract>
+        <draft>draft-ietf-lsr-multi-tlv-19</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9885</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9890</doc-id>
