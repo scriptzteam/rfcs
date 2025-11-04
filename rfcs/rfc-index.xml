@@ -50903,7 +50903,8 @@
         <abstract><p>The IPv6 address space will be managed by the IANA for the good of the Internet community, with advice from the IAB and the IESG, by delegation to the regional registries.  This memo provides information for the Internet community.  This memo does not specify an Internet standard of any kind.</p></abstract>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
-        <stream>Legacy</stream>
+        <stream>IETF</stream>
+        <wg_acronym>NON WORKING GROUP</wg_acronym>
         <doi>10.17487/RFC1881</doi>
     </rfc-entry>
     <rfc-entry>
@@ -305887,6 +305888,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>cose</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9052</errata-url>
         <doi>10.17487/RFC9052</doi>
     </rfc-entry>
     <rfc-entry>
@@ -325471,6 +325473,7 @@ with its defined SLOs.</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>calext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9554</errata-url>
         <doi>10.17487/RFC9554</doi>
     </rfc-entry>
     <rfc-entry>
