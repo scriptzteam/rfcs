@@ -210303,6 +210303,9 @@
         <obsoletes>
             <doc-id>RFC3547</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9838</doc-id>
+        </obsoleted-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -241028,6 +241031,7 @@
             <doc-id>RFC8247</doc-id>
             <doc-id>RFC8983</doc-id>
             <doc-id>RFC9370</doc-id>
+            <doc-id>RFC9827</doc-id>
         </updated-by>
         <is-also>
             <doc-id>STD0079</doc-id>
@@ -335873,6 +335877,42 @@ Address Space" registry.  It also updates RFC 7249.</p></abstract>
         <doi>10.17487/RFC9826</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9827</doc-id>
+        <title>Renaming the Extended Sequence Numbers (ESN) Transform Type in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+        <author>
+            <name>V. Smyslov</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>8</page-count>
+        <keywords>
+            <kw>replay protection</kw>
+            <kw>anti-replay</kw>
+            <kw>IPsec</kw>
+            <kw>ESP</kw>
+            <kw>AH</kw>
+        </keywords>
+        <abstract><p>This document clarifies and extends the meaning of Transform Type 5 in Internet Key Exchange Protocol Version 2 (IKEv2).  It updates RFC 7296 by renaming Transform Type 5 from "Extended Sequence Numbers (ESN)" to "Sequence Numbers (SN)".  It also renames two currently defined values for this Transform Type: value 0 from "No Extended Sequence Numbers" to "32-bit Sequential Numbers" and value 1 from "Extended Sequence Numbers" to "Partially Transmitted 64-bit Sequential Numbers".</p></abstract>
+        <draft>draft-ietf-ipsecme-ikev2-rename-esn-05</draft>
+        <updates>
+            <doc-id>RFC7296</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>ipsecme</wg_acronym>
+        <doi>10.17487/RFC9827</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9828</doc-id>
         <title>RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency</title>
         <author>
@@ -336361,6 +336401,38 @@ configurations required to deliver them.</p></abstract>
         <area>int</area>
         <wg_acronym>6man</wg_acronym>
         <doi>10.17487/RFC9837</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9838</doc-id>
+        <title>Group Key Management Using the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+        <author>
+            <name>V. Smyslov</name>
+        </author>
+        <author>
+            <name>B. Weis</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>66</page-count>
+        <abstract><p>This document presents an extension to the Internet Key Exchange Protocol Version 2 (IKEv2) for the purpose of group key management. The protocol is in conformance with the Multicast Security (MSEC) Group Key Management architecture, which contains two components: member registration and group rekeying. Both components are required for a Group Controller/Key Server (GCKS) to provide authorized Group Members (GMs) with IPsec Group Security Associations (GSAs). The GMs then exchange IP multicast or other group traffic as IPsec packets.</p><p> This document obsoletes RFC 6407.</p></abstract>
+        <draft>draft-ietf-ipsecme-g-ikev2-23</draft>
+        <obsoletes>
+            <doc-id>RFC6407</doc-id>
+        </obsoletes>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>ipsecme</wg_acronym>
+        <doi>10.17487/RFC9838</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9839</doc-id>
@@ -337185,6 +337257,40 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9866</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9867</doc-id>
+        <title>Mixing Preshared Keys in the IKE_INTERMEDIATE and CREATE_CHILD_SA Exchanges of the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-Quantum Security</title>
+        <author>
+            <name>V. Smyslov</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>12</page-count>
+        <keywords>
+            <kw>internet key exchange</kw>
+            <kw>quantum computer</kw>
+            <kw>post quantum</kw>
+            <kw>post-quantum</kw>
+            <kw>quantum safe</kw>
+            <kw>PPK</kw>
+        </keywords>
+        <abstract><p>An Internet Key Exchange Protocol Version 2 (IKEv2) extension defined in RFC 8784 allows IPsec traffic to be protected against someone storing VPN communications and decrypting them later, when (and if) a Cryptographically Relevant Quantum Computer (CRQC) is available. The protection is achieved by means of a Post-quantum Preshared Key (PPK) that is mixed into the session keys calculation. However, this protection does not cover an initial IKEv2 Security Association (SA), which might be unacceptable in some scenarios. This specification defines an alternative way to provide protection against quantum computers, which is similar to the solution defined in RFC 8784, but it also protects the initial IKEv2 SA.</p><p> RFC 8784 assumes that PPKs are static and thus they are only used when an initial IKEv2 SA is created. If a fresh PPK is available before the IKE SA expires, then the only way to use it is to delete the current IKE SA and create a new one from scratch, which is inefficient. This specification defines a way to use PPKs in active IKEv2 SAs for creating additional IPsec SAs and rekey operations.</p></abstract>
+        <draft>draft-ietf-ipsecme-ikev2-qr-alt-10</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>ipsecme</wg_acronym>
+        <doi>10.17487/RFC9867</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9868</doc-id>
         <title>Transport Options for UDP</title>
         <author>
@@ -337680,6 +337786,52 @@ configurations required to deliver them.</p></abstract>
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
         <doi>10.17487/RFC9885</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9889</doc-id>
+        <title>A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies</title>
+        <author>
+            <name>K. Szarkowicz</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R. Roberts</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>J. Lucek</name>
+        </author>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>LM. Contreras</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>68</page-count>
+        <keywords>
+            <kw>L3VPN</kw>
+            <kw>L2VPN</kw>
+            <kw>Slice Service</kw>
+        </keywords>
+        <abstract><p>Network slicing is a feature that was introduced by the 3rd Generation Partnership Project (3GPP) in Mobile Networks. Realization of 5G slicing implies requirements for all mobile domains, including the Radio Access Network (RAN), Core Network (CN), and Transport Network (TN).</p><p> This document describes a network slice realization model for IP/MPLS networks with a focus on the Transport Network fulfilling the service objectives for 5G slicing connectivity. The realization model reuses many building blocks commonly used in service provider networks at the current time.</p></abstract>
+        <draft>draft-ietf-teas-5g-ns-ip-mpls-18</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>teas</wg_acronym>
+        <doi>10.17487/RFC9889</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9890</doc-id>

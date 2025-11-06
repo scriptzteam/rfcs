@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 11/03/2025.
+CREATED ON: 11/05/2025.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -336,7 +336,7 @@ page http://www.rfc-editor.org
 0079 Internet Key Exchange Protocol Version 2 (IKEv2). C. Kaufman, P.
      Hoffman, Y. Nir, P. Eronen, T. Kivinen. October 2014. (Format:
      TXT=354358 HTML= bytes) (Obsoletes RFC5996) (Updated by RFC7427,
-     RFC7670, RFC8247, RFC8983, RFC9370) (Also RFC7296)
+     RFC7670, RFC8247, RFC8983, RFC9370, RFC9827) (Also RFC7296)
 
 0080 ASCII format for network interchange. V.G. Cerf. October 1969.
      (Format: TXT=18504, PDF =197096 HTML= bytes) (Also RFC0020)
