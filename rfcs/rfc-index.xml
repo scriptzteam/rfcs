@@ -30503,6 +30503,7 @@
         <current-status>HISTORIC</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1234</errata-url>
         <doi>10.17487/RFC1234</doi>
     </rfc-entry>
     <rfc-entry>
@@ -289702,6 +289703,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>kitten</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8636</errata-url>
         <doi>10.17487/RFC8636</doi>
     </rfc-entry>
     <rfc-entry>
@@ -331006,6 +331008,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>extra</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9698</errata-url>
         <doi>10.17487/RFC9698</doi>
     </rfc-entry>
     <rfc-entry>
