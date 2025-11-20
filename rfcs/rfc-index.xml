@@ -77388,6 +77388,7 @@
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>nfsv4</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc2624</errata-url>
         <doi>10.17487/RFC2624</doi>
     </rfc-entry>
     <rfc-entry>
@@ -93827,6 +93828,7 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>udlr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc3077</errata-url>
         <doi>10.17487/RFC3077</doi>
     </rfc-entry>
     <rfc-entry>
@@ -241689,6 +241691,7 @@
         <updated-by>
             <doc-id>RFC7913</doc-id>
             <doc-id>RFC7976</doc-id>
+            <doc-id>RFC9878</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -265835,6 +265838,9 @@
         </keywords>
         <abstract><p>The Third Generation Partnership Project (3GPP) has identified cases where different SIP private header extensions referred to as "P-" header fields, and defined in RFC 7315, need to be included in SIP requests and responses currently not allowed according to RFC 7315. This document updates RFC 7315, in order to allow inclusion of the affected "P-" header fields in such requests and responses.</p><p> This document also makes updates for RFC 7315 in order to fix misalignments that occurred when RFC 3455 was updated and obsoleted by RFC 7315.</p></abstract>
         <draft>draft-holmberg-dispatch-rfc7315-updates-09</draft>
+        <obsoleted-by>
+            <doc-id>RFC9878</doc-id>
+        </obsoleted-by>
         <updates>
             <doc-id>RFC7315</doc-id>
         </updates>
@@ -337603,6 +337609,52 @@ configurations required to deliver them.</p></abstract>
         <area>art</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9877</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9878</doc-id>
+        <title>Updates to Private Header (P-Header) Extension Usage in Session Initiation Protocol (SIP) Requests and Responses</title>
+        <author>
+            <name>C. Holmberg</name>
+        </author>
+        <author>
+            <name>N. Biondic</name>
+        </author>
+        <author>
+            <name>G. Salgueiro</name>
+        </author>
+        <author>
+            <name>R. Jesske</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>9</page-count>
+        <keywords>
+            <kw>3GPP</kw>
+            <kw>Visited</kw>
+            <kw>ID</kw>
+        </keywords>
+        <abstract><p>The Third Generation Partnership Project (3GPP) has identified cases where different SIP private header extensions referred to as "P-" header fields, and defined in RFC 7315, need to be included in SIP requests and responses where they were not allowed according to RFC 7315. This document updates RFC 7315, in order to allow inclusion of the affected "P-" header fields in such requests and responses. This document obsoletes RFC 7976. The changes related to RFC 7976 involve the inclusion of the P-Visited-Network-ID header field in SIP responses.</p><p> This document also makes updates to RFC 7315 in order to fix misalignments that occurred when RFC 3455 was obsoleted by RFC 7315.</p></abstract>
+        <draft>draft-ietf-sipcore-rfc7976bis-04</draft>
+        <obsoletes>
+            <doc-id>RFC7976</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC7315</doc-id>
+        </updates>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>sipcore</wg_acronym>
+        <doi>10.17487/RFC9878</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9879</doc-id>
