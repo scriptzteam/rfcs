@@ -337403,6 +337403,44 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9870</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9871</doc-id>
+        <title>BGP Color-Aware Routing (CAR)</title>
+        <author>
+            <name>D. Rao</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>S. Agrawal</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>76</page-count>
+        <keywords>
+            <kw>intent-aware routing</kw>
+            <kw>intent-based routing</kw>
+            <kw>color-aware VPNs</kw>
+            <kw>color-aware BGP transport</kw>
+            <kw>BGP extensible NLRI</kw>
+        </keywords>
+        <abstract><p>This document describes a BGP-based routing solution to establish end-to-end intent-aware paths across a multi-domain transport network. The transport network can span multiple service provider and customer network domains. The BGP intent-aware paths can be used to steer traffic flows for service routes that need a specific intent. This solution is called BGP Color-Aware Routing (BGP CAR).</p><p> This document describes the routing framework and BGP extensions to enable intent-aware routing using the BGP CAR solution. The solution defines two new BGP SAFIs (BGP CAR SAFI and BGP VPN CAR SAFI) for IPv4 and IPv6. It also defines an extensible Network Layer Reachability Information (NLRI) model for both SAFIs that allows multiple NLRI types to be defined for different use cases. Each type of NLRI contains key and TLV-based non-key fields for efficient encoding of different per-prefix information. This specification defines two NLRI types: Color-Aware Route NLRI and IP Prefix NLRI. It defines non-key TLV types for the MPLS label stack, SR-MPLS label index, and Segment Routing over IPv6 (SRv6) Segment Identifiers (SIDs). This solution also defines a new Local Color Mapping (LCM) Extended Community.</p></abstract>
+        <draft>draft-ietf-idr-bgp-car-16</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>idr</wg_acronym>
+        <doi>10.17487/RFC9871</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9872</doc-id>
         <title>Recommendations for Discovering IPv6 Prefix Used for IPv6 Address Synthesis</title>
         <author>
@@ -337640,6 +337678,9 @@ configurations required to deliver them.</p></abstract>
             <kw>3GPP</kw>
             <kw>Visited</kw>
             <kw>ID</kw>
+            <kw>P-</kw>
+            <kw>3GPP</kw>
+            <kw>IMS</kw>
         </keywords>
         <abstract><p>The Third Generation Partnership Project (3GPP) has identified cases where different SIP private header extensions referred to as "P-" header fields, and defined in RFC 7315, need to be included in SIP requests and responses where they were not allowed according to RFC 7315. This document updates RFC 7315, in order to allow inclusion of the affected "P-" header fields in such requests and responses. This document obsoletes RFC 7976. The changes related to RFC 7976 involve the inclusion of the P-Visited-Network-ID header field in SIP responses.</p><p> This document also makes updates to RFC 7315 in order to fix misalignments that occurred when RFC 3455 was obsoleted by RFC 7315.</p></abstract>
         <draft>draft-ietf-sipcore-rfc7976bis-04</draft>
@@ -337967,6 +338008,135 @@ configurations required to deliver them.</p></abstract>
         <area>ops</area>
         <wg_acronym>netmod</wg_acronym>
         <doi>10.17487/RFC9890</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9891</doc-id>
+        <title>Automated Certificate Management Environment (ACME) Delay-Tolerant Networking (DTN) Node ID Validation Extension</title>
+        <author>
+            <name>B. Sipos</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>26</page-count>
+        <keywords>
+            <kw>ACME</kw>
+            <kw>DTN</kw>
+        </keywords>
+        <abstract><p>This document specifies an extension to the Automated Certificate Management Environment (ACME) protocol that allows an ACME server to validate the Delay-Tolerant Networking (DTN) Node ID for an ACME client.  A DTN Node ID is an identifier used in the Bundle Protocol (BP) to name a "singleton endpoint": an endpoint that is registered on a single BP Node.  The DTN Node ID is encoded both as a certificate Subject Alternative Name (SAN) identity of type otherName with an Other Name form of BundleEID and as an ACME Identifier type "bundleEID".</p></abstract>
+        <draft>draft-ietf-acme-dtnnodeid-18</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>acme</wg_acronym>
+        <doi>10.17487/RFC9891</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9898</doc-id>
+        <title>Neighbor Discovery Considerations in IPv6 Deployments</title>
+        <author>
+            <name>X. Xiao</name>
+        </author>
+        <author>
+            <name>E. Vasilenko</name>
+        </author>
+        <author>
+            <name>E. Metz</name>
+        </author>
+        <author>
+            <name>G. Mishra</name>
+        </author>
+        <author>
+            <name>N. Buraglio</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>26</page-count>
+        <keywords>
+            <kw>ND</kw>
+            <kw>NDP</kw>
+            <kw>SLACC</kw>
+            <kw>DHCPv6-PD</kw>
+            <kw>host isolation</kw>
+        </keywords>
+        <abstract><p>The Neighbor Discovery (ND) protocol is a critical component of the
+IPv6 architecture. The protocol uses multicast in many messages. It
+also assumes a security model where all nodes on a link are trusted.
+Such a design might be inefficient in some scenarios (e.g., use of
+multicast in wireless networks) or when nodes are not trustworthy
+(e.g., public access networks). These security and operational issues
+and the associated mitigation solutions are documented in more than
+twenty RFCs. There is a need to track these issues and solutions in a
+single document.</p><p> To that aim, this document summarizes the published ND issues and
+then describes how all these issues originate from three causes.
+Addressing the issues is made simpler by addressing the causes. This
+document also analyzes the mitigation solutions and demonstrates that
+isolating hosts into different subnets and links can help to address
+the three causes. Guidance is provided for selecting a suitable
+isolation method to prevent potential ND issues.</p></abstract>
+        <draft>draft-ietf-v6ops-nd-considerations-14</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>v6ops</wg_acronym>
+        <doi>10.17487/RFC9898</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9901</doc-id>
+        <title>Selective Disclosure for JSON Web Tokens</title>
+        <author>
+            <name>D. Fett</name>
+        </author>
+        <author>
+            <name>K. Yasuda</name>
+        </author>
+        <author>
+            <name>B. Campbell</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>88</page-count>
+        <keywords>
+            <kw>security</kw>
+            <kw>oauth2</kw>
+            <kw>SD-JWT</kw>
+        </keywords>
+        <abstract><p>This specification defines a mechanism for the selective disclosure
+of individual elements of a JSON data structure used as the payload
+of a JSON Web Signature (JWS).  The primary use case is the selective
+disclosure of JSON Web Token (JWT) claims.</p></abstract>
+        <draft>draft-ietf-oauth-selective-disclosure-jwt-22</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>oauth</wg_acronym>
+        <doi>10.17487/RFC9901</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>

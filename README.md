@@ -2,14 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-11-20 01:11:32 UTC
+Last updated: 2025-11-21 01:11:59 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9868](rfcs/rfc9868.txt) | Transport Options for UDP | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9868) |
-| [RFC 9869](rfcs/rfc9869.txt) | Datagram Packetization Layer Path MTU Discovery (DPLPMTUD) for UDP Options | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9869) |
 | [RFC 9870](rfcs/rfc9870.txt) | Export of UDP Options Information in IP Flow Information Export (IPFIX) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9870) |
 | [RFC 9872](rfcs/rfc9872.txt) | Recommendations for Discovering IPv6 Prefix Used for IPv6 Address Synthesis | September 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9872) |
 | [RFC 9873](rfcs/rfc9873.txt) | Additional Email Address Extension for the Extensible Provisioning Protocol (EPP) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9873) |
@@ -17,6 +15,7 @@ Last updated: 2025-11-20 01:11:32 UTC
 | [RFC 9875](rfcs/rfc9875.txt) | HTTP Cache Groups | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9875) |
 | [RFC 9876](rfcs/rfc9876.txt) | Updates to the IANA Registration Procedures for Constrained Application Protocol (CoAP) Content-Formats | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9876) |
 | [RFC 9877](rfcs/rfc9877.txt) | Registration Data Access Protocol (RDAP) Extension for Geofeed Data | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9877) |
+| [RFC 9878](rfcs/rfc9878.txt) | Updates to Private Header (P-Header) Extension Usage in Session Initiation Protocol (SIP) Requests and Responses | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9878) |
 | [RFC 9879](rfcs/rfc9879.txt) | Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax | September 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9879) |
 | [RFC 9881](rfcs/rfc9881.txt) | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9881) |
 | [RFC 9882](rfcs/rfc9882.txt) | Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9882) |
@@ -25,3 +24,4 @@ Last updated: 2025-11-20 01:11:32 UTC
 | [RFC 9885](rfcs/rfc9885.txt) | Multi-Part TLVs in IS-IS | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9885) |
 | [RFC 9889](rfcs/rfc9889.txt) | A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9889) |
 | [RFC 9890](rfcs/rfc9890.txt) | An Update to YANG Module Names Registration | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9890) |
+| [RFC 9901](rfcs/rfc9901.txt) | Selective Disclosure for JSON Web Tokens | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9901) |
