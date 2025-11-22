@@ -2,14 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-11-21 01:11:59 UTC
+Last updated: 2025-11-22 01:09:45 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9870](rfcs/rfc9870.txt) | Export of UDP Options Information in IP Flow Information Export (IPFIX) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9870) |
-| [RFC 9872](rfcs/rfc9872.txt) | Recommendations for Discovering IPv6 Prefix Used for IPv6 Address Synthesis | September 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9872) |
 | [RFC 9873](rfcs/rfc9873.txt) | Additional Email Address Extension for the Extensible Provisioning Protocol (EPP) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9873) |
 | [RFC 9874](rfcs/rfc9874.txt) | Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP) | September 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9874) |
 | [RFC 9875](rfcs/rfc9875.txt) | HTTP Cache Groups | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9875) |
@@ -24,4 +22,6 @@ Last updated: 2025-11-21 01:11:59 UTC
 | [RFC 9885](rfcs/rfc9885.txt) | Multi-Part TLVs in IS-IS | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9885) |
 | [RFC 9889](rfcs/rfc9889.txt) | A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9889) |
 | [RFC 9890](rfcs/rfc9890.txt) | An Update to YANG Module Names Registration | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9890) |
+| [RFC 9891](rfcs/rfc9891.txt) | Automated Certificate Management Environment (ACME) Delay-Tolerant Networking (DTN) Node ID Validation Extension | November 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9891) |
+| [RFC 9898](rfcs/rfc9898.txt) | Neighbor Discovery Considerations in IPv6 Deployments | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9898) |
 | [RFC 9901](rfcs/rfc9901.txt) | Selective Disclosure for JSON Web Tokens | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9901) |
