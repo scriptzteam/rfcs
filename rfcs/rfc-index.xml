@@ -77388,7 +77388,6 @@
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>nfsv4</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc2624</errata-url>
         <doi>10.17487/RFC2624</doi>
     </rfc-entry>
     <rfc-entry>
@@ -93828,7 +93827,6 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>udlr</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc3077</errata-url>
         <doi>10.17487/RFC3077</doi>
     </rfc-entry>
     <rfc-entry>
@@ -274223,6 +274221,7 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>sidr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8209</errata-url>
         <doi>10.17487/RFC8209</doi>
     </rfc-entry>
     <rfc-entry>
