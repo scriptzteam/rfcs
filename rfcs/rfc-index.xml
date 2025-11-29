@@ -26200,6 +26200,7 @@
         <current-status>EXPERIMENTAL</current-status>
         <publication-status>EXPERIMENTAL</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1075</errata-url>
         <doi>10.17487/RFC1075</doi>
     </rfc-entry>
     <rfc-entry>
