@@ -127878,6 +127878,7 @@
             <doc-id>RFC6944</doc-id>
             <doc-id>RFC9077</doc-id>
             <doc-id>RFC9824</doc-id>
+            <doc-id>RFC9905</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -166490,6 +166491,7 @@
             <doc-id>RFC9077</doc-id>
             <doc-id>RFC9157</doc-id>
             <doc-id>RFC9276</doc-id>
+            <doc-id>RFC9905</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -289305,6 +289307,9 @@
         <obsoletes>
             <doc-id>RFC6944</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9904</doc-id>
+        </obsoleted-by>
         <updated-by>
             <doc-id>RFC9157</doc-id>
         </updated-by>
@@ -310069,6 +310074,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
             <doc-id>RFC6014</doc-id>
             <doc-id>RFC8624</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9904</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -338138,6 +338146,128 @@ disclosure of JSON Web Token (JWT) claims.</p></abstract>
         <area>sec</area>
         <wg_acronym>oauth</wg_acronym>
         <doi>10.17487/RFC9901</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9904</doc-id>
+        <title>DNSSEC Cryptographic Algorithm Recommendation Update Process</title>
+        <author>
+            <name>W. Hardaker</name>
+        </author>
+        <author>
+            <name>W. Kumari</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>13</page-count>
+        <keywords>
+            <kw>DNS</kw>
+            <kw>DNSSEC</kw>
+            <kw>rollover</kw>
+            <kw>agility</kw>
+        </keywords>
+        <abstract><p>The DNSSEC protocol makes use of various cryptographic algorithms to provide authentication of DNS data and proof of nonexistence. To ensure interoperability between DNS resolvers and DNS authoritative servers, it is necessary to specify both a set of algorithm implementation requirements and usage guidelines to ensure that there is at least one algorithm that all implementations support. This document replaces and obsoletes RFC 8624 and moves the canonical source of algorithm implementation requirements and usage guidance for DNSSEC from RFC 8624 to the IANA DNSSEC algorithm registries. This is done to allow the list of requirements to be more easily updated and referenced. Extensions to these registries can be made in future RFCs. This document also updates RFC 9157 and incorporates the revised IANA DNSSEC considerations from that RFC.</p><p> This document does not change the recommendation status (MUST, MAY, RECOMMENDED, etc.) of the algorithms listed in RFC 8624; that is the work of future documents.</p></abstract>
+        <draft>draft-ietf-dnsop-rfc8624-bis-13</draft>
+        <obsoletes>
+            <doc-id>RFC8624</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC9157</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>dnsop</wg_acronym>
+        <doi>10.17487/RFC9904</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9905</doc-id>
+        <title>Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms</title>
+        <author>
+            <name>W. Hardaker</name>
+        </author>
+        <author>
+            <name>W. Kumari</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>DNS</kw>
+            <kw>DNSSEC</kw>
+            <kw>rollover</kw>
+            <kw>agility</kw>
+            <kw>algorithm</kw>
+            <kw>SHA1</kw>
+        </keywords>
+        <abstract><p>This document deprecates the use of the RSASHA1 and
+RSASHA1-NSEC3-SHA1 algorithms for the creation of DNS Public Key
+(DNSKEY) and Resource Record Signature (RRSIG) records.</p><p> It updates RFCs 4034 and 5155 as it deprecates the use of these
+algorithms.</p></abstract>
+        <draft>draft-ietf-dnsop-must-not-sha1-10</draft>
+        <updates>
+            <doc-id>RFC4034</doc-id>
+            <doc-id>RFC5155</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>dnsop</wg_acronym>
+        <doi>10.17487/RFC9905</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9906</doc-id>
+        <title>Deprecate Usage of ECC-GOST within DNSSEC</title>
+        <author>
+            <name>W. Hardaker</name>
+        </author>
+        <author>
+            <name>W. Kumari</name>
+        </author>
+        <date>
+            <month>November</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>DNS</kw>
+            <kw>DNSSEC</kw>
+            <kw>GOST</kw>
+            <kw>algorithm</kw>
+            <kw>rollover</kw>
+            <kw>agility</kw>
+        </keywords>
+        <abstract><p>This document retires the use of GOST R 34.10-2001 (mnemonic "ECC-GOST") and GOST R 34.11-94 within DNSSEC.</p><p> RFC 5933 (Historic) defined the use of GOST R 34.10-2001 and GOST R 34.11-94 algorithms with DNS Security Extensions (DNSSEC). This document updates RFC 5933 by deprecating the use of ECC-GOST.</p></abstract>
+        <draft>draft-ietf-dnsop-must-not-ecc-gost-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>dnsop</wg_acronym>
+        <doi>10.17487/RFC9906</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
