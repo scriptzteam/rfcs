@@ -273383,6 +273383,7 @@
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>ippm</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8186</errata-url>
         <doi>10.17487/RFC8186</doi>
     </rfc-entry>
     <rfc-entry>
@@ -333054,6 +333055,7 @@ traffic.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>mls</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9750</errata-url>
         <doi>10.17487/RFC9750</doi>
     </rfc-entry>
     <rfc-entry>

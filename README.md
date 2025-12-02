@@ -2,15 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-12-01 01:26:11 UTC
+Last updated: 2025-12-02 01:14:42 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9873](rfcs/rfc9873.txt) | Additional Email Address Extension for the Extensible Provisioning Protocol (EPP) | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9873) |
-| [RFC 9874](rfcs/rfc9874.txt) | Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP) | September 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9874) |
-| [RFC 9875](rfcs/rfc9875.txt) | HTTP Cache Groups | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9875) |
 | [RFC 9876](rfcs/rfc9876.txt) | Updates to the IANA Registration Procedures for Constrained Application Protocol (CoAP) Content-Formats | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9876) |
 | [RFC 9877](rfcs/rfc9877.txt) | Registration Data Access Protocol (RDAP) Extension for Geofeed Data | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9877) |
 | [RFC 9878](rfcs/rfc9878.txt) | Updates to Private Header (P-Header) Extension Usage in Session Initiation Protocol (SIP) Requests and Responses | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9878) |
@@ -25,3 +22,6 @@ Last updated: 2025-12-01 01:26:11 UTC
 | [RFC 9891](rfcs/rfc9891.txt) | Automated Certificate Management Environment (ACME) Delay-Tolerant Networking (DTN) Node ID Validation Extension | November 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9891) |
 | [RFC 9898](rfcs/rfc9898.txt) | Neighbor Discovery Considerations in IPv6 Deployments | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9898) |
 | [RFC 9901](rfcs/rfc9901.txt) | Selective Disclosure for JSON Web Tokens | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9901) |
+| [RFC 9904](rfcs/rfc9904.txt) | DNSSEC Cryptographic Algorithm Recommendation Update Process | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9904) |
+| [RFC 9905](rfcs/rfc9905.txt) | Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9905) |
+| [RFC 9906](rfcs/rfc9906.txt) | Deprecate Usage of ECC-GOST within DNSSEC | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9906) |
