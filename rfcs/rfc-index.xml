@@ -310283,6 +310283,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>trans</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9162</errata-url>
         <doi>10.17487/RFC9162</doi>
     </rfc-entry>
     <rfc-entry>
