@@ -268368,6 +268368,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>radext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8044</errata-url>
         <doi>10.17487/RFC8044</doi>
     </rfc-entry>
     <rfc-entry>
