@@ -72909,6 +72909,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>conneg</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc2506</errata-url>
         <doi>10.17487/RFC2506</doi>
     </rfc-entry>
     <rfc-entry>
@@ -300049,6 +300050,9 @@ and allocation policy as interface types.  This document updates RFC
         </keywords>
         <abstract><p>This document describes the Terminal Access Controller Access-Control System Plus (TACACS+) protocol, which is widely deployed today to provide Device Administration for routers, network access servers, and other networked computing devices via one or more centralized servers.</p></abstract>
         <draft>draft-ietf-opsawg-tacacs-18</draft>
+        <updated-by>
+            <doc-id>RFC9887</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
@@ -337936,6 +337940,47 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9885</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9887</doc-id>
+        <title>Terminal Access Controller Access-Control System Plus (TACACS+) over TLS 1.3</title>
+        <author>
+            <name>T. Dahm</name>
+        </author>
+        <author>
+            <name>J. Heasley</name>
+        </author>
+        <author>
+            <name>D.C. Medway Gash</name>
+        </author>
+        <author>
+            <name>A. Ota</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>15</page-count>
+        <keywords>
+            <kw>TACACS+</kw>
+        </keywords>
+        <abstract><p>This document specifies the use of Transport Layer Security (TLS) version 1.3 to secure the communication channel between a Terminal Access Controller Access-Control System Plus (TACACS+) client and server. TACACS+ is a protocol used for Authentication, Authorization, and Accounting (AAA) in networked environments. The original TACACS+ protocol does not mandate the use of encryption or secure transport. This specification defines a profile for using TLS 1.3 with TACACS+, including guidance on authentication, connection establishment, and operational considerations. The goal is to enhance the confidentiality, integrity, and authenticity of TACACS+ traffic, aligning the protocol with modern security best practices.</p><p> This document updates RFC 8907.</p></abstract>
+        <draft>draft-ietf-opsawg-tacacs-tls13-24</draft>
+        <updates>
+            <doc-id>RFC8907</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9887</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9889</doc-id>
         <title>A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies</title>
         <author>
@@ -338112,6 +338157,37 @@ isolation method to prevent potential ND issues.</p></abstract>
         <doi>10.17487/RFC9898</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9900</doc-id>
+        <title>Updates to NETCONF Transport Port Numbers</title>
+        <author>
+            <name>M. Boucadair</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>de-assign</kw>
+            <kw>deallocate</kw>
+            <kw>release</kw>
+        </keywords>
+        <abstract><p>This document releases IANA-assigned port numbers for services related to the Network Configuration Protocol (NETCONF) that have not been in use in production networks.</p></abstract>
+        <draft>draft-ietf-netconf-port-numbers-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>netconf</wg_acronym>
+        <doi>10.17487/RFC9900</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9901</doc-id>
         <title>Selective Disclosure for JSON Web Tokens</title>
         <author>
@@ -338150,6 +338226,79 @@ disclosure of JSON Web Token (JWT) claims.</p></abstract>
         <area>sec</area>
         <wg_acronym>oauth</wg_acronym>
         <doi>10.17487/RFC9901</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9902</doc-id>
+        <title>A YANG Data Model for IS-IS Segment Routing over the MPLS Data Plane</title>
+        <author>
+            <name>S. Litkowski</name>
+        </author>
+        <author>
+            <name>Y. Qu</name>
+        </author>
+        <author>
+            <name>A. Lindem</name>
+        </author>
+        <author>
+            <name>I. Chen</name>
+        </author>
+        <author>
+            <name>J. Tantsura</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>30</page-count>
+        <abstract><p>This document defines a YANG data model that can be used to manage IS-IS extensions for Segment Routing (SR) over the MPLS data plane.</p></abstract>
+        <draft>draft-ietf-isis-sr-yang-31</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9902</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9903</doc-id>
+        <title>A YANG Data Model for OSPF Segment Routing over the MPLS Data Plane</title>
+        <author>
+            <name>Y. Qu</name>
+        </author>
+        <author>
+            <name>A. Lindem</name>
+        </author>
+        <author>
+            <name>J. Zhang</name>
+        </author>
+        <author>
+            <name>I. Chen</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>44</page-count>
+        <abstract><p>This document defines a YANG data model that can be used to manage OSPF extensions for Segment Routing over the MPLS data plane.</p></abstract>
+        <draft>draft-ietf-ospf-sr-yang-50</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9903</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9904</doc-id>
