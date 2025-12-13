@@ -335270,6 +335270,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IRTF</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9807</errata-url>
         <doi>10.17487/RFC9807</doi>
     </rfc-entry>
     <rfc-entry>
