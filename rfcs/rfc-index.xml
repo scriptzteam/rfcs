@@ -253824,7 +253824,7 @@
         </keywords>
         <abstract><p>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Such volunteers are commonly called "Jabber scribes".  This document summarizes experience with the Jabber scribe role and provides some suggestions for fulfilling the role at IETF meetings.</p></abstract>
         <draft>draft-saintandre-jabber-scribe-05</draft>
-        <current-status>INFORMATIONAL</current-status>
+        <current-status>HISTORIC</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
         <doi>10.17487/RFC7649</doi>
