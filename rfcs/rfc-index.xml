@@ -326437,6 +326437,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>privacypass</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9578</errata-url>
         <doi>10.17487/RFC9578</doi>
     </rfc-entry>
     <rfc-entry>
