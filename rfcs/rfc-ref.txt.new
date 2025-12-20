@@ -6769,7 +6769,7 @@ RFC6933 |           | Bierman, A., Romascanu, D., Quittek, J., and M. Chandramou
 RFC6934 |           | Bitar, N., Ed., Wadhwa, S., Ed., Haag, T., and H. Li, "Applicability of the Access Node Control Mechanism to Broadband Networks Based on Passive Optical Networks (PONs)", RFC 6934, DOI 10.17487/RFC6934, June 2013, <https://www.rfc-editor.org/info/rfc6934>.
 RFC6935 |           | Eubanks, M., Chimento, P., and M. Westerlund, "IPv6 and UDP Checksums for Tunneled Packets", RFC 6935, DOI 10.17487/RFC6935, April 2013, <https://www.rfc-editor.org/info/rfc6935>.
 RFC6936 |           | Fairhurst, G. and M. Westerlund, "Applicability Statement for the Use of IPv6 UDP Datagrams with Zero Checksums", RFC 6936, DOI 10.17487/RFC6936, April 2013, <https://www.rfc-editor.org/info/rfc6936>.
-RFC6937 |           | Mathis, M., Dukkipati, N., and Y. Cheng, "Proportional Rate Reduction for TCP", RFC 6937, DOI 10.17487/RFC6937, May 2013, <https://www.rfc-editor.org/info/rfc6937>.
+RFC6937 |   RFC9937 | Mathis, M., Dukkipati, N., and Y. Cheng, "Proportional Rate Reduction for TCP", RFC 6937, DOI 10.17487/RFC6937, May 2013, <https://www.rfc-editor.org/info/rfc6937>.
 RFC6938 |           | Scudder, J., "Deprecation of BGP Path Attributes: DPA, ADVERTISER, and RCID_PATH / CLUSTER_ID", RFC 6938, DOI 10.17487/RFC6938, May 2013, <https://www.rfc-editor.org/info/rfc6938>.
 RFC6939 |           | Halwasia, G., Bhandari, S., and W. Dec, "Client Link-Layer Address Option in DHCPv6", RFC 6939, DOI 10.17487/RFC6939, May 2013, <https://www.rfc-editor.org/info/rfc6939>.
 RFC6940 |           | Jennings, C., Lowekamp, B., Ed., Rescorla, E., Baset, S., and H. Schulzrinne, "REsource LOcation And Discovery (RELOAD) Base Protocol", RFC 6940, DOI 10.17487/RFC6940, January 2014, <https://www.rfc-editor.org/info/rfc6940>.
@@ -9698,3 +9698,4 @@ RFC9903 |           | Qu, Y., Lindem, A., Zhang, J., and I. Chen, "A YANG Data M
 RFC9904 |           | Hardaker, W. and W. Kumari, "DNSSEC Cryptographic Algorithm Recommendation Update Process", RFC 9904, DOI 10.17487/RFC9904, November 2025, <https://www.rfc-editor.org/info/rfc9904>.
 RFC9905 |           | Hardaker, W. and W. Kumari, "Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms", RFC 9905, DOI 10.17487/RFC9905, November 2025, <https://www.rfc-editor.org/info/rfc9905>.
 RFC9906 |           | Hardaker, W. and W. Kumari, "Deprecate Usage of ECC-GOST within DNSSEC", RFC 9906, DOI 10.17487/RFC9906, November 2025, <https://www.rfc-editor.org/info/rfc9906>.
+RFC9937 |           | Mathis, M., Cardwell, N., Cheng, Y., and N. Dukkipati, "Proportional Rate Reduction (PRR)", RFC 9937, DOI 10.17487/RFC9937, December 2025, <https://www.rfc-editor.org/info/rfc9937>.

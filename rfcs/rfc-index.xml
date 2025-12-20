@@ -130522,7 +130522,7 @@
         </format>
         <page-count>19</page-count>
         <keywords>
-            <kw>MIB-UDP|p</kw>
+            <kw>MIB-UDP</kw>
             <kw>mib</kw>
             <kw>Management Information Base</kw>
             <kw>UDP-MIB</kw>
@@ -228459,6 +228459,9 @@
         </keywords>
         <abstract><p>This document describes an experimental Proportional Rate Reduction (PRR) algorithm as an alternative to the widely deployed Fast Recovery and Rate-Halving algorithms.  These algorithms determine the amount of data sent by TCP during loss recovery.  PRR minimizes excess window adjustments, and the actual window size at the end of recovery will be as close as possible to the ssthresh, as determined by the congestion control algorithm.</p></abstract>
         <draft>draft-ietf-tcpm-proportional-rate-reduction-04</draft>
+        <obsoleted-by>
+            <doc-id>RFC9937</doc-id>
+        </obsoleted-by>
         <current-status>EXPERIMENTAL</current-status>
         <publication-status>EXPERIMENTAL</publication-status>
         <stream>IETF</stream>
@@ -290059,6 +290062,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335389,6 +335393,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9810</errata-url>
         <doi>10.17487/RFC9810</doi>
     </rfc-entry>
     <rfc-entry>
@@ -338425,6 +338430,51 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>dnsop</wg_acronym>
         <doi>10.17487/RFC9906</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9937</doc-id>
+        <title>Proportional Rate Reduction (PRR)</title>
+        <author>
+            <name>M. Mathis</name>
+        </author>
+        <author>
+            <name>N. Cardwell</name>
+        </author>
+        <author>
+            <name>Y. Cheng</name>
+        </author>
+        <author>
+            <name>N. Dukkipati</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>20</page-count>
+        <keywords>
+            <kw>loss recovery</kw>
+            <kw>SACK</kw>
+            <kw>self clock</kw>
+            <kw>fast retransmit</kw>
+            <kw>fast recovery</kw>
+        </keywords>
+        <abstract><p>This document specifies a Standards Track version of the Proportional Rate Reduction (PRR) algorithm that obsoletes the Experimental version described in RFC 6937.  PRR regulates the amount of data sent by TCP or other transport protocols during fast recovery.  PRR accurately regulates the actual flight size through recovery such that at the end of recovery it will be as close as possible to the slow start threshold (ssthresh), as determined by the congestion control algorithm.</p></abstract>
+        <draft>draft-ietf-tcpm-prr-rfc6937bis-21</draft>
+        <obsoletes>
+            <doc-id>RFC6937</doc-id>
+        </obsoletes>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>tcpm</wg_acronym>
+        <doi>10.17487/RFC9937</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
