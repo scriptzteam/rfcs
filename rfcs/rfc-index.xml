@@ -230323,6 +230323,9 @@
         <obsoletes>
             <doc-id>RFC6021</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9911</doc-id>
+        </obsoleted-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -290062,7 +290065,6 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
@@ -337866,6 +337868,7 @@ configurations required to deliver them.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9883</errata-url>
         <doi>10.17487/RFC9883</doi>
     </rfc-entry>
     <rfc-entry>
@@ -338166,6 +338169,51 @@ isolation method to prevent potential ND issues.</p></abstract>
         <doi>10.17487/RFC9898</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9899</doc-id>
+        <title>Extensions to the YANG Data Model for Access Control Lists (ACLs)</title>
+        <author>
+            <name>O. Gonzalez de Dios</name>
+        </author>
+        <author>
+            <name>S. Barguil</name>
+        </author>
+        <author>
+            <name>M. Boucadair</name>
+        </author>
+        <author>
+            <name>Q. Wu</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>54</page-count>
+        <keywords>
+            <kw>filtering</kw>
+            <kw>security</kw>
+            <kw>authorization</kw>
+            <kw>match</kw>
+            <kw>packet identification</kw>
+            <kw>scrubbing</kw>
+            <kw>packet pattern</kw>
+            <kw>payload filtering</kw>
+        </keywords>
+        <abstract><p>RFC 8519 defines a YANG data model for Access Control Lists (ACLs). This document specifies a set of extensions that fix many of the limitations of the ACL model as initially defined in RFC 8519. Specifically, it introduces augmentations to the ACL base model to enhance its functionality and applicability.</p><p> This document also creates initial versions of IANA-maintained modules for ICMP types and IPv6 extension headers.</p></abstract>
+        <draft>draft-ietf-netmod-acl-extensions-17</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>netmod</wg_acronym>
+        <doi>10.17487/RFC9899</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9900</doc-id>
         <title>Updates to NETCONF Transport Port Numbers</title>
         <author>
@@ -338430,6 +338478,87 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>dnsop</wg_acronym>
         <doi>10.17487/RFC9906</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9909</doc-id>
+        <title>Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA)</title>
+        <author>
+            <name>K. Bashiri</name>
+        </author>
+        <author>
+            <name>S. Fluhrer</name>
+        </author>
+        <author>
+            <name>S. Gazdag</name>
+        </author>
+        <author>
+            <name>D. Van Geest</name>
+        </author>
+        <author>
+            <name>S. Kousidis</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>38</page-count>
+        <keywords>
+            <kw>SLH-DSA</kw>
+            <kw>SPHINCS+</kw>
+            <kw>PQ Signatures</kw>
+            <kw>post-quantum X.509</kw>
+        </keywords>
+        <abstract><p>Digital signatures are used within the X.509 Public Key Infrastructure, such as X.509 certificates and Certificate Revocation Lists (CRLs), as well as to sign messages.  This document specifies the conventions for using the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) in the X.509 Public Key Infrastructure.  The conventions for the associated signatures, subject public keys, and private keys are also specified.</p></abstract>
+        <draft>draft-ietf-lamps-x509-slhdsa-09</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9909</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9911</doc-id>
+        <title>Common YANG Data Types</title>
+        <author>
+            <name>J. Schönwälder</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>37</page-count>
+        <keywords>
+            <kw>yang</kw>
+            <kw>data types</kw>
+            <kw>address types</kw>
+            <kw>time types</kw>
+            <kw>date types</kw>
+        </keywords>
+        <abstract><p>This document defines a collection of common data types to be used with the YANG data modeling language.  It includes several new type definitions and obsoletes RFC 6991.</p></abstract>
+        <draft>draft-ietf-netmod-rfc6991-bis-18</draft>
+        <obsoletes>
+            <doc-id>RFC6991</doc-id>
+        </obsoletes>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>netmod</wg_acronym>
+        <doi>10.17487/RFC9911</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>
