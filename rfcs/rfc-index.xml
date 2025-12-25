@@ -283074,6 +283074,9 @@
             <doc-id>RFC6520</doc-id>
             <doc-id>RFC7301</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9847</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -336751,6 +336754,38 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9845</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9847</doc-id>
+        <title>IANA Registry Updates for TLS and DTLS</title>
+        <author>
+            <name>J. Salowey</name>
+        </author>
+        <author>
+            <name>S. Turner</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>15</page-count>
+        <abstract><p>This document updates the changes to the TLS and DTLS IANA registries made in RFC 8447. It adds a new value, "D" for discouraged, to the "Recommended" column of the selected TLS registries and adds a "Comment" column to all active registries that do not already have a "Comment" column. Finally, it updates the registration request instructions.</p><p> This document updates RFC 8447.</p></abstract>
+        <draft>draft-ietf-tls-rfc8447bis-15</draft>
+        <updates>
+            <doc-id>RFC8447</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>tls</wg_acronym>
+        <doi>10.17487/RFC9847</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9854</doc-id>
         <title>AODV-RPL: The Routing Protocol for Low-Power and Lossy Networks (RPL) Based on Ad Hoc On-Demand Distance Vector (AODV) Routing</title>
         <author>
@@ -337950,6 +337985,36 @@ configurations required to deliver them.</p></abstract>
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
         <doi>10.17487/RFC9885</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9886</doc-id>
+        <title>DRIP Entity Tags (DETs) in the Domain Name System</title>
+        <author>
+            <name>A. Wiethuechter</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>J. Reid</name>
+        </author>
+        <date>
+            <month>December</month>
+            <year>2025</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>33</page-count>
+        <abstract><p>This document defines the Domain Name System (DNS) functionality of a Drone Remote Identification Protocol (DRIP) Identity Management Entity (DIME).  It is built around DRIP Entity Tags (DETs) to standardize a hierarchical registry structure and associated processes to facilitate trustable and scalable registration and lookup of information related to Unmanned Aircraft Systems (UAS).  The registry system supports issuance, discovery, and verification of DETs, enabling secure identification and association of UAS and their operators.  It also defines the interactions between different classes of registries (root, organizational, and individual) and their respective roles in maintaining the integrity of the registration data.  This architecture enables decentralized, federated operation while supporting privacy, traceability, and regulatory compliance requirements in the context of UAS Remote Identification and other services.</p></abstract>
+        <draft>draft-ietf-drip-registries-33</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>drip</wg_acronym>
+        <doi>10.17487/RFC9886</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9887</doc-id>
