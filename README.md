@@ -2,13 +2,13 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-12-25 01:17:04 UTC
+Last updated: 2025-12-26 01:17:23 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9885](rfcs/rfc9885.txt) | Multi-Part TLVs in IS-IS | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9885) |
+| [RFC 9886](rfcs/rfc9886.txt) | DRIP Entity Tags (DETs) in the Domain Name System | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9886) |
 | [RFC 9887](rfcs/rfc9887.txt) | Terminal Access Controller Access-Control System Plus (TACACS+) over TLS 1.3 | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9887) |
 | [RFC 9889](rfcs/rfc9889.txt) | A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9889) |
 | [RFC 9890](rfcs/rfc9890.txt) | An Update to YANG Module Names Registration | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9890) |
