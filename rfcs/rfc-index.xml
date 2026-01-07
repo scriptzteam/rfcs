@@ -231604,6 +231604,7 @@
         <updated-by>
             <doc-id>RFC8951</doc-id>
             <doc-id>RFC8996</doc-id>
+            <doc-id>RFC9908</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -309784,6 +309785,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <page-count>41</page-count>
         <abstract><p>Enrollment over Secure Transport (EST) is used as a certificate provisioning protocol over HTTPS.  Low-resource devices often use the lightweight Constrained Application Protocol (CoAP) for message exchanges.  This document defines how to transport EST payloads over secure CoAP (EST-coaps), which allows constrained devices to use existing EST functionality for provisioning certificates.</p></abstract>
         <draft>draft-ietf-ace-coap-est-18</draft>
+        <updated-by>
+            <doc-id>RFC9908</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -338545,6 +338549,52 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>dnsop</wg_acronym>
         <doi>10.17487/RFC9906</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9908</doc-id>
+        <title>Clarification and Enhancement of the CSR Attributes Definition in RFC 7030</title>
+        <author>
+            <name>M. Richardson</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>O. Friel</name>
+        </author>
+        <author>
+            <name>D. von Oheimb</name>
+        </author>
+        <author>
+            <name>D. Harkins</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>22</page-count>
+        <keywords>
+            <kw>SubjectAltName</kw>
+            <kw>SAN</kw>
+            <kw>Certificate Extensions</kw>
+            <kw>Certificate Signing Request</kw>
+        </keywords>
+        <abstract><p>This document updates RFC 7030, "Enrollment over Secure Transport" (EST), clarifying how the Certificate Signing Request (CSR) Attributes Response can be used by an EST server to specify both CSR attribute Object Identifiers (OIDs) and CSR attribute values, particularly X.509 extension values, that the server expects the client to include in a subsequent CSR request. RFC 9148 is derived from RFC 7030 and is also updated.</p><p> RFC 7030 is ambiguous in its specification of the CSR Attributes Response. This has resulted in implementation challenges and implementor confusion because there was no universal understanding of what was specified. This document clarifies the encoding rules.</p><p> This document also provides a new straightforward approach: using a template for CSR contents that may be partially filled in by the server. This also allows an EST server to specify a subject Distinguished Name (DN).</p></abstract>
+        <draft>draft-ietf-lamps-rfc7030-csrattrs-23</draft>
+        <updates>
+            <doc-id>RFC7030</doc-id>
+            <doc-id>RFC9148</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9908</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9909</doc-id>
