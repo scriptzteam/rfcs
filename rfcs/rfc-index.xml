@@ -333277,6 +333277,7 @@ managed through the "Private Enterprise Numbers (PENs)" registry.</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>extra</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9755</errata-url>
         <doi>10.17487/RFC9755</doi>
     </rfc-entry>
     <rfc-entry>
@@ -338181,6 +338182,57 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9891</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9897</doc-id>
+        <title>Datagram Congestion Control Protocol (DCCP) Extensions for Multipath Operation with Multiple Addresses</title>
+        <author>
+            <name>M. Amend</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>A. Brunstrom</name>
+        </author>
+        <author>
+            <name>A. Kassler</name>
+        </author>
+        <author>
+            <name>V. Rakocevic</name>
+        </author>
+        <author>
+            <name>S. Johnson</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>46</page-count>
+        <keywords>
+            <kw>dccp</kw>
+            <kw>extensions</kw>
+            <kw>multipath</kw>
+            <kw>multihomed</kw>
+            <kw>subflow</kw>
+            <kw>concurrent</kw>
+            <kw>simultaneous</kw>
+            <kw>mobility</kw>
+            <kw>mpdccp</kw>
+            <kw>mp-dccp</kw>
+        </keywords>
+        <abstract><p>Datagram Congestion Control Protocol (DCCP) communications, as defined in RFC 4340, are inherently restricted to a single path per connection, despite the availability of multiple network paths between peers. The ability to utilize multiple paths simultaneously for a DCCP session can enhance network resource utilization, improve throughput, and increase resilience to network failures, ultimately enhancing the user experience.</p><p> Use cases for Multipath DCCP (MP-DCCP) include mobile devices (e.g., handsets and vehicles) and residential home gateways that maintain simultaneous connections to distinct network types such as cellular and Wireless Local Area Networks (WLANs) or cellular and fixed access networks. Compared to existing multipath transport protocols, such as Multipath TCP (MPTCP), MP-DCCP is particularly suited for latency-sensitive applications with varying requirements for reliability and in-order delivery.</p><p> This document specifies a set of protocol extensions to DCCP that enable multipath operations. These extensions maintain the same service model as DCCP while introducing mechanisms to establish and utilize multiple concurrent DCCP flows across different network paths.</p></abstract>
+        <draft>draft-ietf-tsvwg-multipath-dccp-24</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>tsvwg</wg_acronym>
+        <doi>10.17487/RFC9897</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9898</doc-id>
         <title>Neighbor Discovery Considerations in IPv6 Deployments</title>
         <author>
@@ -338639,6 +338691,35 @@ algorithms.</p></abstract>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
         <doi>10.17487/RFC9909</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9910</doc-id>
+        <title>Registration Data Access Protocol (RDAP) Regional Internet Registry (RIR) Search</title>
+        <author>
+            <name>T. Harrison</name>
+        </author>
+        <author>
+            <name>J. Singh</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>26</page-count>
+        <abstract><p>The Registration Data Access Protocol (RDAP) is used by Regional Internet Registries (RIRs) and Domain Name Registries (DNRs) to provide access to their resource registration information.  The core specifications for RDAP define basic search functionality, but there are various search options related to IP addresses, IP prefixes, and Autonomous System Numbers (ASNs), which are provided by RIRs via their WHOIS services, but for which there is no corresponding RDAP functionality.  This document extends RDAP to support those search options.</p></abstract>
+        <draft>draft-ietf-regext-rdap-rir-search-19</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>regext</wg_acronym>
+        <doi>10.17487/RFC9910</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9911</doc-id>

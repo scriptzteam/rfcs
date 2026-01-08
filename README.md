@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-01-07 01:19:16 UTC
+Last updated: 2026-01-08 01:19:48 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9886](rfcs/rfc9886.txt) | DRIP Entity Tags (DETs) in the Domain Name System | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9886) |
 | [RFC 9887](rfcs/rfc9887.txt) | Terminal Access Controller Access-Control System Plus (TACACS+) over TLS 1.3 | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9887) |
 | [RFC 9889](rfcs/rfc9889.txt) | A Realization of Network Slices for 5G Networks Using Current IP/MPLS Technologies | November 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9889) |
 | [RFC 9890](rfcs/rfc9890.txt) | An Update to YANG Module Names Registration | October 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9890) |
@@ -22,6 +21,7 @@ Last updated: 2026-01-07 01:19:16 UTC
 | [RFC 9904](rfcs/rfc9904.txt) | DNSSEC Cryptographic Algorithm Recommendation Update Process | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9904) |
 | [RFC 9905](rfcs/rfc9905.txt) | Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9905) |
 | [RFC 9906](rfcs/rfc9906.txt) | Deprecate Usage of ECC-GOST within DNSSEC | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9906) |
+| [RFC 9908](rfcs/rfc9908.txt) | Clarification and Enhancement of the CSR Attributes Definition in RFC 7030 | RFC 7030 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9908) |
 | [RFC 9909](rfcs/rfc9909.txt) | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9909) |
 | [RFC 9911](rfcs/rfc9911.txt) | Common YANG Data Types | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9911) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
