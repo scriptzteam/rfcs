@@ -337844,6 +337844,7 @@ configurations required to deliver them.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9881</errata-url>
         <doi>10.17487/RFC9881</doi>
     </rfc-entry>
     <rfc-entry>
