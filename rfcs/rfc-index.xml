@@ -26038,7 +26038,6 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1069</errata-url>
         <doi>10.17487/RFC1069</doi>
     </rfc-entry>
     <rfc-entry>
@@ -337400,6 +337399,7 @@ configurations required to deliver them.</p></abstract>
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>tsvwg</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9868</errata-url>
         <doi>10.17487/RFC9868</doi>
     </rfc-entry>
     <rfc-entry>

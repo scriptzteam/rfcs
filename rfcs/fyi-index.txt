@@ -5,7 +5,7 @@
                              FYI INDEX
                            -------------
 
-CREATED ON: 01/17/2026.
+CREATED ON: 01/18/2026.
 
 This file contains citations for all FYIs in numeric order.  The FYIs
 (For Your Information) documents form a sub-series of the RFC series,
