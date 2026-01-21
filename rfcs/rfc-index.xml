@@ -336977,6 +336977,7 @@ configurations required to deliver them.</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>idr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9857</errata-url>
         <doi>10.17487/RFC9857</doi>
     </rfc-entry>
     <rfc-entry>
