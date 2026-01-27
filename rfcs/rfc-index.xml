@@ -335156,6 +335156,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>regext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9803</errata-url>
         <doi>10.17487/RFC9803</doi>
     </rfc-entry>
     <rfc-entry>
