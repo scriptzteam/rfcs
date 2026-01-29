@@ -317566,6 +317566,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <draft>draft-ietf-lsr-flex-algo-26</draft>
         <updated-by>
             <doc-id>RFC9843</doc-id>
+            <doc-id>RFC9917</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -335122,6 +335123,7 @@ decency, and respect.</p><p> This document is a product of the Internet Research
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9802</errata-url>
         <doi>10.17487/RFC9802</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336675,6 +336677,9 @@ configurations required to deliver them.</p></abstract>
         <updates>
             <doc-id>RFC9350</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9917</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -338760,6 +338765,42 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>netmod</wg_acronym>
         <doi>10.17487/RFC9911</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9917</doc-id>
+        <title>IGP Flexible Algorithms Reverse Affinity Constraint</title>
+        <author>
+            <name>P. Psenak</name>
+        </author>
+        <author>
+            <name>J. Horn</name>
+        </author>
+        <author>
+            <name>A. Dhamija</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>12</page-count>
+        <abstract><p>An IGP Flexible Algorithm (Flex-Algorithm) enables the computation of constraint-based paths within an IGP domain, allowing operators to influence path selection according to administrative policies. This document defines an extension to Flex-Algorithm that allows the inclusion or exclusion of links from path computation based on Administrative Groups (also known as link affinities) associated with the reverse direction of the path under computation.</p><p> This document updates RFCs 9350 and 9843 by introducing the new IANA registry that specifies the ordered set of rules that are used to prune links from the topology during the Flex-Algorithm path computation.</p></abstract>
+        <draft>draft-ietf-lsr-igp-flex-algo-reverse-affinity-12</draft>
+        <updates>
+            <doc-id>RFC9350</doc-id>
+            <doc-id>RFC9843</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9917</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>
