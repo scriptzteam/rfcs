@@ -132157,6 +132157,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>fax</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc4160</errata-url>
         <doi>10.17487/RFC4160</doi>
     </rfc-entry>
     <rfc-entry>
@@ -266569,6 +266570,9 @@
         </keywords>
         <abstract><p>This document specifies SVG 1.2 RFC -- an SVG profile for use in diagrams that may appear in RFCs -- and considers some of the issues concerning the creation and use of such diagrams.</p></abstract>
         <draft>draft-iab-svg-rfc-02</draft>
+        <obsoleted-by>
+            <doc-id>RFC9896</doc-id>
+        </obsoleted-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -281964,6 +281968,9 @@
             <doc-id>RFC7283</doc-id>
             <doc-id>RFC7550</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9915</doc-id>
+        </obsoleted-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -337813,6 +337820,49 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9879</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9880</doc-id>
+        <title>Semantic Definition Format (SDF) for Data and Interactions of Things</title>
+        <author>
+            <name>M. Koster</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Bormann</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>A. Keränen</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>92</page-count>
+        <keywords>
+            <kw>IoT</kw>
+            <kw>Device Model</kw>
+            <kw>Interaction Model</kw>
+            <kw>Affordance</kw>
+            <kw>Property</kw>
+            <kw>Action</kw>
+            <kw>Event</kw>
+        </keywords>
+        <abstract><p>The Semantic Definition Format (SDF) is a format for domain experts to use in the creation and maintenance of data and interaction models that describe Things, i.e., physical objects that are available for interaction over a network.  An SDF specification describes definitions of SDF Objects/SDF Things and their associated interactions (Events, Actions, and Properties), as well as the Data types for the information exchanged in those interactions.  Tools convert this format to database formats and other serializations as needed.</p></abstract>
+        <draft>draft-ietf-asdf-sdf-24</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>art</area>
+        <wg_acronym>asdf</wg_acronym>
+        <doi>10.17487/RFC9880</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9881</doc-id>
         <title>Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA)</title>
         <author>
@@ -338188,6 +338238,45 @@ configurations required to deliver them.</p></abstract>
         <area>sec</area>
         <wg_acronym>acme</wg_acronym>
         <doi>10.17487/RFC9891</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9896</doc-id>
+        <title>SVG in RFCs</title>
+        <author>
+            <name>A. Rossi</name>
+        </author>
+        <author>
+            <name>N. Brownlee</name>
+        </author>
+        <author>
+            <name>J. Mahoney</name>
+        </author>
+        <author>
+            <name>M. Thomson</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>4</page-count>
+        <keywords>
+            <kw>SVG</kw>
+        </keywords>
+        <abstract><p>This document defines policy for the inclusion of Scalable Vector Graphics (SVG) in the definitive versions of RFCs and relevant publication formats. It contains policy requirements from RFC 7996 but removes all requirements related to using a specific SVG profile or implementation code. It also makes the RFC Production Center (RPC) responsible for decisions about SVG tooling and implementation.</p><p> This document obsoletes RFC 7996.</p></abstract>
+        <draft>draft-editorial-rswg-svgsinrfcs-04</draft>
+        <obsoletes>
+            <doc-id>RFC7996</doc-id>
+        </obsoletes>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>Editorial</stream>
+        <doi>10.17487/RFC9896</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9897</doc-id>
@@ -338765,6 +338854,55 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>netmod</wg_acronym>
         <doi>10.17487/RFC9911</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9915</doc-id>
+        <title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6)</title>
+        <author>
+            <name>T. Mrugalski</name>
+        </author>
+        <author>
+            <name>B. Volz</name>
+        </author>
+        <author>
+            <name>M. Richardson</name>
+        </author>
+        <author>
+            <name>S. Jiang</name>
+        </author>
+        <author>
+            <name>T. Winters</name>
+        </author>
+        <date>
+            <month>January</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>115</page-count>
+        <keywords>
+            <kw>DHCPv6</kw>
+            <kw>IPv6</kw>
+            <kw>DHCP</kw>
+        </keywords>
+        <abstract><p>This document specifies the Dynamic Host Configuration Protocol for IPv6 (DHCPv6), an extensible mechanism for configuring nodes with network configuration parameters, IP addresses, and prefixes. Parameters can be provided statelessly or in combination with stateful assignment of one or more IPv6 addresses and/or IPv6 prefixes. DHCPv6 can operate either in place of or in addition to stateless address autoconfiguration (SLAAC).</p><p> This document obsoletes RFC 8415. It incorporates verified errata and obsoletes the assignment of temporary addresses (the IA_TA option) and the server unicast capability (the Server Unicast option and UseMulticast status code).</p></abstract>
+        <draft>draft-ietf-dhc-rfc8415bis-12</draft>
+        <obsoletes>
+            <doc-id>RFC8415</doc-id>
+        </obsoletes>
+        <is-also>
+            <doc-id>STD0102</doc-id>
+        </is-also>
+        <current-status>INTERNET STANDARD</current-status>
+        <publication-status>INTERNET STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>dhc</wg_acronym>
+        <doi>10.17487/RFC9915</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9917</doc-id>
@@ -339558,6 +339696,13 @@ algorithms.</p></abstract>
         <title>Multicast Listener Discovery Version 2 (MLDv2) for IPv6</title>
         <is-also>
             <doc-id>RFC9777</doc-id>
+        </is-also>
+    </std-entry>
+    <std-entry>
+        <doc-id>STD0102</doc-id>
+        <title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6)</title>
+        <is-also>
+            <doc-id>RFC9915</doc-id>
         </is-also>
     </std-entry>
 </rfc-index>

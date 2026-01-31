@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 01/28/2026.
+CREATED ON: 01/30/2026.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -424,3 +424,7 @@ page http://www.rfc-editor.org
 0101 Multicast Listener Discovery Version 2 (MLDv2) for IPv6. B.
      Haberman, Ed.. March 2025. (Obsoletes RFC3810) (Updates RFC2710)
      (Also RFC9777)
+
+0102 Dynamic Host Configuration Protocol for IPv6 (DHCPv6). T.
+     Mrugalski, B. Volz, M. Richardson, S. Jiang, T. Winters. January
+     2026. (Obsoletes RFC8415) (Also RFC9915)
