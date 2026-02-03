@@ -103373,7 +103373,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>app</area>
+        <area>art</area>
         <wg_acronym>ediint</wg_acronym>
         <doi>10.17487/RFC3335</doi>
     </rfc-entry>
@@ -131145,7 +131145,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>app</area>
+        <area>art</area>
         <wg_acronym>ediint</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc4130</errata-url>
         <doi>10.17487/RFC4130</doi>
@@ -132157,7 +132157,6 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>fax</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc4160</errata-url>
         <doi>10.17487/RFC4160</doi>
     </rfc-entry>
     <rfc-entry>
@@ -154983,7 +154982,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
-        <area>app</area>
+        <area>art</area>
         <wg_acronym>ediint</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc4823</errata-url>
         <doi>10.17487/RFC4823</doi>
@@ -213365,7 +213364,7 @@
         </keywords>
         <abstract><p>In the Resource Public Key Infrastructure (RPKI), resource certificates completely obscure names or any other information that might be useful for contacting responsible parties to deal with issues of certificate expiration, maintenance, roll-overs, compromises, etc.  This document describes the RPKI Ghostbusters Record containing human contact information that may be verified (indirectly) by a Certification Authority (CA) certificate.  The data in the record are those of a severely profiled vCard. [STANDARDS- TRACK]</p></abstract>
         <draft>draft-ietf-sidr-ghostbusters-15</draft>
-        <current-status>PROPOSED STANDARD</current-status>
+        <current-status>HISTORIC</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
         <area>rtg</area>
@@ -257671,7 +257670,7 @@
         </keywords>
         <abstract><p>This document describes the use of the Stateless IP/ICMP Translation Algorithm (SIIT) in an IPv6 Internet Data Center (IDC). In this deployment model, traffic from legacy IPv4-only clients on the Internet is translated to IPv6 upon reaching the IDC operator's network infrastructure. From that point on, it may be treated the same as traffic from native IPv6 end users. The IPv6 endpoints may be numbered using arbitrary (non-IPv4-translatable) IPv6 addresses. This facilitates a single-stack IPv6-only network infrastructure, as well as efficient utilization of public IPv4 addresses.</p><p> The primary audience is IDC operators who are deploying IPv6, running out of available IPv4 addresses, and/or feeling that dual stack causes undesirable operational complexity.</p></abstract>
         <draft>draft-ietf-v6ops-siit-dc-03</draft>
-        <current-status>INFORMATIONAL</current-status>
+        <current-status>PROPOSED STANDARD</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
         <area>ops</area>
@@ -257713,7 +257712,7 @@
         </keywords>
         <abstract><p>This document describes an extension of the Stateless IP/ICMP Translation for IPv6 Internet Data Center Environments (SIIT-DC) architecture, which allows applications, protocols, or nodes that are incompatible with IPv6 and/or Network Address Translation to operate correctly with SIIT-DC. This is accomplished by introducing a new component called an SIIT-DC Edge Relay, which reverses the translations made by an SIIT-DC Border Relay. The application and/or node is thus provided with seemingly native IPv4 connectivity that provides end-to-end address transparency.</p><p> The reader is expected to be familiar with the SIIT-DC architecture described in RFC 7755.</p></abstract>
         <draft>draft-ietf-v6ops-siit-dc-2xlat-02</draft>
-        <current-status>INFORMATIONAL</current-status>
+        <current-status>PROPOSED STANDARD</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
         <area>ops</area>
