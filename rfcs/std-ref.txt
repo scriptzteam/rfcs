@@ -950,8 +950,26 @@
               <https://www.rfc-editor.org/info/std101>.
               At the time of writing, this STD comprises the following:
 
-	      Haberman, B., Ed., "Multicast Listener Discovery Version 2
+              Haberman, B., Ed., "Multicast Listener Discovery Version 2
               (MLDv2) for IPv6", STD 101, RFC 9777,
               DOI 10.17487/RFC9777, March 2025,
               <https://www.rfc-editor.org/info/rfc9777>.
-	      
+
+   [STD102]   Internet Standard 102,
+              <https://www.rfc-editor.org/info/std102>.
+              At the time of writing, this STD comprises the following:
+
+              Mrugalski, T., Volz, B., Richardson, M., Jiang, S., and T.
+              Winters, "Dynamic Host Configuration Protocol for IPv6
+              (DHCPv6)", STD 102, RFC 9915, DOI 10.17487/RFC9915,
+              January 2026, <https://www.rfc-editor.org/info/rfc9915>.
+
+   [STD103]   Internet Standard 103,
+              <https://www.rfc-editor.org/info/std103>.
+              At the time of writing, this STD comprises the following:
+
+              Anderson, T. and A. Leiva Popper, "Explicit Address Mappings for
+              Stateless IP/ICMP Translation", STD 103, RFC 7757, DOI
+              10.17487/RFC7757, February 2016,
+              <https://www.rfc-editor.org/info/rfc7757>.
+

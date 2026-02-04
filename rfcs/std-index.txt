@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 02/02/2026.
+CREATED ON: 02/03/2026.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -428,3 +428,7 @@ page http://www.rfc-editor.org
 0102 Dynamic Host Configuration Protocol for IPv6 (DHCPv6). T.
      Mrugalski, B. Volz, M. Richardson, S. Jiang, T. Winters. January
      2026. (Obsoletes RFC8415) (Also RFC9915)
+
+0103 Explicit Address Mappings for Stateless IP/ICMP Translation. T.
+     Anderson, A. Leiva Popper. February 2016. (Format: TXT=40938 HTML=
+     bytes) (Updates RFC6145) (Also RFC7757)

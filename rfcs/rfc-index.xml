@@ -257754,7 +257754,10 @@
         <updates>
             <doc-id>RFC6145</doc-id>
         </updates>
-        <current-status>PROPOSED STANDARD</current-status>
+        <is-also>
+            <doc-id>STD0103</doc-id>
+        </is-also>
+        <current-status>INTERNET STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
         <area>ops</area>
@@ -339850,6 +339853,13 @@ algorithms.</p></abstract>
         <title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6)</title>
         <is-also>
             <doc-id>RFC9915</doc-id>
+        </is-also>
+    </std-entry>
+    <std-entry>
+        <doc-id>STD0103</doc-id>
+        <title>Explicit Address Mappings for Stateless IP/ICMP Translation</title>
+        <is-also>
+            <doc-id>RFC7757</doc-id>
         </is-also>
     </std-entry>
 </rfc-index>
