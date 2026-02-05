@@ -208793,6 +208793,7 @@
         <stream>IETF</stream>
         <area>tsv</area>
         <wg_acronym>fecframe</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc6363</errata-url>
         <doi>10.17487/RFC6363</doi>
     </rfc-entry>
     <rfc-entry>
@@ -219438,6 +219439,7 @@
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>ippm</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc6673</errata-url>
         <doi>10.17487/RFC6673</doi>
     </rfc-entry>
     <rfc-entry>
@@ -299023,6 +299025,7 @@ supported in a given network.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>tls</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8879</errata-url>
         <doi>10.17487/RFC8879</doi>
     </rfc-entry>
     <rfc-entry>

@@ -968,8 +968,8 @@
               <https://www.rfc-editor.org/info/std103>.
               At the time of writing, this STD comprises the following:
 
-              Anderson, T. and A. Leiva Popper, "Explicit Address Mappings for
-              Stateless IP/ICMP Translation", STD 103, RFC 7757, DOI
-              10.17487/RFC7757, February 2016,
+              Anderson, T. and A. Leiva Popper, "Explicit Address
+              Mappings for Stateless IP/ICMP Translation", STD 103,
+              RFC 7757, DOI 10.17487/RFC7757, February 2016,
               <https://www.rfc-editor.org/info/rfc7757>.
 
