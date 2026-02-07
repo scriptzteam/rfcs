@@ -14473,7 +14473,6 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc593</errata-url>
         <doi>10.17487/RFC0593</doi>
     </rfc-entry>
     <rfc-entry>
@@ -54715,7 +54714,6 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>nimrod</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1992</errata-url>
         <doi>10.17487/RFC1992</doi>
     </rfc-entry>
     <rfc-entry>
@@ -208795,7 +208793,6 @@
         <stream>IETF</stream>
         <area>tsv</area>
         <wg_acronym>fecframe</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc6363</errata-url>
         <doi>10.17487/RFC6363</doi>
     </rfc-entry>
     <rfc-entry>
@@ -211134,7 +211131,6 @@
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>tcpm</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc6429</errata-url>
         <doi>10.17487/RFC6429</doi>
     </rfc-entry>
     <rfc-entry>
@@ -219442,7 +219438,6 @@
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>ippm</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc6673</errata-url>
         <doi>10.17487/RFC6673</doi>
     </rfc-entry>
     <rfc-entry>
