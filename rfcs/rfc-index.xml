@@ -333604,6 +333604,7 @@ managed through the "Private Enterprise Numbers (PENs)" registry.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9763</errata-url>
         <doi>10.17487/RFC9763</doi>
     </rfc-entry>
     <rfc-entry>
@@ -337021,6 +337022,7 @@ configurations required to deliver them.</p></abstract>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IRTF</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9858</errata-url>
         <doi>10.17487/RFC9858</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339090,6 +339092,46 @@ algorithms.</p></abstract>
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
         <doi>10.17487/RFC9917</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9924</doc-id>
+        <title>Advanced Professional Video</title>
+        <author>
+            <name>Y. Lim</name>
+        </author>
+        <author>
+            <name>M. Park</name>
+        </author>
+        <author>
+            <name>M. Budagavi</name>
+        </author>
+        <author>
+            <name>R. Joshi</name>
+        </author>
+        <author>
+            <name>K. Choi</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>57</page-count>
+        <keywords>
+            <kw>mezzanine codec</kw>
+            <kw>visually lossless compression</kw>
+        </keywords>
+        <abstract><p>This document describes the bitstream format of Advanced Professional Video (APV) and its decoding process.  APV is a professional video codec providing visually lossless compression mainly for recording and post production.</p></abstract>
+        <draft>draft-lim-apv-09</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>INDEPENDENT</stream>
+        <doi>10.17487/RFC9924</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>
