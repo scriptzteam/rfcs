@@ -9094,7 +9094,7 @@ RFC9276 |           | Hardaker, W. and V. Dukhovni, "Guidance for NSEC3 Paramete
 RFC9277 |           | Richardson, M. and C. Bormann, "On Stable Storage for Items in Concise Binary Object Representation (CBOR)", RFC 9277, DOI 10.17487/RFC9277, August 2022, <https://www.rfc-editor.org/info/rfc9277>.
 RFC9278 |           | Jones, M. and K. Yasuda, "JWK Thumbprint URI", RFC 9278, DOI 10.17487/RFC9278, August 2022, <https://www.rfc-editor.org/info/rfc9278>.
 RFC9279 |           | Sivakumar, M., Venaas, S., Zhang, Z., and H. Asaeda, "Internet Group Management Protocol Version 3 (IGMPv3) and Multicast Listener Discovery Version 2 (MLDv2) Message Extension", RFC 9279, DOI 10.17487/RFC9279, August 2022, <https://www.rfc-editor.org/info/rfc9279>.
-RFC9280 |           | Saint-Andre, P., Ed., "RFC Editor Model (Version 3)", RFC 9280, DOI 10.17487/RFC9280, June 2022, <https://www.rfc-editor.org/info/rfc9280>.
+RFC9280 |   RFC9920 | Saint-Andre, P., Ed., "RFC Editor Model (Version 3)", RFC 9280, DOI 10.17487/RFC9280, June 2022, <https://www.rfc-editor.org/info/rfc9280>.
 RFC9281 |           | Salz, R., "Entities Involved in the IETF Standards Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June 2022, <https://www.rfc-editor.org/info/rfc9281>.
 RFC9282 |           | Rosen, B., "Responsibility Change for the RFC Series", BCP 9, RFC 9282, DOI 10.17487/RFC9282, June 2022, <https://www.rfc-editor.org/info/rfc9282>.
 RFC9283 |           | Carpenter, B., Ed., "IAB Charter Update for RFC Editor Model", BCP 39, RFC 9283, DOI 10.17487/RFC9283, June 2022, <https://www.rfc-editor.org/info/rfc9283>.
@@ -9714,5 +9714,8 @@ RFC9910 |           | Harrison, T. and J. Singh, "Registration Data Access Proto
 RFC9911 |           | Schönwälder, J., Ed., "Common YANG Data Types", RFC 9911, DOI 10.17487/RFC9911, December 2025, <https://www.rfc-editor.org/info/rfc9911>.
 RFC9915 |           | Mrugalski, T., Volz, B., Richardson, M., Jiang, S., and T. Winters, "Dynamic Host Configuration Protocol for IPv6 (DHCPv6)", STD 102, RFC 9915, DOI 10.17487/RFC9915, January 2026, <https://www.rfc-editor.org/info/rfc9915>.
 RFC9917 |           | Psenak, P., Horn, J., and A. Dhamija, "IGP Flexible Algorithms Reverse Affinity Constraint", RFC 9917, DOI 10.17487/RFC9917, January 2026, <https://www.rfc-editor.org/info/rfc9917>.
+RFC9920 |           | Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", RFC 9920, DOI 10.17487/RFC9920, February 2026, <https://www.rfc-editor.org/info/rfc9920>.
 RFC9924 |           | Lim, Y., Park, M., Budagavi, M., Joshi, R., and K. Choi, "Advanced Professional Video", RFC 9924, DOI 10.17487/RFC9924, February 2026, <https://www.rfc-editor.org/info/rfc9924>.
+RFC9926 |           | Thubert, P., Ed., "Prefix Registration for IPv6 Neighbor Discovery", RFC 9926, DOI 10.17487/RFC9926, February 2026, <https://www.rfc-editor.org/info/rfc9926>.
+RFC9927 |           | Thubert, P. and A. Rashid, "Fixing the C-Flag in the Extended Address Registration Option (EARO)", RFC 9927, DOI 10.17487/RFC9927, February 2026, <https://www.rfc-editor.org/info/rfc9927>.
 RFC9937 |           | Mathis, M., Cardwell, N., Cheng, Y., and N. Dukkipati, "Proportional Rate Reduction (PRR)", RFC 9937, DOI 10.17487/RFC9937, December 2025, <https://www.rfc-editor.org/info/rfc9937>.

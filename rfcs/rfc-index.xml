@@ -2044,6 +2044,7 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc17</errata-url>
         <doi>10.17487/RFC0017</doi>
     </rfc-entry>
     <rfc-entry>
@@ -156301,6 +156302,7 @@
             <doc-id>RFC9131</doc-id>
             <doc-id>RFC9685</doc-id>
             <doc-id>RFC9762</doc-id>
+            <doc-id>RFC9926</doc-id>
         </updated-by>
         <current-status>DRAFT STANDARD</current-status>
         <publication-status>DRAFT STANDARD</publication-status>
@@ -215277,6 +215279,7 @@
             <doc-id>RFC9008</doc-id>
             <doc-id>RFC9010</doc-id>
             <doc-id>RFC9685</doc-id>
+            <doc-id>RFC9926</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -260839,6 +260842,7 @@
         </obsoletes>
         <updated-by>
             <doc-id>RFC9280</doc-id>
+            <doc-id>RFC9920</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -266416,6 +266420,9 @@
         <obsoletes>
             <doc-id>RFC7749</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266450,6 +266457,9 @@
         </keywords>
         <abstract><p>In order to meet the evolving needs of the Internet community, the canonical format for RFCs is changing from a plain-text, ASCII-only format to an XML format that will, in turn, be rendered into several publication formats.  This document defines the HTML format that will be rendered for an RFC or Internet-Draft.</p></abstract>
         <draft>draft-iab-html-rfc-03</draft>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266478,6 +266488,9 @@
         </keywords>
         <abstract><p>The HTML format for RFCs assigns style guidance to a Cascading Style Sheet (CSS) specifically defined for the RFC Series.  The embedded, default CSS as included by the RFC Editor is expected to take into account accessibility needs and to be built along a responsive design model.  This document describes the requirements for the default CSS used by the RFC Editor.  The class names are based on the classes defined in "HTML for RFCs" (RFC 7992).</p></abstract>
         <draft>draft-iab-rfc-css-01</draft>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266509,6 +266522,9 @@
         </keywords>
         <abstract><p>In 2013, after a great deal of community discussion, the decision was made to shift from the plain-text, ASCII-only canonical format for RFCs to XML as the canonical format with more human-readable formats rendered from that XML.  The high-level requirements that informed this change were defined in RFC 6949, "RFC Series Format Requirements and Future Development".  Plain text remains an important format for many in the IETF community, and it will be one of the publication formats rendered from the XML.  This document outlines the rendering requirements for the plain-text RFC publication format.  These requirements do not apply to plain-text RFCs published before the format transition.</p></abstract>
         <draft>draft-iab-rfc-plaintext-03</draft>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266544,6 +266560,9 @@
         </keywords>
         <abstract><p>This document discusses options and requirements for the PDF rendering of RFCs in the RFC Series, as outlined in RFC 6949.  It also discusses the use of PDF for Internet-Drafts, and available or needed software tools for producing and working with PDF.</p></abstract>
         <draft>draft-iab-rfc-use-of-pdf-02</draft>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266575,6 +266594,9 @@
         <obsoleted-by>
             <doc-id>RFC9896</doc-id>
         </obsoleted-by>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -266612,6 +266634,9 @@
         <updates>
             <doc-id>RFC7322</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IAB</stream>
@@ -285145,6 +285170,7 @@
             <doc-id>RFC8929</doc-id>
             <doc-id>RFC9010</doc-id>
             <doc-id>RFC9685</doc-id>
+            <doc-id>RFC9926</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -293336,6 +293362,7 @@
         </obsoletes>
         <updated-by>
             <doc-id>RFC9280</doc-id>
+            <doc-id>RFC9920</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -293378,6 +293405,7 @@
         </obsoletes>
         <updated-by>
             <doc-id>RFC9280</doc-id>
+            <doc-id>RFC9920</doc-id>
         </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
@@ -300929,6 +300957,10 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <updates>
             <doc-id>RFC8505</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9926</doc-id>
+            <doc-id>RFC9927</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -304265,6 +304297,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         </updates>
         <updated-by>
             <doc-id>RFC9685</doc-id>
+            <doc-id>RFC9926</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -314764,6 +314797,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <obsoletes>
             <doc-id>RFC8728</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9920</doc-id>
+        </obsoleted-by>
         <updates>
             <doc-id>RFC7841</doc-id>
             <doc-id>RFC8729</doc-id>
@@ -331903,6 +331939,9 @@ traffic.</p></abstract>
         <updates>
             <doc-id>RFC9280</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9920</doc-id>
+        </updated-by>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Editorial</stream>
@@ -334317,6 +334356,7 @@ decency, and respect.</p><p> This document is a product of the Internet Research
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9783</errata-url>
         <doi>10.17487/RFC9783</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339094,6 +339134,53 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9917</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9920</doc-id>
+        <title>RFC Editor Model (Version 3)</title>
+        <author>
+            <name>P. Hoffman</name>
+        </author>
+        <author>
+            <name>A. Rossi</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>ASCII</file-format>
+        </format>
+        <page-count>33</page-count>
+        <keywords>
+            <kw>RFC Series</kw>
+            <kw>RFC Series Working Group</kw>
+            <kw>RSWG</kw>
+            <kw>RFC Production Center</kw>
+            <kw>RPC</kw>
+        </keywords>
+        <abstract><p>This document specifies version 3 of the RFC Editor Model. The model defines two high-level tasks related to the RFC Series. First, policy definition is the joint responsibility of the RFC Series Working Group (RSWG), which produces policy proposals, and the RFC Series Approval Board (RSAB), which approves such proposals. Second, policy implementation is primarily the responsibility of the RFC Production Center (RPC) as contractually overseen by the IETF Administration Limited Liability Company (IETF LLC). In addition, various responsibilities of the RFC Editor function are now performed alone or in combination by the RSWG, RSAB, RPC, RFC Series Consulting Editor (RSCE), and IETF LLC. Finally, this document specifies the Editorial Stream for publication of future policy definition documents produced through the processes defined herein.</p><p> Since the publication of RFC 9280, lessons have been learned about implementing this model. This document lists some of those lessons learned and updates RFC 9280 based on that experience. This document obsoletes RFC 9280.</p><p> This document updates RFCs 7841, 7991, 7992, 7993, 7994, 7995, 7996, 7997, 8729, 8730, and 9720.</p></abstract>
+        <draft>draft-editorial-rswg-rfc9280-updates-04</draft>
+        <obsoletes>
+            <doc-id>RFC9280</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC7841</doc-id>
+            <doc-id>RFC7991</doc-id>
+            <doc-id>RFC7992</doc-id>
+            <doc-id>RFC7993</doc-id>
+            <doc-id>RFC7994</doc-id>
+            <doc-id>RFC7995</doc-id>
+            <doc-id>RFC7996</doc-id>
+            <doc-id>RFC7997</doc-id>
+            <doc-id>RFC8729</doc-id>
+            <doc-id>RFC8730</doc-id>
+            <doc-id>RFC9720</doc-id>
+        </updates>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>Editorial</stream>
+        <doi>10.17487/RFC9920</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9924</doc-id>
         <title>Advanced Professional Video</title>
         <author>
@@ -339132,6 +339219,72 @@ algorithms.</p></abstract>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
         <doi>10.17487/RFC9924</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9926</doc-id>
+        <title>Prefix Registration for IPv6 Neighbor Discovery</title>
+        <author>
+            <name>P. Thubert</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>24</page-count>
+        <abstract><p>This document updates IPv6 Neighbor Discovery (RFC 4861) and IPv6 Subnet Neighbor Discovery (RFC 8505, RFC 8928) to enable a node that owns or is directly connected to a prefix to register that prefix to neighbor routers.  The registration indicates that the registered prefix can be reached via the advertising node without a loop.  The unicast prefix registration allows the node to request one or more neighbor routers to redistribute the prefix in another routing domain regardless of the routing protocol used in that domain.  This document updates the Routing Protocol for Low-Power and Lossy Networks (RPL), as specified in RFCs 6550 and 9010, to enable a 6LoWPAN Router (6LR) to inject the registered prefix in RPL.</p></abstract>
+        <draft>draft-ietf-6lo-prefix-registration-18</draft>
+        <updates>
+            <doc-id>RFC4861</doc-id>
+            <doc-id>RFC6550</doc-id>
+            <doc-id>RFC8505</doc-id>
+            <doc-id>RFC8928</doc-id>
+            <doc-id>RFC9010</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>6lo</wg_acronym>
+        <doi>10.17487/RFC9926</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9927</doc-id>
+        <title>Fixing the C-Flag in the Extended Address Registration Option (EARO)</title>
+        <author>
+            <name>P. Thubert</name>
+        </author>
+        <author>
+            <name>A. Rashid</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>7</page-count>
+        <abstract><p>This document updates "Address-Protected Neighbor Discovery for Low-Power and Lossy Networks" (RFC 8928) by changing the position of the C-flag in the Extended Address Registration Option (EARO) and registering it with IANA.</p></abstract>
+        <draft>draft-ietf-6lo-updating-rfc-8928-05</draft>
+        <updates>
+            <doc-id>RFC8928</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>6lo</wg_acronym>
+        <doi>10.17487/RFC9927</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>
