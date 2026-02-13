@@ -339147,7 +339147,10 @@ algorithms.</p></abstract>
             <year>2026</year>
         </date>
         <format>
-            <file-format>ASCII</file-format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
         </format>
         <page-count>33</page-count>
         <keywords>
