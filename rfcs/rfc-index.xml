@@ -308987,6 +308987,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9129</errata-url>
         <doi>10.17487/RFC9129</doi>
     </rfc-entry>
     <rfc-entry>
