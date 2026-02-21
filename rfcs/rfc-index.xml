@@ -114567,6 +114567,7 @@
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>dnsext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc3645</errata-url>
         <doi>10.17487/RFC3645</doi>
     </rfc-entry>
     <rfc-entry>
@@ -310787,6 +310788,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>dtn</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9174</errata-url>
         <doi>10.17487/RFC9174</doi>
     </rfc-entry>
     <rfc-entry>
