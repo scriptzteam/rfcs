@@ -295459,6 +295459,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>ipsecme</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8784</errata-url>
         <doi>10.17487/RFC8784</doi>
     </rfc-entry>
     <rfc-entry>
