@@ -2044,7 +2044,6 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc17</errata-url>
         <doi>10.17487/RFC0017</doi>
     </rfc-entry>
     <rfc-entry>
@@ -248412,7 +248411,6 @@
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
         <wg_acronym>NON WORKING GROUP</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc7504</errata-url>
         <doi>10.17487/RFC7504</doi>
     </rfc-entry>
     <rfc-entry>
@@ -290107,7 +290105,6 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
