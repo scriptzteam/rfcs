@@ -2,14 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-02-27 01:43:25 UTC
+Last updated: 2026-02-28 01:25:11 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9901](rfcs/rfc9901.txt) | Selective Disclosure for JSON Web Tokens | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9901) |
-| [RFC 9902](rfcs/rfc9902.txt) | A YANG Data Model for IS-IS Segment Routing over the MPLS Data Plane | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9902) |
 | [RFC 9903](rfcs/rfc9903.txt) | A YANG Data Model for OSPF Segment Routing over the MPLS Data Plane | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9903) |
 | [RFC 9904](rfcs/rfc9904.txt) | DNSSEC Cryptographic Algorithm Recommendation Update Process | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9904) |
 | [RFC 9905](rfcs/rfc9905.txt) | Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9905) |
@@ -21,7 +19,9 @@ Last updated: 2026-02-27 01:43:25 UTC
 | [RFC 9915](rfcs/rfc9915.txt) | Dynamic Host Configuration Protocol for IPv6 (DHCPv6) | January 2026 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9915) |
 | [RFC 9917](rfcs/rfc9917.txt) | IGP Flexible Algorithms Reverse Affinity Constraint | January 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9917) |
 | [RFC 9920](rfcs/rfc9920.txt) | RFC Editor Model (Version 3) | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9920) |
+| [RFC 9921](rfcs/rfc9921.txt) | CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161 | RFC 3161 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9921) |
 | [RFC 9924](rfcs/rfc9924.txt) | Advanced Professional Video | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9924) |
+| [RFC 9925](rfcs/rfc9925.txt) | Unsigned X.509 Certificates | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9925) |
 | [RFC 9926](rfcs/rfc9926.txt) | Prefix Registration for IPv6 Neighbor Discovery | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9926) |
 | [RFC 9927](rfcs/rfc9927.txt) | Fixing the C-Flag in the Extended Address Registration Option (EARO) | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9927) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |

@@ -155,7 +155,6 @@
         <doc-id>BCP0025</doc-id>
         <is-also>
             <doc-id>RFC2418</doc-id>
-            <doc-id>RFC3934</doc-id>
             <doc-id>RFC7776</doc-id>
             <doc-id>RFC8716</doc-id>
         </is-also>
@@ -505,9 +504,6 @@
     </bcp-entry>
     <bcp-entry>
         <doc-id>BCP0083</doc-id>
-        <is-also>
-            <doc-id>RFC3683</doc-id>
-        </is-also>
     </bcp-entry>
     <bcp-entry>
         <doc-id>BCP0084</doc-id>
@@ -1475,6 +1471,12 @@
         <doc-id>BCP0244</doc-id>
         <is-also>
             <doc-id>RFC9874</doc-id>
+        </is-also>
+    </bcp-entry>
+    <bcp-entry>
+        <doc-id>BCP0245</doc-id>
+        <is-also>
+            <doc-id>RFC9945</doc-id>
         </is-also>
     </bcp-entry>
     <fyi-entry>
@@ -69675,6 +69677,7 @@
             <kw>procedures</kw>
         </keywords>
         <abstract><p>This document describes the guidelines and procedures for formation and operation of IETF working groups.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</p></abstract>
+        <draft>draft-ietf-poisson-wg-guide-03</draft>
         <obsoletes>
             <doc-id>RFC1603</doc-id>
         </obsoletes>
@@ -69684,6 +69687,7 @@
             <doc-id>RFC7776</doc-id>
             <doc-id>RFC8717</doc-id>
             <doc-id>RFC9141</doc-id>
+            <doc-id>RFC9945</doc-id>
         </updated-by>
         <is-also>
             <doc-id>BCP0025</doc-id>
@@ -115877,12 +115881,12 @@
         <page-count>13</page-count>
         <abstract><p>All self-governing bodies have ways of managing the scope of participant interaction.  The IETF uses a consensus-driven process for developing computer-communications standards in an open fashion.  An important part of this consensus-driven process is the pervasive use of mailing lists for discussion.  Notably, in a small number of cases, a participant has engaged in a "denial-of-service" attack to disrupt the consensus-driven process.  Regrettably, as these bad faith attacks become more common, the IETF needs to establish a practice that reduces or eliminates these attacks.  This memo recommends such a practice for use by the IETF.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</p></abstract>
         <draft>draft-mrose-ietf-posting-04</draft>
+        <obsoleted-by>
+            <doc-id>RFC9945</doc-id>
+        </obsoleted-by>
         <updated-by>
             <doc-id>RFC9245</doc-id>
         </updated-by>
-        <is-also>
-            <doc-id>BCP0083</doc-id>
-        </is-also>
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IETF</stream>
@@ -124340,12 +124344,12 @@
         </keywords>
         <abstract><p>This document is an update to RFC 2418 that gives WG chairs explicit responsibility for managing WG mailing lists.  In particular, it gives WG chairs the authority to temporarily suspend the mailing list posting privileges of disruptive individuals.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</p></abstract>
         <draft>draft-wasserman-rfc2418-ml-update-01</draft>
+        <obsoleted-by>
+            <doc-id>RFC9945</doc-id>
+        </obsoleted-by>
         <updates>
             <doc-id>RFC2418</doc-id>
         </updates>
-        <is-also>
-            <doc-id>BCP0025</doc-id>
-        </is-also>
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IETF</stream>
@@ -236393,6 +236397,9 @@
         </keywords>
         <abstract><p>This document defines the Tunnel Extensible Authentication Protocol (TEAP) version 1.  TEAP is a tunnel-based EAP method that enables secure communication between a peer and a server by using the Transport Layer Security (TLS) protocol to establish a mutually authenticated tunnel.  Within the tunnel, TLV objects are used to convey authentication-related data between the EAP peer and the EAP server.</p></abstract>
         <draft>draft-ietf-emu-eap-tunnel-method-10</draft>
+        <obsoleted-by>
+            <doc-id>RFC9930</doc-id>
+        </obsoleted-by>
         <updated-by>
             <doc-id>RFC9427</doc-id>
         </updated-by>
@@ -313430,6 +313437,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <updates>
             <doc-id>RFC3683</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9945</doc-id>
+        </updated-by>
         <is-also>
             <doc-id>BCP0045</doc-id>
         </is-also>
@@ -320473,6 +320483,9 @@ between SIP-based enterprise telephony networks and the ITSP.</p></abstract>
             <doc-id>RFC5281</doc-id>
             <doc-id>RFC7170</doc-id>
         </updates>
+        <updated-by>
+            <doc-id>RFC9930</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -339189,6 +339202,71 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9920</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9921</doc-id>
+        <title>CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161</title>
+        <author>
+            <name>H. Birkholz</name>
+        </author>
+        <author>
+            <name>T. Fossati</name>
+        </author>
+        <author>
+            <name>M. Riechert</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>21</page-count>
+        <abstract><p>This document defines two CBOR Object Signing and Encryption (COSE) header parameters for incorporating timestamping based on RFC 3161 into COSE message structures (COSE_Sign and COSE_Sign1).  This enables the use of established timestamping infrastructure per RFC 3161 in COSE-based protocols.</p></abstract>
+        <draft>draft-ietf-cose-tsa-tst-header-parameter-08</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>cose</wg_acronym>
+        <doi>10.17487/RFC9921</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9923</doc-id>
+        <title>The FNV Non-Cryptographic Hash Algorithm</title>
+        <author>
+            <name>L. Noll</name>
+        </author>
+        <author>
+            <name>K. Vo</name>
+        </author>
+        <author>
+            <name>D. Eastlake 3rd</name>
+        </author>
+        <author>
+            <name>T. Hansen</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>111</page-count>
+        <abstract><p>FNV (Fowler/Noll/Vo) is a fast, non-cryptographic hash algorithm with good dispersion that has been widely used and is referenced in a number of standards documents.  The purpose of this document is to make information on FNV and open-source code performing all specified sizes of FNV conveniently available to the Internet community.</p></abstract>
+        <draft>draft-eastlake-fnv-35</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>INDEPENDENT</stream>
+        <doi>10.17487/RFC9923</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9924</doc-id>
         <title>Advanced Professional Video</title>
         <author>
@@ -339327,6 +339405,78 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9927</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9929</doc-id>
+        <title>IGP Unreachable Prefix Announcement</title>
+        <author>
+            <name>P. Psenak</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Filsfils</name>
+        </author>
+        <author>
+            <name>D. Voyer</name>
+        </author>
+        <author>
+            <name>S. Hegde</name>
+        </author>
+        <author>
+            <name>G. Mishra</name>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <abstract><p>Summarization is often used in multi-area or multi-domain networks to improve network efficiency and scalability. With summarization in place, there is a need to signal loss of reachability to an individual prefix covered by the summary. This enables fast convergence by steering traffic, when applicable, away from the node which owns the prefix and is no longer reachable.</p><p> This document specifies protocol mechanisms in IS-IS and OSPF, together with two new flags, to advertise such prefix reachability loss.</p><p> The term "OSPF" in this document is used to refer to both OSPFv2 and OSPFv3.</p></abstract>
+        <draft>draft-ietf-lsr-igp-ureach-prefix-announce-11</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>lsr</wg_acronym>
+        <doi>10.17487/RFC9929</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9930</doc-id>
+        <title>Tunnel Extensible Authentication Protocol (TEAP) Version 1</title>
+        <author>
+            <name>A. DeKok</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>107</page-count>
+        <abstract><p>This document defines the Tunnel Extensible Authentication Protocol (TEAP) version 1.  TEAP is a tunnel-based EAP method that enables secure communication between a peer and a server by using the Transport Layer Security (TLS) protocol to establish a mutually authenticated tunnel.  Within the tunnel, TLV objects are used to convey authentication-related data between the EAP peer and the EAP server.  This document obsoletes RFC 7170 and updates RFC 9427 by moving all TEAP specifications from those documents to this one.</p></abstract>
+        <draft>draft-ietf-emu-rfc7170bis-22</draft>
+        <obsoletes>
+            <doc-id>RFC7170</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC9427</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>emu</wg_acronym>
+        <doi>10.17487/RFC9930</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9937</doc-id>
         <title>Proportional Rate Reduction (PRR)</title>
         <author>
@@ -339370,6 +339520,53 @@ algorithms.</p></abstract>
         <area>wit</area>
         <wg_acronym>tcpm</wg_acronym>
         <doi>10.17487/RFC9937</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9945</doc-id>
+        <title>IETF Community Moderation</title>
+        <author>
+            <name>L. Eggert</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>E. Lear</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>February</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <keywords>
+            <kw>disruption</kw>
+            <kw>moderation</kw>
+            <kw>participation</kw>
+        </keywords>
+        <abstract><p>The IETF community will treat people with kindness and grace, but not endless patience.</p><p> This memo obsoletes RFCs 3683 and 3934, and it updates RFCs 2418 and 9245 by establishing a policy for the moderation of disruptive participation across the IETF's various public contribution channels and discussion fora. It establishes guardrails for moderation and a moderator team. That team will develop a set of moderation procedures and facilitate their consistent implementation with chairs and administrators.</p></abstract>
+        <draft>draft-ietf-modpod-group-processes-16</draft>
+        <obsoletes>
+            <doc-id>RFC3683</doc-id>
+            <doc-id>RFC3934</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC2418</doc-id>
+            <doc-id>RFC9245</doc-id>
+        </updates>
+        <is-also>
+            <doc-id>BCP0245</doc-id>
+        </is-also>
+        <current-status>BEST CURRENT PRACTICE</current-status>
+        <publication-status>BEST CURRENT PRACTICE</publication-status>
+        <stream>IETF</stream>
+        <area>gen</area>
+        <wg_acronym>modpod</wg_acronym>
+        <doi>10.17487/RFC9945</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>

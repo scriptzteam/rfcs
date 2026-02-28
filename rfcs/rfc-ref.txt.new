@@ -3604,7 +3604,7 @@ RFC3679 |           | Droms, R., "Unused Dynamic Host Configuration Protocol (DH
 RFC3680 |           | Rosenberg, J., "A Session Initiation Protocol (SIP) Event Package for Registrations", RFC 3680, DOI 10.17487/RFC3680, March 2004, <https://www.rfc-editor.org/info/rfc3680>.
 RFC3681 |           | Bush, R. and R. Fink, "Delegation of E.F.F.3.IP6.ARPA", BCP 80, RFC 3681, DOI 10.17487/RFC3681, January 2004, <https://www.rfc-editor.org/info/rfc3681>.
 RFC3682 |   RFC5082 | Gill, V., Heasley, J., and D. Meyer, "The Generalized TTL Security Mechanism (GTSM)", RFC 3682, DOI 10.17487/RFC3682, February 2004, <https://www.rfc-editor.org/info/rfc3682>.
-RFC3683 |           | Rose, M., "A Practice for Revoking Posting Rights to IETF Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683, March 2004, <https://www.rfc-editor.org/info/rfc3683>.
+RFC3683 |   RFC9945 | Rose, M., "A Practice for Revoking Posting Rights to IETF Mailing Lists", RFC 3683, DOI 10.17487/RFC3683, March 2004, <https://www.rfc-editor.org/info/rfc3683>.
 RFC3684 |           | Ogier, R., Templin, F., and M. Lewis, "Topology Dissemination Based on Reverse-Path Forwarding (TBRPF)", RFC 3684, DOI 10.17487/RFC3684, February 2004, <https://www.rfc-editor.org/info/rfc3684>.
 RFC3685 |   RFC5235 | Daboo, C., "SIEVE Email Filtering: Spamtest and VirusTest Extensions", RFC 3685, DOI 10.17487/RFC3685, February 2004, <https://www.rfc-editor.org/info/rfc3685>.
 RFC3686 |           | Housley, R., "Using Advanced Encryption Standard (AES) Counter Mode With IPsec Encapsulating Security Payload (ESP)", RFC 3686, DOI 10.17487/RFC3686, January 2004, <https://www.rfc-editor.org/info/rfc3686>.
@@ -3847,7 +3847,7 @@ RFC3930 |           | Eastlake 3rd, D., "The Protocol versus Document Points of 
 RFC3931 |           | Lau, J., Ed., Townsley, M., Ed., and I. Goyret, Ed., "Layer Two Tunneling Protocol - Version 3 (L2TPv3)", RFC 3931, DOI 10.17487/RFC3931, March 2005, <https://www.rfc-editor.org/info/rfc3931>.
 RFC3932 |   RFC5742 | Alvestrand, H., "The IESG and RFC Editor Documents: Procedures", RFC 3932, DOI 10.17487/RFC3932, October 2004, <https://www.rfc-editor.org/info/rfc3932>.
 RFC3933 |           | Klensin, J. and S. Dawkins, "A Model for IETF Process Experiments", BCP 93, RFC 3933, DOI 10.17487/RFC3933, November 2004, <https://www.rfc-editor.org/info/rfc3933>.
-RFC3934 |           | Wasserman, M., "Updates to RFC 2418 Regarding the Management of IETF Mailing Lists", BCP 25, RFC 3934, DOI 10.17487/RFC3934, October 2004, <https://www.rfc-editor.org/info/rfc3934>.
+RFC3934 |   RFC9945 | Wasserman, M., "Updates to RFC 2418 Regarding the Management of IETF Mailing Lists", RFC 3934, DOI 10.17487/RFC3934, October 2004, <https://www.rfc-editor.org/info/rfc3934>.
 RFC3935 |           | Alvestrand, H., "A Mission Statement for the IETF", BCP 95, RFC 3935, DOI 10.17487/RFC3935, October 2004, <https://www.rfc-editor.org/info/rfc3935>.
 RFC3936 |           | Kompella, K. and J. Lang, "Procedures for Modifying the Resource reSerVation Protocol (RSVP)", BCP 96, RFC 3936, DOI 10.17487/RFC3936, October 2004, <https://www.rfc-editor.org/info/rfc3936>.
 RFC3937 |           | Steidl, M., "A Uniform Resource Name (URN) Namespace for the International Press Telecommunications Council (IPTC)", RFC 3937, DOI 10.17487/RFC3937, October 2004, <https://www.rfc-editor.org/info/rfc3937>.
@@ -6997,7 +6997,7 @@ RFC7166 |           | Bhatia, M., Manral, V., and A. Lindem, "Supporting Authent
 RFC7167 |           | Frost, D., Bryant, S., Bocci, M., and L. Berger, "A Framework for Point-to-Multipoint MPLS in Transport Networks", RFC 7167, DOI 10.17487/RFC7167, April 2014, <https://www.rfc-editor.org/info/rfc7167>.
 RFC7168 |           | Nazar, I., "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)", RFC 7168, DOI 10.17487/RFC7168, April 1 2014, <https://www.rfc-editor.org/info/rfc7168>.
 RFC7169 |           | Turner, S., "The NSA (No Secrecy Afforded) Certificate Extension", RFC 7169, DOI 10.17487/RFC7169, April 1 2014, <https://www.rfc-editor.org/info/rfc7169>.
-RFC7170 |           | Zhou, H., Cam-Winget, N., Salowey, J., and S. Hanna, "Tunnel Extensible Authentication Protocol (TEAP) Version 1", RFC 7170, DOI 10.17487/RFC7170, May 2014, <https://www.rfc-editor.org/info/rfc7170>.
+RFC7170 |   RFC9930 | Zhou, H., Cam-Winget, N., Salowey, J., and S. Hanna, "Tunnel Extensible Authentication Protocol (TEAP) Version 1", RFC 7170, DOI 10.17487/RFC7170, May 2014, <https://www.rfc-editor.org/info/rfc7170>.
 RFC7171 |           | Cam-Winget, N. and P. Sangster, "PT-EAP: Posture Transport (PT) Protocol for Extensible Authentication Protocol (EAP) Tunnel Methods", RFC 7171, DOI 10.17487/RFC7171, May 2014, <https://www.rfc-editor.org/info/rfc7171>.
 RFC7172 |           | Eastlake 3rd, D., Zhang, M., Agarwal, P., Perlman, R., and D. Dutt, "Transparent Interconnection of Lots of Links (TRILL): Fine-Grained Labeling", RFC 7172, DOI 10.17487/RFC7172, May 2014, <https://www.rfc-editor.org/info/rfc7172>.
 RFC7173 |           | Yong, L., Eastlake 3rd, D., Aldrin, S., and J. Hudson, "Transparent Interconnection of Lots of Links (TRILL) Transport Using Pseudowires", RFC 7173, DOI 10.17487/RFC7173, May 2014, <https://www.rfc-editor.org/info/rfc7173>.
@@ -9715,8 +9715,13 @@ RFC9911 |           | Schönwälder, J., Ed., "Common YANG Data Types", RFC 9911
 RFC9915 |           | Mrugalski, T., Volz, B., Richardson, M., Jiang, S., and T. Winters, "Dynamic Host Configuration Protocol for IPv6 (DHCPv6)", STD 102, RFC 9915, DOI 10.17487/RFC9915, January 2026, <https://www.rfc-editor.org/info/rfc9915>.
 RFC9917 |           | Psenak, P., Horn, J., and A. Dhamija, "IGP Flexible Algorithms Reverse Affinity Constraint", RFC 9917, DOI 10.17487/RFC9917, January 2026, <https://www.rfc-editor.org/info/rfc9917>.
 RFC9920 |           | Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", RFC 9920, DOI 10.17487/RFC9920, February 2026, <https://www.rfc-editor.org/info/rfc9920>.
+RFC9921 |           | Birkholz, H., Fossati, T., and M. Riechert, "CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161", RFC 9921, DOI 10.17487/RFC9921, February 2026, <https://www.rfc-editor.org/info/rfc9921>.
+RFC9923 |           | Noll, L., Vo, K., Eastlake 3rd, D., and T. Hansen, "The FNV Non-Cryptographic Hash Algorithm", RFC 9923, DOI 10.17487/RFC9923, February 2026, <https://www.rfc-editor.org/info/rfc9923>.
 RFC9924 |           | Lim, Y., Park, M., Budagavi, M., Joshi, R., and K. Choi, "Advanced Professional Video", RFC 9924, DOI 10.17487/RFC9924, February 2026, <https://www.rfc-editor.org/info/rfc9924>.
 RFC9925 |           | Benjamin, D., "Unsigned X.509 Certificates", RFC 9925, DOI 10.17487/RFC9925, February 2026, <https://www.rfc-editor.org/info/rfc9925>.
 RFC9926 |           | Thubert, P., Ed., "Prefix Registration for IPv6 Neighbor Discovery", RFC 9926, DOI 10.17487/RFC9926, February 2026, <https://www.rfc-editor.org/info/rfc9926>.
 RFC9927 |           | Thubert, P. and A. Rashid, "Fixing the C-Flag in the Extended Address Registration Option (EARO)", RFC 9927, DOI 10.17487/RFC9927, February 2026, <https://www.rfc-editor.org/info/rfc9927>.
+RFC9929 |           | Psenak, P., Ed., Filsfils, C., Voyer, D., Hegde, S., and G. Mishra, "IGP Unreachable Prefix Announcement", RFC 9929, DOI 10.17487/RFC9929, February 2026, <https://www.rfc-editor.org/info/rfc9929>.
+RFC9930 |           | DeKok, A., Ed., "Tunnel Extensible Authentication Protocol (TEAP) Version 1", RFC 9930, DOI 10.17487/RFC9930, February 2026, <https://www.rfc-editor.org/info/rfc9930>.
 RFC9937 |           | Mathis, M., Cardwell, N., Cheng, Y., and N. Dukkipati, "Proportional Rate Reduction (PRR)", RFC 9937, DOI 10.17487/RFC9937, December 2025, <https://www.rfc-editor.org/info/rfc9937>.
+RFC9945 |           | Eggert, L., Ed., and E. Lear, Ed., "IETF Community Moderation", BCP 245, RFC 9945, DOI 10.17487/RFC9945, February 2026, <https://www.rfc-editor.org/info/rfc9945>.

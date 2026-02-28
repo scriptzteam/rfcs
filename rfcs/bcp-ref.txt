@@ -1248,9 +1248,9 @@
               <https://www.rfc-editor.org/info/bcp133>.
               At the time of writing, this BCP comprises the following:
 
-              Duke, M., Ed., and G. Fairhurst, Ed., "Specifying New
-              Congestion Control Algorithms", BCP 133, RFC 9743, DOI
-              10.17487/RFC9743, March 2025,
+              Duke, M., Ed. and G. Fairhurst, Ed., "Specifying New
+              Congestion Control Algorithms", BCP 133, RFC 9743,
+              DOI 10.17487/RFC9743, March 2025,
               <https://www.rfc-editor.org/info/rfc9743>.
 
    [BCP134]   Best Current Practice 134,
@@ -1960,9 +1960,9 @@
               At the time of writing, this BCP comprises the following:
 
               Koch, P., Larson, M., and P. Hoffman, "Initializing a DNS
-              Resolver with Priming Queries", BCP 209, RFC 8109,
-              DOI 10.17487/RFC8109, March 2017,
-              <https://www.rfc-editor.org/info/rfc8109>.
+              Resolver with Priming Queries", BCP 209, RFC 9609,
+              DOI 10.17487/RFC9609, February 2025,
+              <https://www.rfc-editor.org/info/rfc9609>.
 
    [BCP210]   Best Current Practice 210,
               <https://www.rfc-editor.org/info/bcp210>.
@@ -2126,8 +2126,8 @@
               October 2021, <https://www.rfc-editor.org/info/rfc9137>.
 
               Daley, J. and S. Turner, "IETF Meeting Venue Requirements
-	      Review", BCP 226, RFC 9712, DOI 10.17487/RFC9712, January
-	      2025, <https://www.rfc-editor.org/info/rfc9712>.
+              Review", BCP 226, RFC 9712, DOI 10.17487/RFC9712, January
+              2025, <https://www.rfc-editor.org/info/rfc9712>.
 
    [BCP227]   Best Current Practice 227,
               <https://www.rfc-editor.org/info/bcp227>.
@@ -2258,7 +2258,7 @@
               At the time of writing, this BCP comprises the following:
 
               Richardson, M. and W. Pan, "Operational Considerations for
-	      Use of DNS in Internet of Things (IoT) Devices", BCP 241,
+              Use of DNS in Internet of Things (IoT) Devices", BCP 241,
               RFC 9726, DOI 10.17487/RFC9726, March 2025,
               <https://www.rfc-editor.org/info/rfc9726>.
 
@@ -2266,8 +2266,35 @@
               <https://www.rfc-editor.org/info/bcp242>.
               At the time of writing, this BCP comprises the following:
 
-             Carpenter, B., Krishnan, S., and D. Farmer, "Clarification
-	     of IPv6 Address Allocation Policy", BCP 242, RFC 9812, DOI
-	     10.17487/RFC9812, October 2025,
-	     <https://www.rfc-editor.org/info/rfc9812>.
+              Carpenter, B., Krishnan, S., and D. Farmer, "Clarification
+              of IPv6 Address Allocation Policy", BCP 242, RFC 9812,
+              DOI 10.17487/RFC9812, October 2025,
+              <https://www.rfc-editor.org/info/rfc9812>.
+
+   [BCP243]   Best Current Practice 243,
+              <https://www.rfc-editor.org/info/bcp243>.
+              At the time of writing, this BCP comprises the following:
+
+              DeKok, A., "Operational Considerations for Using TLS Pre-
+              Shared Keys (TLS-PSKs) with RADIUS", BCP 243, RFC 9813,
+              DOI 10.17487/RFC9813, July 2025,
+              <https://www.rfc-editor.org/info/rfc9813>.
+
+   [BCP244]   Best Current Practice 244,
+              <https://www.rfc-editor.org/info/bcp244>.
+              At the time of writing, this BCP comprises the following:
+
+              Hollenbeck, S., Carroll, W., and G. Akiwate, "Best
+              Practices for Deletion of Domain and Host Objects in the
+              Extensible Provisioning Protocol (EPP)", BCP 244,
+              RFC 9874, DOI 10.17487/RFC9874, September 2025,
+              <https://www.rfc-editor.org/info/rfc9874>.
+
+   [BCP245]   Best Current Practice 245,
+              <https://www.rfc-editor.org/info/bcp245>.
+              At the time of writing, this BCP comprises the following:
+
+              Eggert, L., Ed., and E. Lear, Ed., "IETF Community
+              Moderation", BCP 245, RFC 9945, DOI 10.17487/RFC9945, 
+              February 2026, <https://www.rfc-editor.org/info/rfc9945>.
 

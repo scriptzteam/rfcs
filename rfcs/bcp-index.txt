@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 02/26/2026.
+CREATED ON: 02/27/2026.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -146,7 +146,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0025 IETF Working Group Guidelines and Procedures. S. Bradner, M.
      Wasserman, P. Resnick, A. Farrel. September 1998. (Format: TXT=114406
-     HTML= bytes) (Also RFC2418, RFC3934, RFC7776, RFC8716)
+     HTML= bytes) (Also RFC2418, RFC7776, RFC8716)
 
 0026 Guidelines for Writing an IANA Considerations Section in RFCs. M.
      Cotton, B. Leiba, T. Narten. June 2017. (Format: TXT=109907 HTML=
@@ -221,7 +221,8 @@ RFC Editor Web page http://www.rfc-editor.org.
      (Format: TXT =18899 HTML= bytes) (Also RFC2964)
 
 0045 IETF Discussion List Charter. L. Eggert, S. Harris. June 2022.
-     (Obsoletes RFC3005) (Updates RFC3683) (Also RFC9245)
+     (Obsoletes RFC3005) (Updates RFC3683) (Updated by RFC9945) (Also
+     RFC9245)
 
 0046 Recommended Internet Service Provider Security Services and
      Procedures. T. Killalea. November 2000. (Format: TXT =27905 HTML=
@@ -361,9 +362,7 @@ RFC Editor Web page http://www.rfc-editor.org.
      Narten. January 2004. (Format: TXT =15054 HTML= bytes) (Updates
      RFC2434) (Also RFC3692)
 
-0083 A Practice for Revoking Posting Rights to IETF Mailing Lists. M.
-     Rose. March 2004. (Format: TXT =15698 HTML= bytes) (Updated by
-     RFC9245) (Also RFC3683)
+0083 [BCP 83 is retired. See BCP 245.]
 
 0084 Ingress Filtering for Multihomed Networks. F. Baker, P. Savola,
      K. Sriram, D. Montgomery, J. Haas. March 2004. (Format: bytes) (Also
@@ -971,3 +970,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 0244 Best Practices for Deletion of Domain and Host Objects in the
      Extensible Provisioning Protocol (EPP). S. Hollenbeck, W. Carroll, G.
      Akiwate. September 2025. (Also RFC9874)
+
+0245 IETF Community Moderation. L. Eggert, Ed., E. Lear, Ed.. February
+     2026. (Format: HTML=46243 TEXT= v3PDF= XML= bytes) (Obsoletes
+     RFC3683, RFC3934) (Updates RFC2418, RFC9245) (Also RFC9945)
