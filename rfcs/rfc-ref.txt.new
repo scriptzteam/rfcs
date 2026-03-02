@@ -9724,4 +9724,5 @@ RFC9927 |           | Thubert, P. and A. Rashid, "Fixing the C-Flag in the Exten
 RFC9929 |           | Psenak, P., Ed., Filsfils, C., Voyer, D., Hegde, S., and G. Mishra, "IGP Unreachable Prefix Announcement", RFC 9929, DOI 10.17487/RFC9929, February 2026, <https://www.rfc-editor.org/info/rfc9929>.
 RFC9930 |           | DeKok, A., Ed., "Tunnel Extensible Authentication Protocol (TEAP) Version 1", RFC 9930, DOI 10.17487/RFC9930, February 2026, <https://www.rfc-editor.org/info/rfc9930>.
 RFC9937 |           | Mathis, M., Cardwell, N., Cheng, Y., and N. Dukkipati, "Proportional Rate Reduction (PRR)", RFC 9937, DOI 10.17487/RFC9937, December 2025, <https://www.rfc-editor.org/info/rfc9937>.
+RFC9939 |           | Mandel, J., Housley, R., and S. Turner, "PKCS #8: Private-Key Information Content Types", RFC 9939, DOI 10.17487/RFC9939, February 2026, <https://www.rfc-editor.org/info/rfc9939>.
 RFC9945 |           | Eggert, L., Ed., and E. Lear, Ed., "IETF Community Moderation", BCP 245, RFC 9945, DOI 10.17487/RFC9945, February 2026, <https://www.rfc-editor.org/info/rfc9945>.
