@@ -2,17 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-03-02 01:46:00 UTC
+Last updated: 2026-03-03 01:48:18 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9903](rfcs/rfc9903.txt) | A YANG Data Model for OSPF Segment Routing over the MPLS Data Plane | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9903) |
-| [RFC 9904](rfcs/rfc9904.txt) | DNSSEC Cryptographic Algorithm Recommendation Update Process | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9904) |
-| [RFC 9905](rfcs/rfc9905.txt) | Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9905) |
-| [RFC 9906](rfcs/rfc9906.txt) | Deprecate Usage of ECC-GOST within DNSSEC | November 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9906) |
-| [RFC 9908](rfcs/rfc9908.txt) | Clarification and Enhancement of the CSR Attributes Definition in RFC 7030 | RFC 7030 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9908) |
 | [RFC 9909](rfcs/rfc9909.txt) | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9909) |
 | [RFC 9910](rfcs/rfc9910.txt) | Registration Data Access Protocol (RDAP) Regional Internet Registry (RIR) Search | January 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9910) |
 | [RFC 9911](rfcs/rfc9911.txt) | Common YANG Data Types | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9911) |
@@ -20,8 +15,13 @@ Last updated: 2026-03-02 01:46:00 UTC
 | [RFC 9917](rfcs/rfc9917.txt) | IGP Flexible Algorithms Reverse Affinity Constraint | January 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9917) |
 | [RFC 9920](rfcs/rfc9920.txt) | RFC Editor Model (Version 3) | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9920) |
 | [RFC 9921](rfcs/rfc9921.txt) | CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161 | RFC 3161 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9921) |
+| [RFC 9923](rfcs/rfc9923.txt) | The FNV Non-Cryptographic Hash Algorithm | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9923) |
 | [RFC 9924](rfcs/rfc9924.txt) | Advanced Professional Video | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9924) |
 | [RFC 9925](rfcs/rfc9925.txt) | Unsigned X.509 Certificates | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9925) |
 | [RFC 9926](rfcs/rfc9926.txt) | Prefix Registration for IPv6 Neighbor Discovery | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9926) |
 | [RFC 9927](rfcs/rfc9927.txt) | Fixing the C-Flag in the Extended Address Registration Option (EARO) | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9927) |
+| [RFC 9929](rfcs/rfc9929.txt) | IGP Unreachable Prefix Announcement | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9929) |
+| [RFC 9930](rfcs/rfc9930.txt) | Tunnel Extensible Authentication Protocol (TEAP) Version 1 | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9930) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
+| [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
+| [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |

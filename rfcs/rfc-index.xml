@@ -290428,6 +290428,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>acme</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8657</errata-url>
         <doi>10.17487/RFC8657</doi>
     </rfc-entry>
     <rfc-entry>
