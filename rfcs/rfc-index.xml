@@ -405,6 +405,9 @@
         </is-also>
     </bcp-entry>
     <bcp-entry>
+        <doc-id>BCP0066</doc-id>
+    </bcp-entry>
+    <bcp-entry>
         <doc-id>BCP0067</doc-id>
         <is-also>
             <doc-id>RFC5727</doc-id>
@@ -682,6 +685,9 @@
         <is-also>
             <doc-id>RFC4222</doc-id>
         </is-also>
+    </bcp-entry>
+    <bcp-entry>
+        <doc-id>BCP0113</doc-id>
     </bcp-entry>
     <bcp-entry>
         <doc-id>BCP0114</doc-id>
@@ -16636,6 +16642,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc698</errata-url>
         <doi>10.17487/RFC0698</doi>
     </rfc-entry>
     <rfc-entry>
@@ -29140,6 +29147,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>telnet</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1184</errata-url>
         <doi>10.17487/RFC1184</doi>
     </rfc-entry>
     <rfc-entry>
@@ -36812,7 +36820,6 @@
         <current-status>EXPERIMENTAL</current-status>
         <publication-status>EXPERIMENTAL</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1440</errata-url>
         <doi>10.17487/RFC1440</doi>
     </rfc-entry>
     <rfc-entry>
@@ -284917,6 +284924,7 @@
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>sipcore</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8498</errata-url>
         <doi>10.17487/RFC8498</doi>
     </rfc-entry>
     <rfc-entry>
@@ -290428,7 +290436,6 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>acme</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8657</errata-url>
         <doi>10.17487/RFC8657</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339602,6 +339609,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>gen</area>
         <wg_acronym>modpod</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9945</errata-url>
         <doi>10.17487/RFC9945</doi>
     </rfc-entry>
     <std-entry>

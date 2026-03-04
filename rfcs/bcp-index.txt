@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 03/01/2026.
+CREATED ON: 03/03/2026.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -297,6 +297,11 @@ RFC Editor Web page http://www.rfc-editor.org.
 0065 Registration Rules for URI.ARPA. M. Mealling, T. Hardie. October
      2002. (Format: bytes) (Also RFC3405, RFC8958)
 
+0066 [BCP 66 was previously RFC 3406 ("Uniform Resource Names (URN)
+     Namespace Definition Mechanisms"), which has been obsoleted by RFC
+     8141 (Proposed Standard; "Uniform Resource Names (URNs)"). See RFC
+     8141 for more information.]
+
 0067 The SIP Change Process. J. Peterson, C. Jennings, R. Sparks, B.
      Campbell, Ed., A. Cooper, B. Leiba. March 2010. (Format: TXT=47266
      HTML= bytes) (Also RFC5727, RFC7957)
@@ -478,6 +483,12 @@ RFC Editor Web page http://www.rfc-editor.org.
 0112 Prioritized Treatment of Specific OSPF Version 2 Packets and
      Congestion Avoidance. G. Choudhury, Ed.. October 2005. (Format:
      TXT=34132 HTML= bytes) (Updated by RFC9454) (Also RFC4222)
+
+0113 [BCP 113 was previously RFC 4333 ("The IETF Administrative
+     Oversight Committee (IAOC) Member Selection Guidelines and Process").
+     It has been obsoleted by RFC 8711 ("Structure of the IETF
+     Administrative Support Activity, Version 2.0"), which is part of BCP
+     101. See BCP 101 for more information.]
 
 0114 BGP Communities for Data Collection. D. Meyer. February 2006.
      (Format: TXT=26078 HTML= bytes) (Also RFC4384)
