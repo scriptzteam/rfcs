@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/03/2026.)
+(CREATED ON: 03/05/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42047,6 +42047,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      December 2025. (Format: HTML, TXT, PDF, XML) (Updates RFC8447)
      (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9847) 
 
+9848 Bootstrapping TLS Encrypted ClientHello with DNS Service Bindings.
+     B. Schwartz, M. Bishop, E. Nygren. March 2026. (Format: HTML, TXT,
+     PDF, XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9848) 
+
+9849 TLS Encrypted Client Hello. E. Rescorla, K. Oku, N. Sullivan, C. A.
+     Wood. March 2026. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
+     STANDARD) (DOI: 10.17487/RFC9849) 
+
 9854 AODV-RPL: The Routing Protocol for Low-Power and Lossy Networks
      (RPL) Based on Ad Hoc On-Demand Distance Vector (AODV) Routing. C.E.
      Perkins, S.V.R. Anand, S. Anamalamudi, B. Liu. October 2025.
@@ -42363,6 +42371,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      DeKok, Ed.. February 2026. (Format: HTML, TXT, PDF, XML) (Obsoletes
      RFC7170) (Updates RFC9427) (Status: PROPOSED STANDARD) (DOI:
      10.17487/RFC9930) 
+
+9934 Privacy-Enhanced Mail (PEM) File Format for Encrypted ClientHello
+     (ECH). S. Farrell. March 2026. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9934) 
 
 9937 Proportional Rate Reduction (PRR). M. Mathis, N. Cardwell, Y. Cheng,
      N. Dukkipati. December 2025. (Format: HTML, TXT, PDF, XML)

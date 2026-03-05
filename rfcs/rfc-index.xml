@@ -306606,6 +306606,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>oauth</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9068</errata-url>
         <doi>10.17487/RFC9068</doi>
     </rfc-entry>
     <rfc-entry>
@@ -336875,6 +336876,84 @@ configurations required to deliver them.</p></abstract>
         <doi>10.17487/RFC9847</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9848</doc-id>
+        <title>Bootstrapping TLS Encrypted ClientHello with DNS Service Bindings</title>
+        <author>
+            <name>B. Schwartz</name>
+        </author>
+        <author>
+            <name>M. Bishop</name>
+        </author>
+        <author>
+            <name>E. Nygren</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>9</page-count>
+        <keywords>
+            <kw>ech SvcParamKey</kw>
+            <kw>ech SvcParam</kw>
+            <kw>ECH</kw>
+            <kw>SVCB</kw>
+            <kw>HTTPS Resource Records</kw>
+            <kw>TLS SNI</kw>
+            <kw>Encrypted SNI</kw>
+            <kw>Server Name Indication</kw>
+            <kw>Encrypted Server Name Indication</kw>
+        </keywords>
+        <abstract><p>To use TLS Encrypted ClientHello (ECH), the client needs to learn the ECH configuration for a server before it attempts a connection to the server.  This specification provides a mechanism for conveying the ECH configuration information via DNS, using a SVCB or HTTPS resource record (RR).</p></abstract>
+        <draft>draft-ietf-tls-svcb-ech-08</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>tls</wg_acronym>
+        <doi>10.17487/RFC9848</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9849</doc-id>
+        <title>TLS Encrypted Client Hello</title>
+        <author>
+            <name>E. Rescorla</name>
+        </author>
+        <author>
+            <name>K. Oku</name>
+        </author>
+        <author>
+            <name>N. Sullivan</name>
+        </author>
+        <author>
+            <name>C. A. Wood</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>44</page-count>
+        <abstract><p>This document describes a mechanism in Transport Layer Security (TLS) for encrypting a message under a server public key.</p></abstract>
+        <draft>draft-ietf-tls-esni-25</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>tls</wg_acronym>
+        <doi>10.17487/RFC9849</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9854</doc-id>
         <title>AODV-RPL: The Routing Protocol for Low-Power and Lossy Networks (RPL) Based on Ad Hoc On-Demand Distance Vector (AODV) Routing</title>
         <author>
@@ -339035,6 +339114,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>regext</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9910</errata-url>
         <doi>10.17487/RFC9910</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339483,6 +339563,35 @@ algorithms.</p></abstract>
         <area>sec</area>
         <wg_acronym>emu</wg_acronym>
         <doi>10.17487/RFC9930</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9934</doc-id>
+        <title>Privacy-Enhanced Mail (PEM) File Format for Encrypted ClientHello (ECH)</title>
+        <author>
+            <name>S. Farrell</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>TLS</kw>
+            <kw>ESNI</kw>
+        </keywords>
+        <abstract><p>Encrypted ClientHello (ECH) key pairs need to be configured into TLS servers, which can be built using different TLS libraries.  This document specifies a standard file format for this purpose, similar to how RFC 7468 defines other Privacy-Enhanced Mail (PEM) file formats.</p></abstract>
+        <draft>draft-farrell-tls-pemesni-13</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <wg_acronym>NON WORKING GROUP</wg_acronym>
+        <doi>10.17487/RFC9934</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>
