@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-03-05 01:45:25 UTC
+Last updated: 2026-03-06 01:47:08 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9909](rfcs/rfc9909.txt) | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9909) |
 | [RFC 9910](rfcs/rfc9910.txt) | Registration Data Access Protocol (RDAP) Regional Internet Registry (RIR) Search | January 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9910) |
 | [RFC 9911](rfcs/rfc9911.txt) | Common YANG Data Types | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9911) |
 | [RFC 9915](rfcs/rfc9915.txt) | Dynamic Host Configuration Protocol for IPv6 (DHCPv6) | January 2026 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9915) |
@@ -22,6 +21,7 @@ Last updated: 2026-03-05 01:45:25 UTC
 | [RFC 9927](rfcs/rfc9927.txt) | Fixing the C-Flag in the Extended Address Registration Option (EARO) | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9927) |
 | [RFC 9929](rfcs/rfc9929.txt) | IGP Unreachable Prefix Announcement | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9929) |
 | [RFC 9930](rfcs/rfc9930.txt) | Tunnel Extensible Authentication Protocol (TEAP) Version 1 | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9930) |
+| [RFC 9934](rfcs/rfc9934.txt) | Privacy-Enhanced Mail (PEM) File Format for Encrypted ClientHello (ECH) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9934) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
 | [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
 | [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |
