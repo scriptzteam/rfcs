@@ -16642,7 +16642,6 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc698</errata-url>
         <doi>10.17487/RFC0698</doi>
     </rfc-entry>
     <rfc-entry>
@@ -308363,6 +308362,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <obsoletes>
             <doc-id>RFC7230</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9931</doc-id>
+        </updated-by>
         <is-also>
             <doc-id>STD0099</doc-id>
         </is-also>
@@ -315508,6 +315510,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <draft>draft-ietf-masque-connect-udp-15</draft>
         <updated-by>
             <doc-id>RFC9484</doc-id>
+            <doc-id>RFC9931</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -332347,6 +332350,7 @@ traffic.</p></abstract>
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>httpbis</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9729</errata-url>
         <doi>10.17487/RFC9729</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339565,6 +339569,41 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9930</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9931</doc-id>
+        <title>Security Considerations for Optimistic Protocol Transitions in HTTP/1.1</title>
+        <author>
+            <name>B. Schwartz</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>11</page-count>
+        <keywords>
+            <kw>Request Smuggling</kw>
+            <kw>False Start</kw>
+            <kw>HTTP CONNECT</kw>
+        </keywords>
+        <abstract><p>In HTTP/1.1, the client can request a change to a new protocol on the existing connection.  This document discusses the security considerations that apply to data sent by the client before this request is confirmed and adds new requirements to RFCs 9112 and 9298 to avoid related security issues.</p></abstract>
+        <draft>draft-ietf-httpbis-optimistic-upgrade-06</draft>
+        <updates>
+            <doc-id>RFC9112</doc-id>
+            <doc-id>RFC9298</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>httpbis</wg_acronym>
+        <doi>10.17487/RFC9931</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9934</doc-id>
         <title>Privacy-Enhanced Mail (PEM) File Format for Encrypted ClientHello (ECH)</title>
         <author>
@@ -339592,6 +339631,87 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <wg_acronym>NON WORKING GROUP</wg_acronym>
         <doi>10.17487/RFC9934</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9935</doc-id>
+        <title>Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM)</title>
+        <author>
+            <name>S. Turner</name>
+        </author>
+        <author>
+            <name>P. Kampanakis</name>
+        </author>
+        <author>
+            <name>J. Massimo</name>
+        </author>
+        <author>
+            <name>B. E. Westerbaan</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>71</page-count>
+        <keywords>
+            <kw>ML-KEM</kw>
+            <kw>Kyber</kw>
+            <kw>KEM</kw>
+            <kw>Certificate</kw>
+            <kw>X.509</kw>
+            <kw>PKIX</kw>
+        </keywords>
+        <abstract><p>The Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) is a quantum-resistant Key Encapsulation Mechanism.  This document specifies the conventions for using the ML-KEM in X.509 Public Key Infrastructure.  The conventions for the subject public keys and private keys are also specified.</p></abstract>
+        <draft>draft-ietf-lamps-kyber-certificates-11</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9935</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9936</doc-id>
+        <title>Use of ML-KEM in the Cryptographic Message Syntax (CMS)</title>
+        <author>
+            <name>P. Julien</name>
+        </author>
+        <author>
+            <name>M. Ounsworth</name>
+        </author>
+        <author>
+            <name>D. Van Geest</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>18</page-count>
+        <keywords>
+            <kw>Key Encapsulation Mechanism (KEM)</kw>
+            <kw>KEMRecipientInfo</kw>
+            <kw>ML-KEM</kw>
+            <kw>Kyber</kw>
+        </keywords>
+        <abstract><p>Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) is a quantum-resistant Key Encapsulation Mechanism (KEM).  Three parameter sets for the ML-KEM algorithm are specified by the US National Institute of Standards and Technology (NIST) in FIPS 203.  In order of increasing security strength (and decreasing performance), these parameter sets are ML-KEM-512, ML-KEM-768, and ML-KEM-1024.  This document specifies the conventions for using ML-KEM with the Cryptographic Message Syntax (CMS) using the KEMRecipientInfo structure defined in "Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS)" (RFC 9629).</p></abstract>
+        <draft>draft-ietf-lamps-cms-kyber-13</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>lamps</wg_acronym>
+        <doi>10.17487/RFC9936</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9937</doc-id>

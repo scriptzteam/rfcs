@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 03/04/2026.
+CREATED ON: 03/06/2026.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -416,7 +416,7 @@ page http://www.rfc-editor.org
      Ed.. June 2022. (Obsoletes RFC7234) (Also RFC9111)
 
 0099 HTTP/1.1. R. Fielding, Ed., M. Nottingham, Ed., J. Reschke, Ed..
-     June 2022. (Obsoletes RFC7230) (Also RFC9112)
+     June 2022. (Obsoletes RFC7230) (Updated by RFC9931) (Also RFC9112)
 
 0100 Internet Group Management Protocol, Version 3. B. Haberman, Ed..
      March 2025. (Obsoletes RFC3376) (Updates RFC2236) (Also RFC9776)
