@@ -26872,6 +26872,7 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1101</errata-url>
         <doi>10.17487/RFC1101</doi>
     </rfc-entry>
     <rfc-entry>
@@ -260532,6 +260533,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>abfab</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7833</errata-url>
         <doi>10.17487/RFC7833</doi>
     </rfc-entry>
     <rfc-entry>
