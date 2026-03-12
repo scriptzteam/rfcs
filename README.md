@@ -2,15 +2,15 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-03-11 01:41:04 UTC
+Last updated: 2026-03-12 01:29:12 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9917](rfcs/rfc9917.txt) | IGP Flexible Algorithms Reverse Affinity Constraint | January 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9917) |
 | [RFC 9920](rfcs/rfc9920.txt) | RFC Editor Model (Version 3) | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9920) |
 | [RFC 9921](rfcs/rfc9921.txt) | CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161 | RFC 3161 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9921) |
+| [RFC 9922](rfcs/rfc9922.txt) | A Common YANG Data Model for Scheduling | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9922) |
 | [RFC 9923](rfcs/rfc9923.txt) | The FNV Non-Cryptographic Hash Algorithm | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9923) |
 | [RFC 9924](rfcs/rfc9924.txt) | Advanced Professional Video | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9924) |
 | [RFC 9925](rfcs/rfc9925.txt) | Unsigned X.509 Certificates | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9925) |
