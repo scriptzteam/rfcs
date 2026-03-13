@@ -338285,6 +338285,7 @@ configurations required to deliver them.</p></abstract>
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>drip</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9886</errata-url>
         <doi>10.17487/RFC9886</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339257,6 +339258,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>int</area>
         <wg_acronym>dhc</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9915</errata-url>
         <doi>10.17487/RFC9915</doi>
     </rfc-entry>
     <rfc-entry>
