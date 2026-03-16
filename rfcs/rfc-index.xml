@@ -24762,6 +24762,7 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1023</errata-url>
         <doi>10.17487/RFC1023</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339852,6 +339853,50 @@ algorithms.</p></abstract>
         <area>wit</area>
         <wg_acronym>tcpm</wg_acronym>
         <doi>10.17487/RFC9937</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9938</doc-id>
+        <title>A Framework for the Deterministic Networking (DetNet) Controller Plane</title>
+        <author>
+            <name>A. Malis</name>
+        </author>
+        <author>
+            <name>X. Geng</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>M. (Guoyi)Chen</name>
+        </author>
+        <author>
+            <name>B. Varga</name>
+        </author>
+        <author>
+            <name>CJ. Bernardos</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>15</page-count>
+        <keywords>
+            <kw>DetNet</kw>
+            <kw>Controller plane</kw>
+            <kw>SDN</kw>
+        </keywords>
+        <abstract><p>This document provides a framework overview for the Deterministic Networking (DetNet) Controller Plane.  It discusses concepts and requirements for the DetNet Controller Plane, which could be the basis for a future solution specification.</p></abstract>
+        <draft>draft-ietf-detnet-controller-plane-framework-15</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>detnet</wg_acronym>
+        <doi>10.17487/RFC9938</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9939</doc-id>
