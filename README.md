@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-03-16 01:59:27 UTC
+Last updated: 2026-03-17 01:47:10 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9920](rfcs/rfc9920.txt) | RFC Editor Model (Version 3) | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9920) |
 | [RFC 9921](rfcs/rfc9921.txt) | CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161 | RFC 3161 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9921) |
 | [RFC 9922](rfcs/rfc9922.txt) | A Common YANG Data Model for Scheduling | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9922) |
 | [RFC 9923](rfcs/rfc9923.txt) | The FNV Non-Cryptographic Hash Algorithm | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9923) |
@@ -23,5 +22,6 @@ Last updated: 2026-03-16 01:59:27 UTC
 | [RFC 9935](rfcs/rfc9935.txt) | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9935) |
 | [RFC 9936](rfcs/rfc9936.txt) | Use of ML-KEM in the Cryptographic Message Syntax (CMS) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9936) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
+| [RFC 9938](rfcs/rfc9938.txt) | A Framework for the Deterministic Networking (DetNet) Controller Plane | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9938) |
 | [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
 | [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |

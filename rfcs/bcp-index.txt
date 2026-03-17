@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 03/14/2026.
+CREATED ON: 03/15/2026.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -150,7 +150,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0026 Guidelines for Writing an IANA Considerations Section in RFCs. M.
      Cotton, B. Leiba, T. Narten. June 2017. (Format: TXT=109907 HTML=
-     bytes) (Obsoletes RFC5226) (Also RFC8126)
+     bytes) (Obsoletes RFC5226) (Updated by RFC9907) (Also RFC8126)
 
 0027 Advancement of MIB specifications on the IETF Standards Track. M.
      O'Dell, H. Alvestrand, B. Wijnen, S. Bradner. October 1998. (Format:
@@ -882,8 +882,8 @@ RFC Editor Web page http://www.rfc-editor.org.
      (Format: TXT=23841 HTML= bytes) (Updated by RFC8791) (Also RFC8340)
 
 0216 Guidelines for Authors and Reviewers of Documents Containing YANG
-     Data Models. A. Bierman. October 2018. (Format: TXT=123260 HTML=
-     bytes) (Obsoletes RFC6087) (Updated by RFC8819) (Also RFC8407)
+     Data Models. A. Bierman, M. Boucadair, Ed., Q. Wu. March 2026.
+     (Obsoletes RFC8407) (Updates RFC8126) (Also RFC9907)
 
 0217 Guidelines for Multihomed and IPv4/IPv6 Dual-Stack Interactive
      Connectivity Establishment (ICE). P. Martinsen, T. Reddy, P. Patil.

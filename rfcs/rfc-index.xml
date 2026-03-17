@@ -1304,7 +1304,7 @@
     <bcp-entry>
         <doc-id>BCP0216</doc-id>
         <is-also>
-            <doc-id>RFC8407</doc-id>
+            <doc-id>RFC9907</doc-id>
         </is-also>
     </bcp-entry>
     <bcp-entry>
@@ -271357,6 +271357,9 @@
         <obsoletes>
             <doc-id>RFC5226</doc-id>
         </obsoletes>
+        <updated-by>
+            <doc-id>RFC9907</doc-id>
+        </updated-by>
         <is-also>
             <doc-id>BCP0026</doc-id>
         </is-also>
@@ -281670,12 +281673,12 @@
         <obsoletes>
             <doc-id>RFC6087</doc-id>
         </obsoletes>
+        <obsoleted-by>
+            <doc-id>RFC9907</doc-id>
+        </obsoleted-by>
         <updated-by>
             <doc-id>RFC8819</doc-id>
         </updated-by>
-        <is-also>
-            <doc-id>BCP0216</doc-id>
-        </is-also>
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IETF</stream>
@@ -290123,6 +290126,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339054,6 +339058,53 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9906</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9907</doc-id>
+        <title>Guidelines for Authors and Reviewers of Documents Containing YANG Data Models</title>
+        <author>
+            <name>A. Bierman</name>
+        </author>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>Q. Wu</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>85</page-count>
+        <keywords>
+            <kw>NETCONF</kw>
+            <kw>RESTCONF</kw>
+            <kw>Automation</kw>
+        </keywords>
+        <abstract><p>This document provides guidelines for authors and reviewers of specifications containing YANG data models, including IANA-maintained YANG modules. Recommendations and procedures are defined, which are intended to increase interoperability and usability of Network Configuration Protocol (NETCONF) and RESTCONF protocol implementations that utilize YANG modules.</p><p> This document obsoletes RFC 8407; it also updates RFC 8126 by providing additional guidelines for writing the IANA considerations for RFCs that specify IANA-maintained YANG modules.</p></abstract>
+        <draft>draft-ietf-netmod-rfc8407bis-28</draft>
+        <obsoletes>
+            <doc-id>RFC8407</doc-id>
+        </obsoletes>
+        <updates>
+            <doc-id>RFC8126</doc-id>
+        </updates>
+        <is-also>
+            <doc-id>BCP0216</doc-id>
+        </is-also>
+        <current-status>BEST CURRENT PRACTICE</current-status>
+        <publication-status>BEST CURRENT PRACTICE</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>netmod</wg_acronym>
+        <doi>10.17487/RFC9907</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9908</doc-id>
         <title>Clarification and Enhancement of the CSR Attributes Definition in RFC 7030</title>
         <author>
@@ -339865,7 +339916,7 @@ algorithms.</p></abstract>
             <title>Editor</title>
         </author>
         <author>
-            <name>M. (Guoyi)Chen</name>
+            <name>M. Chen</name>
         </author>
         <author>
             <name>B. Varga</name>
