@@ -1785,6 +1785,7 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc4</errata-url>
         <doi>10.17487/RFC0004</doi>
     </rfc-entry>
     <rfc-entry>
@@ -54435,6 +54436,7 @@
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1984</errata-url>
         <doi>10.17487/RFC1984</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335692,6 +335694,7 @@ Address Space" registry.  It also updates RFC 7249.</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>lsvr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9815</errata-url>
         <doi>10.17487/RFC9815</doi>
     </rfc-entry>
     <rfc-entry>
