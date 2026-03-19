@@ -32745,6 +32745,7 @@
         <publication-status>INFORMATIONAL</publication-status>
         <stream>IETF</stream>
         <wg_acronym>disi</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1309</errata-url>
         <doi>10.17487/RFC1309</doi>
     </rfc-entry>
     <rfc-entry>
@@ -47547,6 +47548,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>asid</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1777</errata-url>
         <doi>10.17487/RFC1777</doi>
     </rfc-entry>
     <rfc-entry>
