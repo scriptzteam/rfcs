@@ -1785,7 +1785,6 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc4</errata-url>
         <doi>10.17487/RFC0004</doi>
     </rfc-entry>
     <rfc-entry>
@@ -24763,7 +24762,6 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1023</errata-url>
         <doi>10.17487/RFC1023</doi>
     </rfc-entry>
     <rfc-entry>
@@ -54438,7 +54436,6 @@
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1984</errata-url>
         <doi>10.17487/RFC1984</doi>
     </rfc-entry>
     <rfc-entry>
@@ -63566,6 +63563,7 @@
         <stream>IETF</stream>
         <area>app</area>
         <wg_acronym>asid</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc2251</errata-url>
         <doi>10.17487/RFC2251</doi>
     </rfc-entry>
     <rfc-entry>
@@ -290130,7 +290128,6 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
@@ -312115,6 +312112,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>art</area>
         <wg_acronym>extra</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9208</errata-url>
         <doi>10.17487/RFC9208</doi>
     </rfc-entry>
     <rfc-entry>
@@ -335982,6 +335980,7 @@ Address Space" registry.  It also updates RFC 7249.</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>lsr</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9825</errata-url>
         <doi>10.17487/RFC9825</doi>
     </rfc-entry>
     <rfc-entry>
