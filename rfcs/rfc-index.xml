@@ -52687,6 +52687,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc1931</errata-url>
         <doi>10.17487/RFC1931</doi>
     </rfc-entry>
     <rfc-entry>
