@@ -290719,6 +290719,7 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>mpls</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8663</errata-url>
         <doi>10.17487/RFC8663</doi>
     </rfc-entry>
     <rfc-entry>
