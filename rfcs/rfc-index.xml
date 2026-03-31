@@ -302539,6 +302539,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>babel</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8967</errata-url>
         <doi>10.17487/RFC8967</doi>
     </rfc-entry>
     <rfc-entry>
