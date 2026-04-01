@@ -52687,7 +52687,6 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Legacy</stream>
-        <errata-url>https://www.rfc-editor.org/errata/rfc1931</errata-url>
         <doi>10.17487/RFC1931</doi>
     </rfc-entry>
     <rfc-entry>
@@ -302539,7 +302538,6 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>babel</wg_acronym>
-        <errata-url>https://www.rfc-editor.org/errata/rfc8967</errata-url>
         <doi>10.17487/RFC8967</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339651,6 +339649,44 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9927</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9928</doc-id>
+        <title>DHCPv4 over DHCPv6 with Relay Agent Support</title>
+        <author>
+            <name>C. Porfiri</name>
+        </author>
+        <author>
+            <name>S. Krishnan</name>
+        </author>
+        <author>
+            <name>J. Arkko</name>
+        </author>
+        <author>
+            <name>M. Kühlewind</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>12</page-count>
+        <keywords>
+            <kw>dhcp</kw>
+        </keywords>
+        <abstract><p>This document describes a mechanism for networks with legacy IPv4-only clients to use services provided by DHCPv4 over DHCPv6 in a Relay Agent.  RFC 7341 specifies the use of DHCPv4 over DHCPv6 in the client only.  This document specifies an approach based on RFC 7341 that allows a Relay Agent to implement the DHCPv4-over-DHCPv6 encapsulation and decapsulation of DHCPv4 messages in DHCPv6 messages on behalf of a DHCPv4 client.</p></abstract>
+        <draft>draft-ietf-dhc-dhcpv4-over-dhcpv6-ra-06</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>int</area>
+        <wg_acronym>dhc</wg_acronym>
+        <doi>10.17487/RFC9928</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9929</doc-id>
         <title>IGP Unreachable Prefix Announcement</title>
         <author>
@@ -340038,6 +340074,148 @@ algorithms.</p></abstract>
         <wg_acronym>modpod</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9945</errata-url>
         <doi>10.17487/RFC9945</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9947</doc-id>
+        <title>Application of the Alternate-Marking Method to the Segment Routing Header</title>
+        <author>
+            <name>G. Fioccola</name>
+        </author>
+        <author>
+            <name>T. Zhou</name>
+        </author>
+        <author>
+            <name>G. Mishra</name>
+        </author>
+        <author>
+            <name>X. Wang</name>
+        </author>
+        <author>
+            <name>G. Zhang</name>
+        </author>
+        <author>
+            <name>M. Cociglio</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <keywords>
+            <kw>SRH</kw>
+            <kw>TLV</kw>
+            <kw>Extension</kw>
+            <kw>Header</kw>
+            <kw>Option</kw>
+            <kw>Performance</kw>
+            <kw>Measurement</kw>
+            <kw>Monitoring</kw>
+            <kw>Passive</kw>
+            <kw>Hybrid</kw>
+            <kw>Loss</kw>
+            <kw>Delay</kw>
+            <kw>Delay Variation</kw>
+            <kw>Multipoint</kw>
+            <kw>Cluster</kw>
+            <kw>Closed-Loop</kw>
+        </keywords>
+        <abstract><p>This document describes an alternative experimental approach for the application of the Alternate-Marking Method to Segment Routing for IPv6 (SRv6). It uses an experimental TLV in the Segment Routing Header (SRH); thus, participation in this experiment should be between coordinating parties in a controlled domain. This approach has potential scaling and simplification benefits over the technique described in RFC 9343, and the scope of the experiment is to determine whether those are significant and attractive to the community.</p><p> This protocol extension has been developed outside the IETF as an alternative to the IETF's Standards Track specification RFC 9343 and it does not have IETF consensus. It is published here to guide experimental implementation and ensure interoperability among implementations to better determine the value of this approach. Researchers are invited to submit their evaluations of this work to the Independent Submissions Editor or to the IETF SPRING Working Group as Internet-Drafts.</p></abstract>
+        <draft>draft-fz-spring-srv6-alt-mark-17</draft>
+        <current-status>EXPERIMENTAL</current-status>
+        <publication-status>EXPERIMENTAL</publication-status>
+        <stream>INDEPENDENT</stream>
+        <doi>10.17487/RFC9947</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9952</doc-id>
+        <title>Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS</title>
+        <author>
+            <name>M. S. Lenders</name>
+        </author>
+        <author>
+            <name>C. Amsüss</name>
+        </author>
+        <author>
+            <name>T. C. Schmidt</name>
+        </author>
+        <author>
+            <name>M. Wählisch</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>5</page-count>
+        <keywords>
+            <kw>CoRE</kw>
+            <kw>CoAP</kw>
+            <kw>SVCB</kw>
+            <kw>DTLS</kw>
+            <kw>ALPN</kw>
+        </keywords>
+        <abstract><p>This document specifies an Application-Layer Protocol Negotiation (ALPN) ID for Constrained Application Protocol (CoAP) services that are secured by DTLS.</p></abstract>
+        <draft>draft-ietf-core-coap-dtls-alpn-05</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>core</wg_acronym>
+        <doi>10.17487/RFC9952</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9953</doc-id>
+        <title>DNS over CoAP (DoC)</title>
+        <author>
+            <name>M. S. Lenders</name>
+        </author>
+        <author>
+            <name>C. Amsüss</name>
+        </author>
+        <author>
+            <name>C. Gündoğan</name>
+        </author>
+        <author>
+            <name>T. C. Schmidt</name>
+        </author>
+        <author>
+            <name>M. Wählisch</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>22</page-count>
+        <keywords>
+            <kw>CoRE</kw>
+            <kw>CoAP</kw>
+            <kw>DNS</kw>
+        </keywords>
+        <abstract><p>This document defines a protocol for exchanging DNS queries (OPCODE 0) over the Constrained Application Protocol (CoAP).  These CoAP messages can be protected by (D)TLS-Secured CoAP or Object Security for Constrained RESTful Environments (OSCORE) to provide encrypted DNS message exchange for constrained devices in the Internet of Things (IoT).</p></abstract>
+        <draft>draft-ietf-core-dns-over-coap-20</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>core</wg_acronym>
+        <doi>10.17487/RFC9953</doi>
     </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>

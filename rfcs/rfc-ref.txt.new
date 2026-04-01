@@ -9726,6 +9726,7 @@ RFC9924 |           | Lim, Y., Park, M., Budagavi, M., Joshi, R., and K. Choi, "
 RFC9925 |           | Benjamin, D., "Unsigned X.509 Certificates", RFC 9925, DOI 10.17487/RFC9925, February 2026, <https://www.rfc-editor.org/info/rfc9925>.
 RFC9926 |           | Thubert, P., Ed., "Prefix Registration for IPv6 Neighbor Discovery", RFC 9926, DOI 10.17487/RFC9926, February 2026, <https://www.rfc-editor.org/info/rfc9926>.
 RFC9927 |           | Thubert, P. and A. Rashid, "Fixing the C-Flag in the Extended Address Registration Option (EARO)", RFC 9927, DOI 10.17487/RFC9927, February 2026, <https://www.rfc-editor.org/info/rfc9927>.
+RFC9928 |           | Porfiri, C., Krishnan, S., Arkko, J., and M. Kühlewind, "DHCPv4 over DHCPv6 with Relay Agent Support", RFC 9928, DOI 10.17487/RFC9928, March 2026, <https://www.rfc-editor.org/info/rfc9928>.
 RFC9929 |           | Psenak, P., Ed., Filsfils, C., Voyer, D., Hegde, S., and G. Mishra, "IGP Unreachable Prefix Announcement", RFC 9929, DOI 10.17487/RFC9929, February 2026, <https://www.rfc-editor.org/info/rfc9929>.
 RFC9930 |           | DeKok, A., Ed., "Tunnel Extensible Authentication Protocol (TEAP) Version 1", RFC 9930, DOI 10.17487/RFC9930, February 2026, <https://www.rfc-editor.org/info/rfc9930>.
 RFC9931 |           | Schwartz, B., "Security Considerations for Optimistic Protocol Transitions in HTTP/1.1", RFC 9931, DOI 10.17487/RFC9931, March 2026, <https://www.rfc-editor.org/info/rfc9931>.
@@ -9736,3 +9737,6 @@ RFC9937 |           | Mathis, M., Cardwell, N., Cheng, Y., and N. Dukkipati, "Pr
 RFC9938 |           | Malis, A., Geng, X., Ed., Chen, M., Varga, B., and CJ. Bernardos, "A Framework for the Deterministic Networking (DetNet) Controller Plane", RFC 9938, DOI 10.17487/RFC9938, March 2026, <https://www.rfc-editor.org/info/rfc9938>.
 RFC9939 |           | Mandel, J., Housley, R., and S. Turner, "PKCS #8: Private-Key Information Content Types", RFC 9939, DOI 10.17487/RFC9939, February 2026, <https://www.rfc-editor.org/info/rfc9939>.
 RFC9945 |           | Eggert, L., Ed., and E. Lear, Ed., "IETF Community Moderation", BCP 245, RFC 9945, DOI 10.17487/RFC9945, February 2026, <https://www.rfc-editor.org/info/rfc9945>.
+RFC9947 |           | Fioccola, G., Zhou, T., Mishra, G., Wang, X., Zhang, G., and M. Cociglio, "Application of the Alternate-Marking Method to the Segment Routing Header", RFC 9947, DOI 10.17487/RFC9947, March 2026, <https://www.rfc-editor.org/info/rfc9947>.
+RFC9952 |           | Lenders, M., Amsüss, C., Schmidt, T., and M. Wählisch, "Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS", RFC 9952, DOI 10.17487/RFC9952, March 2026, <https://www.rfc-editor.org/info/rfc9952>.
+RFC9953 |           | Lenders, M., Amsüss, C., Gündoğan, C., Schmidt, T., and M. Wählisch, "DNS over CoAP (DoC)", RFC 9953, DOI 10.17487/RFC9953, March 2026, <https://www.rfc-editor.org/info/rfc9953>.
