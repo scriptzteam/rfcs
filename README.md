@@ -2,19 +2,15 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-04-01 02:06:49 UTC
+Last updated: 2026-04-02 01:54:34 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9921](rfcs/rfc9921.txt) | CBOR Object Signing and Encryption (COSE) Header Parameter for Timestamp Tokens as Defined in RFC 3161 | RFC 3161 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9921) |
-| [RFC 9922](rfcs/rfc9922.txt) | A Common YANG Data Model for Scheduling | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9922) |
-| [RFC 9923](rfcs/rfc9923.txt) | The FNV Non-Cryptographic Hash Algorithm | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9923) |
-| [RFC 9924](rfcs/rfc9924.txt) | Advanced Professional Video | February 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9924) |
-| [RFC 9925](rfcs/rfc9925.txt) | Unsigned X.509 Certificates | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9925) |
 | [RFC 9926](rfcs/rfc9926.txt) | Prefix Registration for IPv6 Neighbor Discovery | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9926) |
 | [RFC 9927](rfcs/rfc9927.txt) | Fixing the C-Flag in the Extended Address Registration Option (EARO) | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9927) |
+| [RFC 9928](rfcs/rfc9928.txt) | DHCPv4 over DHCPv6 with Relay Agent Support | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9928) |
 | [RFC 9929](rfcs/rfc9929.txt) | IGP Unreachable Prefix Announcement | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9929) |
 | [RFC 9930](rfcs/rfc9930.txt) | Tunnel Extensible Authentication Protocol (TEAP) Version 1 | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9930) |
 | [RFC 9931](rfcs/rfc9931.txt) | Security Considerations for Optimistic Protocol Transitions in HTTP/1.1 | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9931) |
@@ -25,3 +21,7 @@ Last updated: 2026-04-01 02:06:49 UTC
 | [RFC 9938](rfcs/rfc9938.txt) | A Framework for the Deterministic Networking (DetNet) Controller Plane | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9938) |
 | [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
 | [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |
+| [RFC 9947](rfcs/rfc9947.txt) | Application of the Alternate-Marking Method to the Segment Routing Header | March 2026 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9947) |
+| [RFC 9950](rfcs/rfc9950.txt) | A YANG Data Model for Terminal Access Controller Access-Control System Plus (TACACS+) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9950) |
+| [RFC 9952](rfcs/rfc9952.txt) | Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9952) |
+| [RFC 9953](rfcs/rfc9953.txt) | DNS over CoAP (DoC) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9953) |

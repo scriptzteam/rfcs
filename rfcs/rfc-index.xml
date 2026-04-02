@@ -308061,6 +308061,9 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <page-count>16</page-count>
         <abstract><p>This document defines a Terminal Access Controller Access-Control System Plus (TACACS+) client YANG module that augments the System Management data model, defined in RFC 7317, to allow devices to make use of TACACS+ servers for centralized Authentication, Authorization, and Accounting (AAA). Though being a standard module, this module does not endorse the security mechanisms of the TACACS+ protocol (RFC 8907), and TACACS+ be used within a secure deployment.</p><p> The YANG module in this document conforms to the Network Management Datastore Architecture (NMDA) defined in RFC 8342.</p></abstract>
         <draft>draft-ietf-opsawg-tacacs-yang-12</draft>
+        <obsoleted-by>
+            <doc-id>RFC9950</doc-id>
+        </obsoleted-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -340133,6 +340136,111 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9947</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9948</doc-id>
+        <title>Internet Protocol Police (IPP) - Schedule of Punishments</title>
+        <author>
+            <name>G.R. Beard</name>
+        </author>
+        <author>
+            <name>O.F. Art</name>
+        </author>
+        <author>
+            <name>H. Alvestrand</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>April</month>
+            <day>1</day>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>6</page-count>
+        <abstract><p>The Internet Protocol Police (IPP) is in charge of punishing willful infractions of the Collected Wisdom of the IETF community.  This document sets out the schedule of punishments for such infractions.</p></abstract>
+        <draft>draft-alvestrand-protocol-police-00</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>INDEPENDENT</stream>
+        <doi>10.17487/RFC9948</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9949</doc-id>
+        <title>BUSA-TLS: Mandatory Audio Component (MAC) Pre-Shared Key (PSK) Derivation for TLS 1.3 Using 2 Live Crew's "Banned in the U.S.A."</title>
+        <author>
+            <name>R. Sayre</name>
+        </author>
+        <date>
+            <month>April</month>
+            <day>1</day>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>9</page-count>
+        <abstract><p>TLS 1.3 (RFC 8446) eliminates null cipher suites entirely. However, one vestigial zero remains in the key schedule: when no Pre-Shared Key (PSK) is used, the Input Keying Material (IKM) for the initial HKDF-Extract operation is a string of zero bytes. This document specifies that this zero-byte IKM MUST be replaced with the SHA-256 digest of the raw PCM audio data of "Banned in the U.S.A." by 2 Live Crew (from the album "Banned in the U.S.A.", 1990), hereafter referred to as the Mandatory Audio Component (MAC). Implementations that omit the MAC are non-conformant with BUSA-TLS and also have questionable taste in music.</p><p> The IETF's process-heavy, consensus-driven, working-group-reviewed approach to protocol standardization is a fine way to run a standards body. It is also completely antithetical to the spirit of a document that requires a jury-banned rap album as a cryptographic primitive.</p><p> This document is offered in the same spirit as the album it incorporates: unapologetically and in defiance of institutional authority.</p></abstract>
+        <draft>draft-not-an-rfc-busa-tls-00</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>INDEPENDENT</stream>
+        <doi>10.17487/RFC9949</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9950</doc-id>
+        <title>A YANG Data Model for Terminal Access Controller Access-Control System Plus (TACACS+)</title>
+        <author>
+            <name>M. Boucadair</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>B. Wu</name>
+        </author>
+        <date>
+            <month>March</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>40</page-count>
+        <keywords>
+            <kw>TLS</kw>
+            <kw>device management</kw>
+            <kw>network operator</kw>
+            <kw>provider network</kw>
+            <kw>AAA</kw>
+            <kw>authentication</kw>
+            <kw>authorization</kw>
+            <kw>accounting</kw>
+        </keywords>
+        <abstract><p>This document defines a Terminal Access Controller Access-Control
+System Plus (TACACS+) client YANG module that augments the System
+Management data model, defined in RFC 7317, to allow devices to make
+use of TACACS+ servers for centralized Authentication, Authorization,
+and Accounting (AAA). Specifically, the TACACS+ YANG module can be
+used to manage TACACS+ over TLS.</p><p> This document obsoletes RFC 9105.</p></abstract>
+        <draft>draft-ietf-opsawg-secure-tacacs-yang-13</draft>
+        <obsoletes>
+            <doc-id>RFC9105</doc-id>
+        </obsoletes>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9950</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9952</doc-id>
         <title>Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS</title>
         <author>
@@ -340215,6 +340323,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>core</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9953</errata-url>
         <doi>10.17487/RFC9953</doi>
     </rfc-entry>
     <std-entry>
