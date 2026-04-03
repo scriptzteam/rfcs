@@ -340031,6 +340031,57 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9939</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9940</doc-id>
+        <title>Some Key Terms for Network Fault and Problem Management</title>
+        <author>
+            <name>N. Davis</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>A. Farrel</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>T. Graf</name>
+        </author>
+        <author>
+            <name>Q. Wu</name>
+        </author>
+        <author>
+            <name>C. Yu</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>14</page-count>
+        <keywords>
+            <kw>Problem</kw>
+            <kw>Event</kw>
+            <kw>Fault</kw>
+            <kw>Occurrence</kw>
+            <kw>Incident</kw>
+            <kw>Anomaly</kw>
+            <kw>Symptom</kw>
+            <kw>Alert</kw>
+            <kw>Alarm</kw>
+        </keywords>
+        <abstract><p>This document sets out some terms that are fundamental to a common understanding of network fault and problem management within the IETF.</p><p> The purpose of this document is to bring clarity to discussions and other work related to network fault and problem management -- in particular, to YANG data models and management protocols that report, make visible, or manage network faults and problems.</p></abstract>
+        <draft>draft-ietf-nmop-terminology-23</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>nmop</wg_acronym>
+        <doi>10.17487/RFC9940</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9945</doc-id>
         <title>IETF Community Moderation</title>
         <author>
