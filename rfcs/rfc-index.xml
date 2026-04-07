@@ -125018,6 +125018,7 @@
         <stream>IETF</stream>
         <area>rai</area>
         <wg_acronym>avt</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc3952</errata-url>
         <doi>10.17487/RFC3952</doi>
     </rfc-entry>
     <rfc-entry>
@@ -329303,6 +329304,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>httpbis</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9651</errata-url>
         <doi>10.17487/RFC9651</doi>
     </rfc-entry>
     <rfc-entry>
