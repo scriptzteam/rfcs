@@ -122764,6 +122764,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc3881</errata-url>
         <doi>10.17487/RFC3881</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339112,6 +339113,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>netmod</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9907</errata-url>
         <doi>10.17487/RFC9907</doi>
     </rfc-entry>
     <rfc-entry>
