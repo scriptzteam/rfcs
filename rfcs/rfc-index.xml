@@ -266301,6 +266301,7 @@
         <stream>IETF</stream>
         <area>rtg</area>
         <wg_acronym>isis</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc7987</errata-url>
         <doi>10.17487/RFC7987</doi>
     </rfc-entry>
     <rfc-entry>
