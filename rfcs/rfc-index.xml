@@ -159325,6 +159325,7 @@
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>INDEPENDENT</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc4949</errata-url>
         <doi>10.17487/RFC4949</doi>
     </rfc-entry>
     <rfc-entry>
