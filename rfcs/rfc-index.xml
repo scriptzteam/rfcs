@@ -215298,6 +215298,7 @@
             <doc-id>RFC9010</doc-id>
             <doc-id>RFC9685</doc-id>
             <doc-id>RFC9926</doc-id>
+            <doc-id>RFC9914</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -215415,6 +215416,7 @@
         <updated-by>
             <doc-id>RFC9008</doc-id>
             <doc-id>RFC9685</doc-id>
+            <doc-id>RFC9914</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -271768,6 +271770,7 @@
         <updated-by>
             <doc-id>RFC9008</doc-id>
             <doc-id>RFC9035</doc-id>
+            <doc-id>RFC9914</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -331996,6 +331999,7 @@ traffic.</p></abstract>
         <current-status>INFORMATIONAL</current-status>
         <publication-status>INFORMATIONAL</publication-status>
         <stream>Editorial</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9720</errata-url>
         <doi>10.17487/RFC9720</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339272,6 +339276,119 @@ algorithms.</p></abstract>
         <area>ops</area>
         <wg_acronym>netmod</wg_acronym>
         <doi>10.17487/RFC9911</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9912</doc-id>
+        <title>Reliable and Available Wireless (RAW) Architecture</title>
+        <author>
+            <name>P. Thubert</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>38</page-count>
+        <keywords>
+            <kw>DetNet</kw>
+        </keywords>
+        <abstract><p>Reliable and Available Wireless (RAW) extends the reliability and availability of Deterministic Networking (DetNet) to networks composed of any combination of wired and wireless segments.  The RAW architecture leverages and extends RFC 8655 ("Deterministic Networking Architecture") to adapt to challenges that prominently affect the wireless medium, notably intermittent transmission loss.  This document defines a network control loop that optimizes the use of constrained bandwidth and energy while ensuring the expected DetNet services.  The loop involves a new Point of Local Repair (PLR) function in the DetNet Service sub-layer that dynamically selects the DetNet path(s) for packets to route around local connectivity degradation.</p></abstract>
+        <draft>draft-ietf-raw-architecture-30</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>detnet</wg_acronym>
+        <doi>10.17487/RFC9912</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9913</doc-id>
+        <title>Reliable and Available Wireless (RAW) Technologies</title>
+        <author>
+            <name>P. Thubert</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>D. Cavalcanti</name>
+        </author>
+        <author>
+            <name>X. Vilajosana</name>
+        </author>
+        <author>
+            <name>C. Schmitt</name>
+        </author>
+        <author>
+            <name>J. Farkas</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>53</page-count>
+        <abstract><p>This document surveys the short- and middle-range radio technologies over which providing Deterministic Networking (DetNet), and more specifically, Reliable and Available Wireless (RAW) service is suitable.  It also presents the characteristics that RAW may leverage and explores the applicability of the technologies to carry deterministic flows, as of the time of publication.  The studied technologies are Wi-Fi 6/7, Time-Slotted Channel Hopping (TSCH), 3GPP 5G, and L-band Digital Aeronautical Communications System (LDACS).</p></abstract>
+        <draft>draft-ietf-raw-technologies-17</draft>
+        <current-status>INFORMATIONAL</current-status>
+        <publication-status>INFORMATIONAL</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>detnet</wg_acronym>
+        <doi>10.17487/RFC9913</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9914</doc-id>
+        <title>Root-Initiated Routing State in the Routing Protocol for Low-Power and Lossy Networks (RPL)</title>
+        <author>
+            <name>P. Thubert</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>R.A. Jadhav</name>
+        </author>
+        <author>
+            <name>M. Richardson</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>75</page-count>
+        <keywords>
+            <kw>IOT</kw>
+            <kw>SDN</kw>
+            <kw>DetNet</kw>
+            <kw>RAW</kw>
+        </keywords>
+        <abstract><p>The Routing Protocol for Low-Power and Lossy Networks (RPL) (RFC 6550) enables data packet routing along a Destination-Oriented Directed Acyclic Graph (DODAG).  However, the default route establishment mechanism relies on hop-by-hop forwarding along the DODAG, which may not always provide optimal routing efficiency.  This document introduces the concept of Destination Advertisement Object (DAO) Projection, a mechanism that allows a RPL Root or an external controller to install optimized routes within the RPL domain.  DAO Projections enable the creation of optimized unicast or multicast routes that do not strictly follow the DODAG structure, thereby improving routing efficiency, reliability, availability, and resource utilization in the RPL domain.  This document specifies two types of Projected Routes (P-Routes) -- Storing Mode and Non-Storing Mode -- and outlines the signaling procedures necessary to establish, maintain, and remove these routes.  This document updates RFCs 6550, 6553, and 8138.</p></abstract>
+        <draft>draft-ietf-roll-dao-projection-40</draft>
+        <updates>
+            <doc-id>RFC6550</doc-id>
+            <doc-id>RFC6553</doc-id>
+            <doc-id>RFC8138</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>roll</wg_acronym>
+        <doi>10.17487/RFC9914</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9915</doc-id>
