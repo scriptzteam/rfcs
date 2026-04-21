@@ -268853,7 +268853,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8056</doi>
     </rfc-entry>
@@ -269100,7 +269100,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8063</doi>
     </rfc-entry>
@@ -278927,7 +278927,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8334</doi>
     </rfc-entry>
@@ -284833,7 +284833,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8495</doi>
     </rfc-entry>
@@ -285793,7 +285793,7 @@
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc8521</errata-url>
         <doi>10.17487/RFC8521</doi>
@@ -286525,7 +286525,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8543</doi>
     </rfc-entry>
@@ -286564,7 +286564,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8544</doi>
     </rfc-entry>
@@ -288199,7 +288199,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc8590</errata-url>
         <doi>10.17487/RFC8590</doi>
@@ -294112,7 +294112,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8748</doi>
     </rfc-entry>
@@ -296375,7 +296375,7 @@
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8807</doi>
     </rfc-entry>
@@ -300198,7 +300198,7 @@ and allocation policy as interface types.  This document updates RFC
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8909</doi>
     </rfc-entry>
@@ -302939,7 +302939,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8977</doi>
     </rfc-entry>
@@ -303124,7 +303124,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC8982</doi>
     </rfc-entry>
@@ -304857,7 +304857,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9022</errata-url>
         <doi>10.17487/RFC9022</doi>
@@ -305469,7 +305469,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9038</doi>
     </rfc-entry>
@@ -307138,7 +307138,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>INTERNET STANDARD</current-status>
         <publication-status>INTERNET STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9082</doi>
     </rfc-entry>
@@ -307173,7 +307173,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>INTERNET STANDARD</current-status>
         <publication-status>INTERNET STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9083</errata-url>
         <doi>10.17487/RFC9083</doi>
@@ -310078,7 +310078,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9154</doi>
     </rfc-entry>
@@ -310570,7 +310570,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9167</errata-url>
         <doi>10.17487/RFC9167</doi>
@@ -312691,7 +312691,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <current-status>INTERNET STANDARD</current-status>
         <publication-status>INTERNET STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9224</doi>
     </rfc-entry>
@@ -317304,6 +317304,7 @@ with the Network Management Datastore Architecture (NMDA).</p></abstract>
         <stream>IETF</stream>
         <area>ops</area>
         <wg_acronym>ippm</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9341</errata-url>
         <doi>10.17487/RFC9341</doi>
     </rfc-entry>
     <rfc-entry>
@@ -324876,7 +324877,7 @@ meetings and, if possible, related IETF-hosted events.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9536</doi>
     </rfc-entry>
@@ -324917,7 +324918,7 @@ meetings and, if possible, related IETF-hosted events.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9537</errata-url>
         <doi>10.17487/RFC9537</doi>
@@ -325845,7 +325846,7 @@ with its defined SLOs.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9560</doi>
     </rfc-entry>
@@ -335264,7 +335265,7 @@ Protocol (EPP) that allows EPP clients to manage the Time-to-Live
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9803</errata-url>
         <doi>10.17487/RFC9803</doi>
@@ -337815,7 +337816,7 @@ configurations required to deliver them.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9873</doi>
     </rfc-entry>
@@ -337853,7 +337854,7 @@ configurations required to deliver them.</p></abstract>
         <current-status>BEST CURRENT PRACTICE</current-status>
         <publication-status>BEST CURRENT PRACTICE</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9874</doi>
     </rfc-entry>
@@ -337952,7 +337953,7 @@ configurations required to deliver them.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <doi>10.17487/RFC9877</doi>
     </rfc-entry>
@@ -339235,7 +339236,7 @@ algorithms.</p></abstract>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
-        <area>art</area>
+        <area>ops</area>
         <wg_acronym>regext</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9910</errata-url>
         <doi>10.17487/RFC9910</doi>
