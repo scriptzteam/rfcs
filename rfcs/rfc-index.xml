@@ -97168,6 +97168,7 @@
             <doc-id>RFC4301</doc-id>
             <doc-id>RFC6040</doc-id>
             <doc-id>RFC8311</doc-id>
+            <doc-id>RFC9768</doc-id>
         </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
@@ -333843,6 +333844,50 @@ Network Management Datastore Architecture (NMDA) (RFC 8342).</p></abstract>
         <doi>10.17487/RFC9767</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9768</doc-id>
+        <title>More Accurate Explicit Congestion Notification (AccECN) Feedback in TCP</title>
+        <author>
+            <name>B. Briscoe</name>
+        </author>
+        <author>
+            <name>M. Kühlewind</name>
+        </author>
+        <author>
+            <name>R. Scheffenegger</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>58</page-count>
+        <keywords>
+            <kw>Congestion Control and Management</kw>
+            <kw>Congestion Notification</kw>
+            <kw>Feedback</kw>
+            <kw>Reliable</kw>
+            <kw>Ordered</kw>
+            <kw>Protocol</kw>
+            <kw>ECN</kw>
+        </keywords>
+        <abstract><p>Explicit Congestion Notification (ECN) is a mechanism by which network nodes can mark IP packets instead of dropping them to indicate incipient congestion to the endpoints.  Receivers with an ECN-capable transport protocol feed back this information to the sender.  ECN was originally specified for TCP in such a way that only one feedback signal can be transmitted per Round-Trip Time (RTT).  More recently defined mechanisms like Congestion Exposure (ConEx), Data Center TCP (DCTCP), or Low Latency, Low Loss, and Scalable Throughput (L4S) need more accurate ECN feedback information whenever more than one marking is received in one RTT.  This document updates the original ECN specification defined in RFC 3168 by specifying a scheme that provides more than one feedback signal per RTT in the TCP header, called More Accurate ECN (AccECN).  Given TCP header space is scarce, it allocates a reserved header bit previously assigned to the ECN-nonce.  It also overloads the two existing ECN flags in the TCP header.  The resulting extra space is additionally exploited to feed back the IP-ECN field received during the TCP connection establishment.  Supplementary feedback information can optionally be provided in two new TCP Option alternatives, which are never used on the TCP SYN.  The document also specifies the treatment of this updated TCP wire protocol by middleboxes.</p></abstract>
+        <draft>draft-ietf-tcpm-accurate-ecn-34</draft>
+        <updates>
+            <doc-id>RFC3168</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>wit</area>
+        <wg_acronym>tcpm</wg_acronym>
+        <doi>10.17487/RFC9768</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9769</doc-id>
         <title>NTP Interleaved Modes</title>
         <author>
@@ -340329,6 +340374,42 @@ algorithms.</p></abstract>
         <doi>10.17487/RFC9945</doi>
     </rfc-entry>
     <rfc-entry>
+        <doc-id>RFC9946</doc-id>
+        <title>The UDP Speed Test Protocol (UDPSTP) for One-Way IP Capacity Metric Measurement</title>
+        <author>
+            <name>A. Morton</name>
+        </author>
+        <author>
+            <name>L. Ciavattone</name>
+        </author>
+        <author>
+            <name>R. Geib</name>
+            <title>Editor</title>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>61</page-count>
+        <keywords>
+            <kw>load rate adjustment algorithm</kw>
+        </keywords>
+        <abstract><p>This document addresses the problem of protocol support for measuring One-Way IP Capacity metrics specified by RFC 9097.  The Method of Measurement discussed in that RFC requires a feedback channel from the receiver to control the sender's transmission rate in near real-time.  This document defines the UDP Speed Test Protocol (UDPSTP) for conducting measurements as described in RFC 9097 and other related measurements.</p></abstract>
+        <draft>draft-ietf-ippm-capacity-protocol-25</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>ippm</wg_acronym>
+        <doi>10.17487/RFC9946</doi>
+    </rfc-entry>
+    <rfc-entry>
         <doc-id>RFC9947</doc-id>
         <title>Application of the Alternate-Marking Method to the Segment Routing Header</title>
         <author>
@@ -340489,6 +340570,38 @@ used to manage TACACS+ over TLS.</p><p> This document obsoletes RFC 9105.</p></a
         <area>ops</area>
         <wg_acronym>opsawg</wg_acronym>
         <doi>10.17487/RFC9950</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9951</doc-id>
+        <title>Export of Delay Performance Metrics in IP Flow Information Export (IPFIX)</title>
+        <author>
+            <name>T. Graf</name>
+        </author>
+        <author>
+            <name>B. Claise</name>
+        </author>
+        <author>
+            <name>A. Huang-Feng</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>27</page-count>
+        <abstract><p>This document specifies new IP Flow Information Export (IPFIX) Information Elements to export the On-Path delay at each Operations, Administration, and Maintenance (OAM) transit and decapsulating nodes.  The On-Path delay is defined as the delay between the OAM header encapsulating node and each OAM header transit and OAM header decapsulating nodes.  This delay measurement is computed by an On-Path Telemetry protocol and is exported by the IPFIX process.</p></abstract>
+        <draft>draft-ietf-opsawg-ipfix-on-path-telemetry-23</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>ops</area>
+        <wg_acronym>opsawg</wg_acronym>
+        <doi>10.17487/RFC9951</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9952</doc-id>
