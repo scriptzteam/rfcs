@@ -328188,6 +328188,7 @@ been incorporated into this document. This document obsoletes RFC
         <stream>IETF</stream>
         <area>wit</area>
         <wg_acronym>taps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9621</errata-url>
         <doi>10.17487/RFC9621</doi>
     </rfc-entry>
     <rfc-entry>
@@ -339254,6 +339255,7 @@ algorithms.</p></abstract>
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc9909</errata-url>
         <doi>10.17487/RFC9909</doi>
     </rfc-entry>
     <rfc-entry>
