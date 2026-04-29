@@ -340691,6 +340691,35 @@ used to manage TACACS+ over TLS.</p><p> This document obsoletes RFC 9105.</p></a
         <errata-url>https://www.rfc-editor.org/errata/rfc9953</errata-url>
         <doi>10.17487/RFC9953</doi>
     </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9963</doc-id>
+        <title>Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3</title>
+        <author>
+            <name>D. Benjamin</name>
+        </author>
+        <author>
+            <name>A. Popov</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>6</page-count>
+        <abstract><p>This document allocates code points for the use of RSASSA-PKCS1-v1_5 with client certificates in TLS 1.3.  This removes an obstacle for some deployments to migrate to TLS 1.3.</p></abstract>
+        <draft>draft-ietf-tls-tls13-pkcs1-07</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>sec</area>
+        <wg_acronym>tls</wg_acronym>
+        <doi>10.17487/RFC9963</doi>
+    </rfc-entry>
     <std-entry>
         <doc-id>STD0001</doc-id>
         <title>[STD number 1 is retired. It was "Internet Official Protocol Standards".  See BCP 9 / RFC 7100 for more information.]</title>
