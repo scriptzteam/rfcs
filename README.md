@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-04-29 02:31:50 UTC
+Last updated: 2026-04-30 02:32:29 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9934](rfcs/rfc9934.txt) | Privacy-Enhanced Mail (PEM) File Format for Encrypted ClientHello (ECH) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9934) |
 | [RFC 9935](rfcs/rfc9935.txt) | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9935) |
 | [RFC 9936](rfcs/rfc9936.txt) | Use of ML-KEM in the Cryptographic Message Syntax (CMS) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9936) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
@@ -25,3 +24,4 @@ Last updated: 2026-04-29 02:31:50 UTC
 | [RFC 9951](rfcs/rfc9951.txt) | Export of Delay Performance Metrics in IP Flow Information Export (IPFIX) | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9951) |
 | [RFC 9952](rfcs/rfc9952.txt) | Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9952) |
 | [RFC 9953](rfcs/rfc9953.txt) | DNS over CoAP (DoC) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9953) |
+| [RFC 9963](rfcs/rfc9963.txt) | Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3 | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9963) |
