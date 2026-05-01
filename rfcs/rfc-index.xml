@@ -324421,6 +324421,9 @@ meetings and, if possible, related IETF-hosted events.</p></abstract>
         <page-count>22</page-count>
         <abstract><p>This document describes the Segment Routing Replication segment for multipoint service delivery.  A Replication segment allows a packet to be replicated from a replication node to downstream nodes.</p></abstract>
         <draft>draft-ietf-spring-sr-replication-segment-19</draft>
+        <updated-by>
+            <doc-id>RFC9960</doc-id>
+        </updated-by>
         <current-status>PROPOSED STANDARD</current-status>
         <publication-status>PROPOSED STANDARD</publication-status>
         <stream>IETF</stream>
@@ -340690,6 +340693,99 @@ used to manage TACACS+ over TLS.</p><p> This document obsoletes RFC 9105.</p></a
         <wg_acronym>core</wg_acronym>
         <errata-url>https://www.rfc-editor.org/errata/rfc9953</errata-url>
         <doi>10.17487/RFC9953</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9960</doc-id>
+        <title>Segment Routing Point-to-Multipoint Policy</title>
+        <author>
+            <name>R. Parekh</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>D. Voyer</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>C. Filsfils</name>
+        </author>
+        <author>
+            <name>H. Bidgoli</name>
+        </author>
+        <author>
+            <name>Z. Zhang</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>24</page-count>
+        <keywords>
+            <kw>SR Multicast</kw>
+            <kw>SRv6 Multicast</kw>
+        </keywords>
+        <abstract><p>The Point-to-Multipoint (P2MP) Policy enables creation of P2MP trees for efficient multipoint packet delivery in a Segment Routing (SR) domain.  This document specifies the architecture, signaling, and procedures for SR P2MP Policies with Segment Routing over MPLS (SR-MPLS) and Segment Routing over IPv6 (SRv6).  It defines the SR P2MP Policy construct, candidate paths (CPs) of an SR P2MP Policy, and the instantiation of the P2MP tree instances (PTIs) of a CP using Replication segments.  Additionally, it describes the required extensions for a controller to support P2MP path computation and provisioning.  This document updates RFC 9524.</p></abstract>
+        <draft>draft-ietf-pim-sr-p2mp-policy-22</draft>
+        <updates>
+            <doc-id>RFC9524</doc-id>
+        </updates>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pim</wg_acronym>
+        <doi>10.17487/RFC9960</doi>
+    </rfc-entry>
+    <rfc-entry>
+        <doc-id>RFC9961</doc-id>
+        <title>MPLS Segment Routing Point-to-Multipoint (P2MP) Policy Ping</title>
+        <author>
+            <name>H. Bidgoli</name>
+            <title>Editor</title>
+        </author>
+        <author>
+            <name>Z. Ali</name>
+        </author>
+        <author>
+            <name>Z. Zhang</name>
+        </author>
+        <author>
+            <name>A. Budhiraja</name>
+        </author>
+        <author>
+            <name>D. Voyer</name>
+        </author>
+        <date>
+            <month>April</month>
+            <year>2026</year>
+        </date>
+        <format>
+            <file-format>HTML</file-format>
+            <file-format>TEXT</file-format>
+            <file-format>PDF</file-format>
+            <file-format>XML</file-format>
+        </format>
+        <page-count>9</page-count>
+        <keywords>
+            <kw>SR Multicast</kw>
+            <kw>SRv6 Multicast</kw>
+            <kw>SR Multicast ping</kw>
+            <kw>SR Multicast traceroute</kw>
+            <kw>SR Multicast OAM</kw>
+        </keywords>
+        <abstract><p>Segment Routing (SR) Point-to-Multipoint (P2MP) Policies are used to define and manage explicit P2MP paths within a network. These policies are typically calculated via a controller-based mechanism and installed via, e.g., a Path Computation Element (PCE). In other cases, these policies can be installed using the Network Configuration Protocol (NETCONF) / YANG or a Command Line Interface (CLI). They are used to steer Multicast traffic along optimized paths from a Root to a set of Leaf routers.</p><p> This document defines extensions to ping and traceroute mechanisms for an SR P2MP Policy with MPLS encapsulation to provide Operations, Administration, and Maintenance (OAM) capabilities. The extensions enable operators to verify connectivity, diagnose failures, and troubleshoot forwarding issues within SR P2MP Policy Multicast trees.</p><p> By introducing new mechanisms for detecting failures and validating path integrity, this document enhances the operational robustness of P2MP Multicast deployments. Additionally, it ensures that existing MPLS and SR-based OAM tools can be effectively applied to networks utilizing SR P2MP Policies.</p></abstract>
+        <draft>draft-ietf-pim-p2mp-policy-ping-25</draft>
+        <current-status>PROPOSED STANDARD</current-status>
+        <publication-status>PROPOSED STANDARD</publication-status>
+        <stream>IETF</stream>
+        <area>rtg</area>
+        <wg_acronym>pim</wg_acronym>
+        <doi>10.17487/RFC9961</doi>
     </rfc-entry>
     <rfc-entry>
         <doc-id>RFC9963</doc-id>
