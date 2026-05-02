@@ -2,14 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-05-01 02:37:53 UTC
+Last updated: 2026-05-02 02:13:53 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9935](rfcs/rfc9935.txt) | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9935) |
-| [RFC 9936](rfcs/rfc9936.txt) | Use of ML-KEM in the Cryptographic Message Syntax (CMS) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9936) |
 | [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
 | [RFC 9938](rfcs/rfc9938.txt) | A Framework for the Deterministic Networking (DetNet) Controller Plane | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9938) |
 | [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
@@ -24,4 +22,6 @@ Last updated: 2026-05-01 02:37:53 UTC
 | [RFC 9951](rfcs/rfc9951.txt) | Export of Delay Performance Metrics in IP Flow Information Export (IPFIX) | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9951) |
 | [RFC 9952](rfcs/rfc9952.txt) | Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9952) |
 | [RFC 9953](rfcs/rfc9953.txt) | DNS over CoAP (DoC) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9953) |
+| [RFC 9960](rfcs/rfc9960.txt) | Segment Routing Point-to-Multipoint Policy | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9960) |
+| [RFC 9961](rfcs/rfc9961.txt) | MPLS Segment Routing Point-to-Multipoint (P2MP) Policy Ping | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9961) |
 | [RFC 9963](rfcs/rfc9963.txt) | Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3 | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9963) |
