@@ -16105,6 +16105,7 @@
         <current-status>UNKNOWN</current-status>
         <publication-status>UNKNOWN</publication-status>
         <stream>Legacy</stream>
+        <errata-url>https://www.rfc-editor.org/errata/rfc672</errata-url>
         <doi>10.17487/RFC0672</doi>
     </rfc-entry>
     <rfc-not-issued-entry>
@@ -290134,6 +290135,7 @@
         <stream>IETF</stream>
         <area>sec</area>
         <wg_acronym>lamps</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8649</errata-url>
         <doi>10.17487/RFC8649</doi>
     </rfc-entry>
     <rfc-entry>
@@ -290422,6 +290424,7 @@
         <stream>IETF</stream>
         <area>tsv</area>
         <wg_acronym>tram</wg_acronym>
+        <errata-url>https://www.rfc-editor.org/errata/rfc8656</errata-url>
         <doi>10.17487/RFC8656</doi>
     </rfc-entry>
     <rfc-entry>
