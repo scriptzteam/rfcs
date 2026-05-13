@@ -2,16 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-05-12 02:34:58 UTC
+Last updated: 2026-05-13 02:41:12 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9937](rfcs/rfc9937.txt) | Proportional Rate Reduction (PRR) | December 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9937) |
-| [RFC 9938](rfcs/rfc9938.txt) | A Framework for the Deterministic Networking (DetNet) Controller Plane | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9938) |
-| [RFC 9939](rfcs/rfc9939.txt) | PKCS #8: Private-Key Information Content Types | February 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9939) |
-| [RFC 9940](rfcs/rfc9940.txt) | Some Key Terms for Network Fault and Problem Management | April 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9940) |
 | [RFC 9941](rfcs/rfc9941.txt) | Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512 | April 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9941) |
 | [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |
 | [RFC 9946](rfcs/rfc9946.txt) | The UDP Speed Test Protocol (UDPSTP) for One-Way IP Capacity Metric Measurement | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9946) |
@@ -22,6 +18,10 @@ Last updated: 2026-05-12 02:34:58 UTC
 | [RFC 9951](rfcs/rfc9951.txt) | Export of Delay Performance Metrics in IP Flow Information Export (IPFIX) | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9951) |
 | [RFC 9952](rfcs/rfc9952.txt) | Application-Layer Protocol Negotiation (ALPN) ID for CoAP over DTLS | March 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9952) |
 | [RFC 9953](rfcs/rfc9953.txt) | DNS over CoAP (DoC) | March 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9953) |
+| [RFC 9956](rfcs/rfc9956.txt) | A Non-Queue-Building Per-Hop Behavior (NQB PHB) for Differentiated Services | May 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9956) |
+| [RFC 9957](rfcs/rfc9957.txt) | The DOCSIS Queue Protection Algorithm to Preserve Low Latency | May 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9957) |
+| [RFC 9959](rfcs/rfc9959.txt) | Careful Resume: Convergence of Congestion Control from Retained State | May 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9959) |
 | [RFC 9960](rfcs/rfc9960.txt) | Segment Routing Point-to-Multipoint Policy | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9960) |
 | [RFC 9961](rfcs/rfc9961.txt) | MPLS Segment Routing Point-to-Multipoint (P2MP) Policy Ping | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9961) |
 | [RFC 9963](rfcs/rfc9963.txt) | Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3 | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9963) |
+| [RFC 9968](rfcs/rfc9968.txt) | Report from the IAB Workshop on the Next Era of Network Management Operations (NEMOPS) | May 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9968) |
