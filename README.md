@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2026-05-15 02:42:32 UTC
+Last updated: 2026-05-16 02:32:04 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9945](rfcs/rfc9945.txt) | IETF Community Moderation | February 2026 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9945) |
 | [RFC 9946](rfcs/rfc9946.txt) | The UDP Speed Test Protocol (UDPSTP) for One-Way IP Capacity Metric Measurement | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9946) |
 | [RFC 9947](rfcs/rfc9947.txt) | Application of the Alternate-Marking Method to the Segment Routing Header | March 2026 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9947) |
 | [RFC 9948](rfcs/rfc9948.txt) | Internet Protocol Police (IPP) - Schedule of Punishments | April 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9948) |
@@ -24,4 +23,5 @@ Last updated: 2026-05-15 02:42:32 UTC
 | [RFC 9961](rfcs/rfc9961.txt) | MPLS Segment Routing Point-to-Multipoint (P2MP) Policy Ping | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9961) |
 | [RFC 9962](rfcs/rfc9962.txt) | A Decentralized Locator/ID Separation Protocol Mapping System (LISP-Decent) | May 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9962) |
 | [RFC 9963](rfcs/rfc9963.txt) | Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3 | April 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9963) |
+| [RFC 9967](rfcs/rfc9967.txt) | System for Cross-Domain Identity Management (SCIM) Profile for Security Event Tokens (SETs) | May 2026 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9967) |
 | [RFC 9968](rfcs/rfc9968.txt) | Report from the IAB Workshop on the Next Era of Network Management Operations (NEMOPS) | May 2026 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9968) |
