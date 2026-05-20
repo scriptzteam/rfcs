@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/18/2026.)
+(CREATED ON: 05/20/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -21446,7 +21446,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 5216 The EAP-TLS Authentication Protocol. D. Simon, B. Aboba, R. Hurst.
      March 2008. (Format: TXT, HTML) (Obsoletes RFC2716) (Updated by
-     RFC8996, RFC9190) (Status: PROPOSED STANDARD) (DOI:
+     RFC8996, RFC9190, RFC9965) (Status: PROPOSED STANDARD) (DOI:
      10.17487/RFC5216) 
 
 5217 Memorandum for Multi-Domain Public Key Infrastructure
@@ -38829,7 +38829,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 9140 Nimble Out-of-Band Authentication for EAP (EAP-NOOB). T. Aura, M.
      Sethi, A. Peltonen. December 2021. (Format: HTML, TXT, PDF, XML)
-     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9140) 
+     (Updated by RFC9965) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9140) 
 
 9141 Updating References to the IETF FTP Service. R. Danyliw. November
      2021. (Format: HTML, TXT, PDF, XML) (Updates RFC2077, RFC2418,
@@ -39065,8 +39066,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 9190 EAP-TLS 1.3: Using the Extensible Authentication Protocol with TLS
      1.3. J. Preuß Mattsson, M. Sethi. February 2022. (Format: HTML, TXT,
-     PDF, XML) (Updates RFC5216) (Status: PROPOSED STANDARD) (DOI:
-     10.17487/RFC9190) 
+     PDF, XML) (Updates RFC5216) (Updated by RFC9965) (Status: PROPOSED
+     STANDARD) (DOI: 10.17487/RFC9190) 
 
 9191 Handling Large Certificates and Long Certificate Chains in TLS-Based
      EAP Methods. M. Sethi, J. Preuß Mattsson, S. Turner. February 2022.
@@ -42539,6 +42540,16 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Popov. April 2026. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
      STANDARD) (DOI: 10.17487/RFC9963) 
 
+9964 ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object
+     Signing and Encryption (COSE). M. Prorock, O. Steele. May 2026.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9964) 
+
+9965 The eap.arpa. Domain and Extensible Authentication Protocol (EAP)
+     Provisioning. A. DeKok. May 2026. (Format: HTML, TXT, PDF, XML)
+     (Updates RFC5216, RFC9140, RFC9190) (Status: PROPOSED STANDARD)
+     (DOI: 10.17487/RFC9965) 
+
 9967 System for Cross-Domain Identity Management (SCIM) Profile for
      Security Event Tokens (SETs). P. Hunt, Ed., N. Cam-Winget, M. Kiser,
      J. Schreiber. May 2026. (Format: HTML, TXT, PDF, XML) (Updates
@@ -42548,3 +42559,16 @@ See the RFC Editor Web page http://www.rfc-editor.org
 9968 Report from the IAB Workshop on the Next Era of Network Management
      Operations (NEMOPS). W. Hardaker, D. Dhody. May 2026. (Format: HTML,
      TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9968) 
+
+9969 Report from the IAB Workshop on AI-CONTROL. M. Nottingham, S.
+     Krishnan. May 2026. (Format: HTML, TXT, PDF, XML) (Status:
+     INFORMATIONAL) (DOI: 10.17487/RFC9969) 
+
+9972 Advanced BGP Monitoring Protocol (BMP) Statistics Types. M.
+     Srivastava, Ed., Y. Liu, C. Lin, Ed., J. Li. May 2026. (Format:
+     HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9972) 
+
+9983 OSPFv2 Anycast Property Advertisement. R. Chen, D. Zhao, P. Psenak,
+     K. Talaulikar, C. Lin. May 2026. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9983) 
