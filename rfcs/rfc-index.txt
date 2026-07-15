@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/13/2026.)
+(CREATED ON: 07/14/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -34744,8 +34744,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 8253 PCEPS: Usage of TLS to Provide a Secure Transport for the Path
      Computation Element Communication Protocol (PCEP). D. Lopez, O.
      Gonzalez de Dios, Q. Wu, D. Dhody. October 2017. (Format: TXT, HTML)
-     (Updates RFC5440) (Status: PROPOSED STANDARD) (DOI:
-     10.17487/RFC8253)
+     (Updates RFC5440) (Updated by RFC9916) (Status: PROPOSED STANDARD)
+     (DOI: 10.17487/RFC8253)
 
 8254 Uniform Resource Name (URN) Namespace Registration Transition. J.
      Klensin, J. Hakala. October 2017. (Format: TXT, HTML) (Obsoletes
@@ -42306,6 +42306,12 @@ See the RFC Editor Web page http://www.rfc-editor.org
      HTML, TXT, PDF, XML) (Obsoletes RFC8415) (Also STD102) (Status:
      INTERNET STANDARD) (DOI: 10.17487/RFC9915)
 
+9916 Updates to the Usage of TLS to Provide a Secure Transport for the
+     Path Computation Element Communication Protocol (PCEP). D. Dhody, S.
+     Turner, R. Housley. July 2026. (Format: HTML, TXT, PDF, XML)
+     (Updates RFC8253) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9916)
+
 9917 IGP Flexible Algorithms Reverse Affinity Constraint. P. Psenak, J.
      Horn, A. Dhamija. January 2026. (Format: HTML, TXT, PDF, XML)
      (Updates RFC9350, RFC9843) (Status: PROPOSED STANDARD) (DOI:
@@ -42623,9 +42629,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
      XML) (Updates RFC9789) (Status: PROPOSED STANDARD) (DOI:
      10.17487/RFC9994)
 
+9995 CBOR Object Signing and Encryption (COSE) Hash Envelope. O. Steele,
+     S. Lasker, H. Birkholz. July 2026. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9995)
+
 9998 Report from the IAB/W3C Workshop on Age-Based Restrictions on
      Content Access. M. Nottingham, M. Thomson. June 2026. (Format: HTML,
      TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9998)
+
+9999 Remote ATtestation procedureS (RATS) Conceptual Message Wrapper
+     (CMW). H. Birkholz, N. Smith, T. Fossati, H. Tschofenig. July 2026.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9999)
 
 10005 BGP Link Bandwidth Extended Community. P. Mohapatra, R. Das, Ed.,
      S. Mohanty, Ed., S. Krier, R.J. Szarecki, A. Gattani. June 2026.
