@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/29/2026.)
+(CREATED ON: 07/31/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42684,6 +42684,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      S. Lasker, H. Birkholz. July 2026. (Format: HTML, TXT, PDF, XML)
      (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9995)
 
+9996 Media Types for Protocol Buffers. M. Kucherawy, Ed., W. Kumari, R.
+     Sloan. July 2026. (Format: HTML, TXT, PDF, XML) (Status:
+     INFORMATIONAL) (DOI: 10.17487/RFC9996)
+
 9997 YANG-CBOR: Allocating SID Ranges for Private Enterprise Number (PEN)
      Holders. C. Bormann. July 2026. (Format: HTML, TXT, PDF, XML)
      (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9997)
@@ -42724,6 +42728,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 10008 The HTTP QUERY Method. J. Reschke, J.M. Snell, M. Bishop. June
      2026. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD)
      (DOI: 10.17487/RFC10008)
+
+10013 Entity Attestation Token (EAT) Measured Component. S. Frost, T.
+     Fossati, H. Tschofenig, H. Birkholz. July 2026. (Format: HTML, TXT,
+     PDF, XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC10013)
 
 10014 Guidelines for Characterizing the Term "OAM". C. Pignataro, A.
      Farrel, T. Mizrahi. June 2026. (Format: HTML, TXT, PDF, XML)
