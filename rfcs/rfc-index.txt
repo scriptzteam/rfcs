@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 08/27/2026.)
+(CREATED ON: 08/28/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42815,6 +42815,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
      10.17487/RFC10031)
 
+10034 RTP Payload Format for Visual Volumetric Video-Based Coding (V3C).
+     L. Ilola, L. Kondrad. August 2026. (Format: HTML, TXT, PDF, XML)
+     (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC10034)
+
 10035 YANG Library: Addition of the augmented-by List. Z. Lin, B. Claise,
      I. D. Martinez-Casanueva. August 2026. (Format: HTML, TXT, PDF, XML)
      (Updates RFC8525) (Status: PROPOSED STANDARD) (DOI:
@@ -42823,5 +42827,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
 10036 Incremental Forwarding of HTTP Messages. K. Oku, T. Pauly, M.
      Thomson. August 2026. (Format: HTML, TXT, PDF, XML) (Status:
      PROPOSED STANDARD) (DOI: 10.17487/RFC10036)
+
+10037 Registration Data Access Protocol (RDAP) Extension for DNS Time-to-
+     Live (TTL) Values. G. Brown. August 2026. (Format: HTML, TXT, PDF,
+     XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC10037)
+
+10038 Distributing the Segment Routing over IPv6 (SRv6) Locator Using
+     DHCPv6. W. Cheng, Ed., R. Han, C. Lin, Ed., D. Voyer, G. Zhang.
+     August 2026. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
+     STANDARD) (DOI: 10.17487/RFC10038)
 
 
